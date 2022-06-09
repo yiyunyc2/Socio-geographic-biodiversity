@@ -6,7 +6,7 @@
 - The dataset provided here is our version after data cleaning with the year and country code columns. 
 
 [Sovereignty Data](https://github.com/yiyunyc2/Socio-geographic-biodiversity/blob/main/Data/East-Asia-Sovereignty-1880-2022.csv)
-- This dataset was modeled and created based on [Wikipedia's sovereign states in Asia] (https://en.wikipedia.org/wiki/List_of_predecessors_of_sovereign_states_in_Asia)
+- This dataset was modeled and created based on [Wikipedia's sovereign states in Asia](https://en.wikipedia.org/wiki/List_of_predecessors_of_sovereign_states_in_Asia)
 
 ### Use case alignments: 
 [13 alignments] (https://github.com/yiyunyc2/Socio-geographic-biodiversity/tree/main/Alignments)
