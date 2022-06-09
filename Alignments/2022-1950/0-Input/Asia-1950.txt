@@ -1,0 +1,68 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1950
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1950 1950T2
+(World RepublicOfChina	PeoplesRepublicOfChina UnitedKingdomOfGreatBritainAndNorthernIreland PortugeseRepublic NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand StateOfVietnam DemocraticRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina nc_PRC)
+(UnitedKingdomOfGreatBritainAndNorthernIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(StateOfVietnam SouthVietnam nc_SOV)
+(DemocraticRepublicOfVietnam NorthVietnam nc_DROV)
+
+articulation 2022-1950 2022T1-1950T2
+#[2022.World equals 1950.World]
+[2022.Taiwan equals 1950.Taiwan]
+[2022.MainlandChina equals 1950.MainlandChina]
+[2022.HongKong equals 1950.HongKong]
+[2022.Macau equals 1950.Macau]
+[2022.Japan equals 1950.Japan]
+[2022.NorthKorea equals 1950.NorthKorea]
+[2022.SouthKorea equals 1950.SouthKorea]
+[2022.Cambodia equals 1950.Cambodia]
+[2022.Philippines equals 1950.Philippines]
+[2022.Thailand equals 1950.Thailand]
+[2022.Vietnam includes 1950.NorthVietnam]
+[2022.Vietnam includes 1950.SouthVietnam]
+[2022.nc_World includes 1950.nc_ROC]
+[2022.nc_World includes  1950.nc_PRC]
+[2022.nc_World includes  1950.nc_Nihon]
+[2022.nc_World includes  1950.nc_DPRK]
+[2022.nc_World includes  1950.nc_ROK]
+[2022.nc_World includes  1950.nc_KOC]
+[2022.nc_World includes  1950.nc_ROP]
+[2022.nc_World includes  1950.nc_KOT]
+[2022.nc_World includes  1950.nc_SOV]
+[2022.nc_World includes  1950.nc_DROV]
+[2022.nc_World includes 1950.nc_UK]
+[2022.nc_World includes 1950.nc_Portugal]
+[2022.nc_ROC is_included_in 1950.nc_World]
+[2022.nc_PRC is_included_in 1950.nc_World]
+[2022.nc_Nihon is_included_in 1950.nc_World]
+[2022.nc_DPRK is_included_in 1950.nc_World]
+[2022.nc_ROK is_included_in 1950.nc_World]
+[2022.nc_KOC is_included_in 1950.nc_World]
+[2022.nc_ROP is_included_in 1950.nc_World]
+[2022.nc_KOT is_included_in 1950.nc_World]
+[2022.nc_VN is_included_in 1950.nc_World]
+
+
+

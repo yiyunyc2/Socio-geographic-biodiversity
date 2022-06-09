@@ -1,0 +1,1899 @@
+%%% Max Number of Euler Regions
+#maxint=571.
+
+%%% Euler Regions
+r(M):- #int(M),M>=1,M<=#maxint.
+
+%%% Concepts
+tax(t1900,0).
+concept2(A, B) :- concept(A,B,_).
+concept(c1900_nc_RKOS,0,0).
+concept2(c1900_RattanakosinKingdomOfSiam,0).
+concept2(c1900_AnnamProtectorate,0).
+concept(c1900_Cambodia,0,1).
+concept(c1900_MainlandChina,0,2).
+concept(c1900_SouthVietnam,0,3).
+concept2(c1900_TokinProtectorate,0).
+concept(c1900_nc_FrenchIndochina,0,4).
+concept2(c1900_UnitedKingdomOfGreatBritainAndIreland,0).
+concept2(c1900_Cochinchina,0).
+concept(c1900_nc_KR,0,5).
+concept2(c1900_QingDynastyChina,0).
+concept(c1900_NorthVietnam,0,6).
+concept2(c1900_EmpireOfJapan,0).
+concept2(c1900_World,0).
+concept(c1900_nc_Qing,0,7).
+concept(c1900_nc_Annam,0,8).
+concept(c1900_nc_Portugal,0,9).
+concept(c1900_CentralVietnam,0,10).
+concept2(c1900_KoreanEmpire,0).
+concept(c1900_Philippines,0,11).
+concept2(c1900_PortugeseRepublic,0).
+concept2(c1900_FrenchIndochina,0).
+concept(c1900_nc_Cochin,0,12).
+concept(c1900_Thailand,0,13).
+concept(c1900_nc_Tokin,0,14).
+concept(c1900_nc_World,0,15).
+concept(c1900_nc_UK,0,16).
+concept(c1900_Macau,0,17).
+concept(c1900_nc_JP,0,18).
+concept(c1900_HongKong,0,19).
+concept(c1900_NorthKorea,0,20).
+concept2(c1900_UnitedStatesMilitaryGovernment,0).
+concept(c1900_SouthKorea,0,21).
+concept(c1900_Japan,0,22).
+concept(c1900_Taiwan,0,23).
+concept(c1900_nc_US,0,24).
+tax(t2022,1).
+concept2(A, B) :- concept(A,B,_).
+concept(c2022_nc_KOC,1,0).
+concept(c2022_nc_ROP,1,1).
+concept(c2022_Cambodia,1,2).
+concept(c2022_MainlandChina,1,3).
+concept(c2022_nc_ROK,1,4).
+concept2(c2022_PeoplesRepublicOfChina,1).
+concept(c2022_nc_ROC,1,5).
+concept(c2022_nc_VN,1,6).
+concept2(c2022_KingdomOfThailand,1).
+concept(c2022_nc_PRC,1,7).
+concept2(c2022_World,1).
+concept(c2022_nc_Nihon,1,8).
+concept(c2022_Philippines,1,9).
+concept2(c2022_KingdomOfCambodia,1).
+concept(c2022_Vietnam,1,10).
+concept(c2022_Thailand,1,11).
+concept2(c2022_SocialistRepublicOfVietnam,1).
+concept(c2022_nc_World,1,12).
+concept(c2022_Macau,1,13).
+concept(c2022_HongKong,1,14).
+concept(c2022_NorthKorea,1,15).
+concept2(c2022_NihonKoku,1).
+concept2(c2022_DemocraticPeoplesRepublicOfKorea,1).
+concept(c2022_nc_DPRK,1,16).
+concept(c2022_SouthKorea,1,17).
+concept2(c2022_RepublicOfKorea,1).
+concept(c2022_Japan,1,18).
+concept(c2022_Taiwan,1,19).
+concept(c2022_nc_KOT,1,20).
+concept2(c2022_RepublicOfThePhilippines,1).
+concept2(c2022_RepublicOfChina,1).
+
+%%% Euler Bit
+bit(M, 0, V):-r(M),M1=M/1, #mod(M1,26,V).
+bit(M, 1, V):-r(M),M1=M/26, #mod(M1,22,V).
+
+
+%%% Meaning of regions
+in(X, M) :- r(M),concept(X,T,N),N1=N+1,bit(M,T,N1).
+out(X, M) :- r(M),concept(X,T,N),N1=N+1,not bit(M,T,N1).
+in(X, M) :- r(M),concept2(X,_),not out(X, M).
+out(X, M) :- out3(X, M, _), ix.
+irs(M) :- in(X, M), out(X, M), r(M), concept2(X,_).
+
+%%% Constraints of regions.
+irs(X) :- ir(X, _).
+vrs(X) :- vr(X, _).
+vr(X, X) :- not irs(X), r(X).
+ir(X, X) :- not vrs(X), r(X), pw.
+ie(prod(A,B)) :- vr(X, A), ir(X, B), ix.
+:- vrs(X), irs(X), pw.
+
+%%% Inconsistency Explanation.
+ie(s(R, A, Y)) :- pie(R, A, Y), not cc(R, Y), ix.
+cc(R, Y) :- c(R, _, Y), ix.
+
+%%% Parent-Child relations
+%% ISA
+% c1900_QingDynastyChina isa c1900_World
+ir(X, r0) :- in(c1900_QingDynastyChina, X), out(c1900_World, X), pw.
+ir(X, prod(r0,R)) :- in(c1900_QingDynastyChina,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), in(c1900_World,X)} <= 0, pw.
+pie(r0, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), in(c1900_World, X), ix.
+c(r0, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), in(c1900_World, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland isa c1900_World
+ir(X, r1) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_World, X), pw.
+ir(X, prod(r1,R)) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_World,X)} <= 0, pw.
+pie(r1, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_World, X), ix.
+c(r1, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_World, X), ix.
+
+% c1900_PortugeseRepublic isa c1900_World
+ir(X, r2) :- in(c1900_PortugeseRepublic, X), out(c1900_World, X), pw.
+ir(X, prod(r2,R)) :- in(c1900_PortugeseRepublic,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), in(c1900_World,X)} <= 0, pw.
+pie(r2, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), in(c1900_World, X), ix.
+c(r2, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), in(c1900_World, X), ix.
+
+% c1900_EmpireOfJapan isa c1900_World
+ir(X, r3) :- in(c1900_EmpireOfJapan, X), out(c1900_World, X), pw.
+ir(X, prod(r3,R)) :- in(c1900_EmpireOfJapan,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), in(c1900_World,X)} <= 0, pw.
+pie(r3, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), in(c1900_World, X), ix.
+c(r3, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), in(c1900_World, X), ix.
+
+% c1900_KoreanEmpire isa c1900_World
+ir(X, r4) :- in(c1900_KoreanEmpire, X), out(c1900_World, X), pw.
+ir(X, prod(r4,R)) :- in(c1900_KoreanEmpire,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_KoreanEmpire,X), in(c1900_World,X)} <= 0, pw.
+pie(r4, A, 1) :- ir(X, A), in(c1900_KoreanEmpire, X), in(c1900_World, X), ix.
+c(r4, A, 1) :- vr(X, A), in(c1900_KoreanEmpire, X), in(c1900_World, X), ix.
+
+% c1900_FrenchIndochina isa c1900_World
+ir(X, r5) :- in(c1900_FrenchIndochina, X), out(c1900_World, X), pw.
+ir(X, prod(r5,R)) :- in(c1900_FrenchIndochina,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_FrenchIndochina,X), in(c1900_World,X)} <= 0, pw.
+pie(r5, A, 1) :- ir(X, A), in(c1900_FrenchIndochina, X), in(c1900_World, X), ix.
+c(r5, A, 1) :- vr(X, A), in(c1900_FrenchIndochina, X), in(c1900_World, X), ix.
+
+% c1900_UnitedStatesMilitaryGovernment isa c1900_World
+ir(X, r6) :- in(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_World, X), pw.
+ir(X, prod(r6,R)) :- in(c1900_UnitedStatesMilitaryGovernment,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_UnitedStatesMilitaryGovernment,X), in(c1900_World,X)} <= 0, pw.
+pie(r6, A, 1) :- ir(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_World, X), ix.
+c(r6, A, 1) :- vr(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_World, X), ix.
+
+% c1900_RattanakosinKingdomOfSiam isa c1900_World
+ir(X, r7) :- in(c1900_RattanakosinKingdomOfSiam, X), out(c1900_World, X), pw.
+ir(X, prod(r7,R)) :- in(c1900_RattanakosinKingdomOfSiam,X), out3(c1900_World, X, R), ix.
+:- #count {X : vrs(X), in(c1900_RattanakosinKingdomOfSiam,X), in(c1900_World,X)} <= 0, pw.
+pie(r7, A, 1) :- ir(X, A), in(c1900_RattanakosinKingdomOfSiam, X), in(c1900_World, X), ix.
+c(r7, A, 1) :- vr(X, A), in(c1900_RattanakosinKingdomOfSiam, X), in(c1900_World, X), ix.
+
+% c1900_nc_World isa c1900_World
+ir(X, r8) :- in(c1900_nc_World, X), out(c1900_World, X), pw.
+ir(X, prod(r8,R)) :- in(c1900_nc_World,X), out3(c1900_World, X, R), ix.
+%% coverage
+out3(c1900_World, X, r9) :- out(c1900_QingDynastyChina, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_PortugeseRepublic, X), out(c1900_EmpireOfJapan, X), out(c1900_KoreanEmpire, X), out(c1900_FrenchIndochina, X), out(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_RattanakosinKingdomOfSiam, X), out(c1900_nc_World, X), ix.
+out(c1900_World, X) :- out(c1900_QingDynastyChina, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_PortugeseRepublic, X), out(c1900_EmpireOfJapan, X), out(c1900_KoreanEmpire, X), out(c1900_FrenchIndochina, X), out(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_RattanakosinKingdomOfSiam, X), out(c1900_nc_World, X), pw.
+%% sibling disjointness
+% c1900_QingDynastyChina ! c1900_UnitedKingdomOfGreatBritainAndIreland
+ir(X, r10) :- in(c1900_QingDynastyChina, X), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X)} <= 0, pw.
+pie(r10, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+c(r10, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+pie(r10, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+c(r10, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+
+% c1900_QingDynastyChina ! c1900_PortugeseRepublic
+ir(X, r11) :- in(c1900_QingDynastyChina, X), in(c1900_PortugeseRepublic, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_PortugeseRepublic,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_PortugeseRepublic,X)} <= 0, pw.
+pie(r11, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_PortugeseRepublic, X), ix.
+c(r11, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_PortugeseRepublic, X), ix.
+pie(r11, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_PortugeseRepublic, X), ix.
+c(r11, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_PortugeseRepublic, X), ix.
+
+% c1900_QingDynastyChina ! c1900_EmpireOfJapan
+ir(X, r12) :- in(c1900_QingDynastyChina, X), in(c1900_EmpireOfJapan, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_EmpireOfJapan,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_EmpireOfJapan,X)} <= 0, pw.
+pie(r12, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_EmpireOfJapan, X), ix.
+c(r12, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_EmpireOfJapan, X), ix.
+pie(r12, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_EmpireOfJapan, X), ix.
+c(r12, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_EmpireOfJapan, X), ix.
+
+% c1900_QingDynastyChina ! c1900_KoreanEmpire
+ir(X, r13) :- in(c1900_QingDynastyChina, X), in(c1900_KoreanEmpire, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_KoreanEmpire,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r13, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_KoreanEmpire, X), ix.
+c(r13, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_KoreanEmpire, X), ix.
+pie(r13, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_KoreanEmpire, X), ix.
+c(r13, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_QingDynastyChina ! c1900_FrenchIndochina
+ir(X, r14) :- in(c1900_QingDynastyChina, X), in(c1900_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r14, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_FrenchIndochina, X), ix.
+c(r14, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_FrenchIndochina, X), ix.
+pie(r14, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_FrenchIndochina, X), ix.
+c(r14, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_QingDynastyChina ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r15) :- in(c1900_QingDynastyChina, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r15, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r15, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r15, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r15, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_QingDynastyChina ! c1900_RattanakosinKingdomOfSiam
+ir(X, r16) :- in(c1900_QingDynastyChina, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_QingDynastyChina,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r16, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r16, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r16, A, 2) :- ir(X, A), out(c1900_QingDynastyChina, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r16, A, 2) :- vr(X, A), out(c1900_QingDynastyChina, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_QingDynastyChina ! c1900_nc_World
+ir(X, r17) :- in(c1900_QingDynastyChina, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_QingDynastyChina,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r17, A, 1) :- ir(X, A), in(c1900_QingDynastyChina, X), out(c1900_nc_World, X), ix.
+c(r17, A, 1) :- vr(X, A), in(c1900_QingDynastyChina, X), out(c1900_nc_World, X), ix.
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_PortugeseRepublic
+ir(X, r18) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_PortugeseRepublic, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_PortugeseRepublic,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_PortugeseRepublic,X)} <= 0, pw.
+pie(r18, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_PortugeseRepublic, X), ix.
+c(r18, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_PortugeseRepublic, X), ix.
+pie(r18, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_PortugeseRepublic, X), ix.
+c(r18, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_PortugeseRepublic, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_EmpireOfJapan
+ir(X, r19) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_EmpireOfJapan, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_EmpireOfJapan,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_EmpireOfJapan,X)} <= 0, pw.
+pie(r19, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_EmpireOfJapan, X), ix.
+c(r19, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_EmpireOfJapan, X), ix.
+pie(r19, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_EmpireOfJapan, X), ix.
+c(r19, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_EmpireOfJapan, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_KoreanEmpire
+ir(X, r20) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_KoreanEmpire, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_KoreanEmpire,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r20, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_KoreanEmpire, X), ix.
+c(r20, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_KoreanEmpire, X), ix.
+pie(r20, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_KoreanEmpire, X), ix.
+c(r20, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_FrenchIndochina
+ir(X, r21) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r21, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_FrenchIndochina, X), ix.
+c(r21, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_FrenchIndochina, X), ix.
+pie(r21, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_FrenchIndochina, X), ix.
+c(r21, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r22) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r22, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r22, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r22, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r22, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_RattanakosinKingdomOfSiam
+ir(X, r23) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedKingdomOfGreatBritainAndIreland,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r23, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r23, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r23, A, 2) :- ir(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r23, A, 2) :- vr(X, A), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_UnitedKingdomOfGreatBritainAndIreland ! c1900_nc_World
+ir(X, r24) :- in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r24, A, 1) :- ir(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_nc_World, X), ix.
+c(r24, A, 1) :- vr(X, A), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), out(c1900_nc_World, X), ix.
+% c1900_PortugeseRepublic ! c1900_EmpireOfJapan
+ir(X, r25) :- in(c1900_PortugeseRepublic, X), in(c1900_EmpireOfJapan, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_EmpireOfJapan,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_PortugeseRepublic,X), in(c1900_EmpireOfJapan,X)} <= 0, pw.
+pie(r25, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_EmpireOfJapan, X), ix.
+c(r25, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_EmpireOfJapan, X), ix.
+pie(r25, A, 2) :- ir(X, A), out(c1900_PortugeseRepublic, X), in(c1900_EmpireOfJapan, X), ix.
+c(r25, A, 2) :- vr(X, A), out(c1900_PortugeseRepublic, X), in(c1900_EmpireOfJapan, X), ix.
+
+% c1900_PortugeseRepublic ! c1900_KoreanEmpire
+ir(X, r26) :- in(c1900_PortugeseRepublic, X), in(c1900_KoreanEmpire, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_KoreanEmpire,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_PortugeseRepublic,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r26, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_KoreanEmpire, X), ix.
+c(r26, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_KoreanEmpire, X), ix.
+pie(r26, A, 2) :- ir(X, A), out(c1900_PortugeseRepublic, X), in(c1900_KoreanEmpire, X), ix.
+c(r26, A, 2) :- vr(X, A), out(c1900_PortugeseRepublic, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_PortugeseRepublic ! c1900_FrenchIndochina
+ir(X, r27) :- in(c1900_PortugeseRepublic, X), in(c1900_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_PortugeseRepublic,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r27, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_FrenchIndochina, X), ix.
+c(r27, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_FrenchIndochina, X), ix.
+pie(r27, A, 2) :- ir(X, A), out(c1900_PortugeseRepublic, X), in(c1900_FrenchIndochina, X), ix.
+c(r27, A, 2) :- vr(X, A), out(c1900_PortugeseRepublic, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_PortugeseRepublic ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r28) :- in(c1900_PortugeseRepublic, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_PortugeseRepublic,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r28, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r28, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r28, A, 2) :- ir(X, A), out(c1900_PortugeseRepublic, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r28, A, 2) :- vr(X, A), out(c1900_PortugeseRepublic, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_PortugeseRepublic ! c1900_RattanakosinKingdomOfSiam
+ir(X, r29) :- in(c1900_PortugeseRepublic, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_PortugeseRepublic,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r29, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r29, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r29, A, 2) :- ir(X, A), out(c1900_PortugeseRepublic, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r29, A, 2) :- vr(X, A), out(c1900_PortugeseRepublic, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_PortugeseRepublic ! c1900_nc_World
+ir(X, r30) :- in(c1900_PortugeseRepublic, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_PortugeseRepublic,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r30, A, 1) :- ir(X, A), in(c1900_PortugeseRepublic, X), out(c1900_nc_World, X), ix.
+c(r30, A, 1) :- vr(X, A), in(c1900_PortugeseRepublic, X), out(c1900_nc_World, X), ix.
+% c1900_EmpireOfJapan ! c1900_KoreanEmpire
+ir(X, r31) :- in(c1900_EmpireOfJapan, X), in(c1900_KoreanEmpire, X).
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), out(c1900_KoreanEmpire,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_EmpireOfJapan,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r31, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), out(c1900_KoreanEmpire, X), ix.
+c(r31, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), out(c1900_KoreanEmpire, X), ix.
+pie(r31, A, 2) :- ir(X, A), out(c1900_EmpireOfJapan, X), in(c1900_KoreanEmpire, X), ix.
+c(r31, A, 2) :- vr(X, A), out(c1900_EmpireOfJapan, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_EmpireOfJapan ! c1900_FrenchIndochina
+ir(X, r32) :- in(c1900_EmpireOfJapan, X), in(c1900_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), out(c1900_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_EmpireOfJapan,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r32, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), out(c1900_FrenchIndochina, X), ix.
+c(r32, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), out(c1900_FrenchIndochina, X), ix.
+pie(r32, A, 2) :- ir(X, A), out(c1900_EmpireOfJapan, X), in(c1900_FrenchIndochina, X), ix.
+c(r32, A, 2) :- vr(X, A), out(c1900_EmpireOfJapan, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_EmpireOfJapan ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r33) :- in(c1900_EmpireOfJapan, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_EmpireOfJapan,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r33, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r33, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r33, A, 2) :- ir(X, A), out(c1900_EmpireOfJapan, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r33, A, 2) :- vr(X, A), out(c1900_EmpireOfJapan, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_EmpireOfJapan ! c1900_RattanakosinKingdomOfSiam
+ir(X, r34) :- in(c1900_EmpireOfJapan, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_EmpireOfJapan,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r34, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r34, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r34, A, 2) :- ir(X, A), out(c1900_EmpireOfJapan, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r34, A, 2) :- vr(X, A), out(c1900_EmpireOfJapan, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_EmpireOfJapan ! c1900_nc_World
+ir(X, r35) :- in(c1900_EmpireOfJapan, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_EmpireOfJapan,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r35, A, 1) :- ir(X, A), in(c1900_EmpireOfJapan, X), out(c1900_nc_World, X), ix.
+c(r35, A, 1) :- vr(X, A), in(c1900_EmpireOfJapan, X), out(c1900_nc_World, X), ix.
+% c1900_KoreanEmpire ! c1900_FrenchIndochina
+ir(X, r36) :- in(c1900_KoreanEmpire, X), in(c1900_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_KoreanEmpire,X), out(c1900_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_KoreanEmpire,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r36, A, 1) :- ir(X, A), in(c1900_KoreanEmpire, X), out(c1900_FrenchIndochina, X), ix.
+c(r36, A, 1) :- vr(X, A), in(c1900_KoreanEmpire, X), out(c1900_FrenchIndochina, X), ix.
+pie(r36, A, 2) :- ir(X, A), out(c1900_KoreanEmpire, X), in(c1900_FrenchIndochina, X), ix.
+c(r36, A, 2) :- vr(X, A), out(c1900_KoreanEmpire, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_KoreanEmpire ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r37) :- in(c1900_KoreanEmpire, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_KoreanEmpire,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_KoreanEmpire,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r37, A, 1) :- ir(X, A), in(c1900_KoreanEmpire, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r37, A, 1) :- vr(X, A), in(c1900_KoreanEmpire, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r37, A, 2) :- ir(X, A), out(c1900_KoreanEmpire, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r37, A, 2) :- vr(X, A), out(c1900_KoreanEmpire, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_KoreanEmpire ! c1900_RattanakosinKingdomOfSiam
+ir(X, r38) :- in(c1900_KoreanEmpire, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_KoreanEmpire,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_KoreanEmpire,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r38, A, 1) :- ir(X, A), in(c1900_KoreanEmpire, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r38, A, 1) :- vr(X, A), in(c1900_KoreanEmpire, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r38, A, 2) :- ir(X, A), out(c1900_KoreanEmpire, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r38, A, 2) :- vr(X, A), out(c1900_KoreanEmpire, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_KoreanEmpire ! c1900_nc_World
+ir(X, r39) :- in(c1900_KoreanEmpire, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_KoreanEmpire,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r39, A, 1) :- ir(X, A), in(c1900_KoreanEmpire, X), out(c1900_nc_World, X), ix.
+c(r39, A, 1) :- vr(X, A), in(c1900_KoreanEmpire, X), out(c1900_nc_World, X), ix.
+% c1900_FrenchIndochina ! c1900_UnitedStatesMilitaryGovernment
+ir(X, r40) :- in(c1900_FrenchIndochina, X), in(c1900_UnitedStatesMilitaryGovernment, X).
+:- #count {X : vrs(X), in(c1900_FrenchIndochina,X), out(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_FrenchIndochina,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r40, A, 1) :- ir(X, A), in(c1900_FrenchIndochina, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r40, A, 1) :- vr(X, A), in(c1900_FrenchIndochina, X), out(c1900_UnitedStatesMilitaryGovernment, X), ix.
+pie(r40, A, 2) :- ir(X, A), out(c1900_FrenchIndochina, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r40, A, 2) :- vr(X, A), out(c1900_FrenchIndochina, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_FrenchIndochina ! c1900_RattanakosinKingdomOfSiam
+ir(X, r41) :- in(c1900_FrenchIndochina, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_FrenchIndochina,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_FrenchIndochina,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r41, A, 1) :- ir(X, A), in(c1900_FrenchIndochina, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r41, A, 1) :- vr(X, A), in(c1900_FrenchIndochina, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r41, A, 2) :- ir(X, A), out(c1900_FrenchIndochina, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r41, A, 2) :- vr(X, A), out(c1900_FrenchIndochina, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_FrenchIndochina ! c1900_nc_World
+ir(X, r42) :- in(c1900_FrenchIndochina, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_FrenchIndochina,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r42, A, 1) :- ir(X, A), in(c1900_FrenchIndochina, X), out(c1900_nc_World, X), ix.
+c(r42, A, 1) :- vr(X, A), in(c1900_FrenchIndochina, X), out(c1900_nc_World, X), ix.
+% c1900_UnitedStatesMilitaryGovernment ! c1900_RattanakosinKingdomOfSiam
+ir(X, r43) :- in(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_RattanakosinKingdomOfSiam, X).
+:- #count {X : vrs(X), in(c1900_UnitedStatesMilitaryGovernment,X), out(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_UnitedStatesMilitaryGovernment,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r43, A, 1) :- ir(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r43, A, 1) :- vr(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_RattanakosinKingdomOfSiam, X), ix.
+pie(r43, A, 2) :- ir(X, A), out(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r43, A, 2) :- vr(X, A), out(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_UnitedStatesMilitaryGovernment ! c1900_nc_World
+ir(X, r44) :- in(c1900_UnitedStatesMilitaryGovernment, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_UnitedStatesMilitaryGovernment,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r44, A, 1) :- ir(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_nc_World, X), ix.
+c(r44, A, 1) :- vr(X, A), in(c1900_UnitedStatesMilitaryGovernment, X), out(c1900_nc_World, X), ix.
+% c1900_RattanakosinKingdomOfSiam ! c1900_nc_World
+ir(X, r45) :- in(c1900_RattanakosinKingdomOfSiam, X), in(c1900_nc_World, X).
+:- #count {X : vrs(X), in(c1900_RattanakosinKingdomOfSiam,X), out(c1900_nc_World,X)} <= 0, pw.
+pie(r45, A, 1) :- ir(X, A), in(c1900_RattanakosinKingdomOfSiam, X), out(c1900_nc_World, X), ix.
+c(r45, A, 1) :- vr(X, A), in(c1900_RattanakosinKingdomOfSiam, X), out(c1900_nc_World, X), ix.
+%% ISA
+% c1900_MainlandChina isa c1900_QingDynastyChina
+ir(X, r46) :- in(c1900_MainlandChina, X), out(c1900_QingDynastyChina, X), pw.
+ir(X, prod(r46,R)) :- in(c1900_MainlandChina,X), out3(c1900_QingDynastyChina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_MainlandChina,X), in(c1900_QingDynastyChina,X)} <= 0, pw.
+pie(r46, A, 1) :- ir(X, A), in(c1900_MainlandChina, X), in(c1900_QingDynastyChina, X), ix.
+c(r46, A, 1) :- vr(X, A), in(c1900_MainlandChina, X), in(c1900_QingDynastyChina, X), ix.
+
+% c1900_nc_Qing isa c1900_QingDynastyChina
+ir(X, r47) :- in(c1900_nc_Qing, X), out(c1900_QingDynastyChina, X), pw.
+ir(X, prod(r47,R)) :- in(c1900_nc_Qing,X), out3(c1900_QingDynastyChina, X, R), ix.
+%% coverage
+out3(c1900_QingDynastyChina, X, r48) :- out(c1900_MainlandChina, X), out(c1900_nc_Qing, X), ix.
+out(c1900_QingDynastyChina, X) :- out(c1900_MainlandChina, X), out(c1900_nc_Qing, X), pw.
+%% sibling disjointness
+% c1900_MainlandChina ! c1900_nc_Qing
+ir(X, r49) :- in(c1900_MainlandChina, X), in(c1900_nc_Qing, X).
+:- #count {X : vrs(X), in(c1900_MainlandChina,X), out(c1900_nc_Qing,X)} <= 0, pw.
+pie(r49, A, 1) :- ir(X, A), in(c1900_MainlandChina, X), out(c1900_nc_Qing, X), ix.
+c(r49, A, 1) :- vr(X, A), in(c1900_MainlandChina, X), out(c1900_nc_Qing, X), ix.
+%% ISA
+% c1900_HongKong isa c1900_UnitedKingdomOfGreatBritainAndIreland
+ir(X, r50) :- in(c1900_HongKong, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), pw.
+ir(X, prod(r50,R)) :- in(c1900_HongKong,X), out3(c1900_UnitedKingdomOfGreatBritainAndIreland, X, R), ix.
+:- #count {X : vrs(X), in(c1900_HongKong,X), in(c1900_UnitedKingdomOfGreatBritainAndIreland,X)} <= 0, pw.
+pie(r50, A, 1) :- ir(X, A), in(c1900_HongKong, X), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+c(r50, A, 1) :- vr(X, A), in(c1900_HongKong, X), in(c1900_UnitedKingdomOfGreatBritainAndIreland, X), ix.
+
+% c1900_nc_UK isa c1900_UnitedKingdomOfGreatBritainAndIreland
+ir(X, r51) :- in(c1900_nc_UK, X), out(c1900_UnitedKingdomOfGreatBritainAndIreland, X), pw.
+ir(X, prod(r51,R)) :- in(c1900_nc_UK,X), out3(c1900_UnitedKingdomOfGreatBritainAndIreland, X, R), ix.
+%% coverage
+out3(c1900_UnitedKingdomOfGreatBritainAndIreland, X, r52) :- out(c1900_HongKong, X), out(c1900_nc_UK, X), ix.
+out(c1900_UnitedKingdomOfGreatBritainAndIreland, X) :- out(c1900_HongKong, X), out(c1900_nc_UK, X), pw.
+%% sibling disjointness
+% c1900_HongKong ! c1900_nc_UK
+ir(X, r53) :- in(c1900_HongKong, X), in(c1900_nc_UK, X).
+:- #count {X : vrs(X), in(c1900_HongKong,X), out(c1900_nc_UK,X)} <= 0, pw.
+pie(r53, A, 1) :- ir(X, A), in(c1900_HongKong, X), out(c1900_nc_UK, X), ix.
+c(r53, A, 1) :- vr(X, A), in(c1900_HongKong, X), out(c1900_nc_UK, X), ix.
+%% ISA
+% c1900_Macau isa c1900_PortugeseRepublic
+ir(X, r54) :- in(c1900_Macau, X), out(c1900_PortugeseRepublic, X), pw.
+ir(X, prod(r54,R)) :- in(c1900_Macau,X), out3(c1900_PortugeseRepublic, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Macau,X), in(c1900_PortugeseRepublic,X)} <= 0, pw.
+pie(r54, A, 1) :- ir(X, A), in(c1900_Macau, X), in(c1900_PortugeseRepublic, X), ix.
+c(r54, A, 1) :- vr(X, A), in(c1900_Macau, X), in(c1900_PortugeseRepublic, X), ix.
+
+% c1900_nc_Portugal isa c1900_PortugeseRepublic
+ir(X, r55) :- in(c1900_nc_Portugal, X), out(c1900_PortugeseRepublic, X), pw.
+ir(X, prod(r55,R)) :- in(c1900_nc_Portugal,X), out3(c1900_PortugeseRepublic, X, R), ix.
+%% coverage
+out3(c1900_PortugeseRepublic, X, r56) :- out(c1900_Macau, X), out(c1900_nc_Portugal, X), ix.
+out(c1900_PortugeseRepublic, X) :- out(c1900_Macau, X), out(c1900_nc_Portugal, X), pw.
+%% sibling disjointness
+% c1900_Macau ! c1900_nc_Portugal
+ir(X, r57) :- in(c1900_Macau, X), in(c1900_nc_Portugal, X).
+:- #count {X : vrs(X), in(c1900_Macau,X), out(c1900_nc_Portugal,X)} <= 0, pw.
+pie(r57, A, 1) :- ir(X, A), in(c1900_Macau, X), out(c1900_nc_Portugal, X), ix.
+c(r57, A, 1) :- vr(X, A), in(c1900_Macau, X), out(c1900_nc_Portugal, X), ix.
+%% ISA
+% c1900_Japan isa c1900_EmpireOfJapan
+ir(X, r58) :- in(c1900_Japan, X), out(c1900_EmpireOfJapan, X), pw.
+ir(X, prod(r58,R)) :- in(c1900_Japan,X), out3(c1900_EmpireOfJapan, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Japan,X), in(c1900_EmpireOfJapan,X)} <= 0, pw.
+pie(r58, A, 1) :- ir(X, A), in(c1900_Japan, X), in(c1900_EmpireOfJapan, X), ix.
+c(r58, A, 1) :- vr(X, A), in(c1900_Japan, X), in(c1900_EmpireOfJapan, X), ix.
+
+% c1900_Taiwan isa c1900_EmpireOfJapan
+ir(X, r59) :- in(c1900_Taiwan, X), out(c1900_EmpireOfJapan, X), pw.
+ir(X, prod(r59,R)) :- in(c1900_Taiwan,X), out3(c1900_EmpireOfJapan, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Taiwan,X), in(c1900_EmpireOfJapan,X)} <= 0, pw.
+pie(r59, A, 1) :- ir(X, A), in(c1900_Taiwan, X), in(c1900_EmpireOfJapan, X), ix.
+c(r59, A, 1) :- vr(X, A), in(c1900_Taiwan, X), in(c1900_EmpireOfJapan, X), ix.
+
+% c1900_nc_JP isa c1900_EmpireOfJapan
+ir(X, r60) :- in(c1900_nc_JP, X), out(c1900_EmpireOfJapan, X), pw.
+ir(X, prod(r60,R)) :- in(c1900_nc_JP,X), out3(c1900_EmpireOfJapan, X, R), ix.
+%% coverage
+out3(c1900_EmpireOfJapan, X, r61) :- out(c1900_Japan, X), out(c1900_Taiwan, X), out(c1900_nc_JP, X), ix.
+out(c1900_EmpireOfJapan, X) :- out(c1900_Japan, X), out(c1900_Taiwan, X), out(c1900_nc_JP, X), pw.
+%% sibling disjointness
+% c1900_Japan ! c1900_Taiwan
+ir(X, r62) :- in(c1900_Japan, X), in(c1900_Taiwan, X).
+:- #count {X : vrs(X), in(c1900_Japan,X), out(c1900_Taiwan,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Japan,X), in(c1900_Taiwan,X)} <= 0, pw.
+pie(r62, A, 1) :- ir(X, A), in(c1900_Japan, X), out(c1900_Taiwan, X), ix.
+c(r62, A, 1) :- vr(X, A), in(c1900_Japan, X), out(c1900_Taiwan, X), ix.
+pie(r62, A, 2) :- ir(X, A), out(c1900_Japan, X), in(c1900_Taiwan, X), ix.
+c(r62, A, 2) :- vr(X, A), out(c1900_Japan, X), in(c1900_Taiwan, X), ix.
+
+% c1900_Japan ! c1900_nc_JP
+ir(X, r63) :- in(c1900_Japan, X), in(c1900_nc_JP, X).
+:- #count {X : vrs(X), in(c1900_Japan,X), out(c1900_nc_JP,X)} <= 0, pw.
+pie(r63, A, 1) :- ir(X, A), in(c1900_Japan, X), out(c1900_nc_JP, X), ix.
+c(r63, A, 1) :- vr(X, A), in(c1900_Japan, X), out(c1900_nc_JP, X), ix.
+% c1900_Taiwan ! c1900_nc_JP
+ir(X, r64) :- in(c1900_Taiwan, X), in(c1900_nc_JP, X).
+:- #count {X : vrs(X), in(c1900_Taiwan,X), out(c1900_nc_JP,X)} <= 0, pw.
+pie(r64, A, 1) :- ir(X, A), in(c1900_Taiwan, X), out(c1900_nc_JP, X), ix.
+c(r64, A, 1) :- vr(X, A), in(c1900_Taiwan, X), out(c1900_nc_JP, X), ix.
+%% ISA
+% c1900_NorthKorea isa c1900_KoreanEmpire
+ir(X, r65) :- in(c1900_NorthKorea, X), out(c1900_KoreanEmpire, X), pw.
+ir(X, prod(r65,R)) :- in(c1900_NorthKorea,X), out3(c1900_KoreanEmpire, X, R), ix.
+:- #count {X : vrs(X), in(c1900_NorthKorea,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r65, A, 1) :- ir(X, A), in(c1900_NorthKorea, X), in(c1900_KoreanEmpire, X), ix.
+c(r65, A, 1) :- vr(X, A), in(c1900_NorthKorea, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_SouthKorea isa c1900_KoreanEmpire
+ir(X, r66) :- in(c1900_SouthKorea, X), out(c1900_KoreanEmpire, X), pw.
+ir(X, prod(r66,R)) :- in(c1900_SouthKorea,X), out3(c1900_KoreanEmpire, X, R), ix.
+:- #count {X : vrs(X), in(c1900_SouthKorea,X), in(c1900_KoreanEmpire,X)} <= 0, pw.
+pie(r66, A, 1) :- ir(X, A), in(c1900_SouthKorea, X), in(c1900_KoreanEmpire, X), ix.
+c(r66, A, 1) :- vr(X, A), in(c1900_SouthKorea, X), in(c1900_KoreanEmpire, X), ix.
+
+% c1900_nc_KR isa c1900_KoreanEmpire
+ir(X, r67) :- in(c1900_nc_KR, X), out(c1900_KoreanEmpire, X), pw.
+ir(X, prod(r67,R)) :- in(c1900_nc_KR,X), out3(c1900_KoreanEmpire, X, R), ix.
+%% coverage
+out3(c1900_KoreanEmpire, X, r68) :- out(c1900_NorthKorea, X), out(c1900_SouthKorea, X), out(c1900_nc_KR, X), ix.
+out(c1900_KoreanEmpire, X) :- out(c1900_NorthKorea, X), out(c1900_SouthKorea, X), out(c1900_nc_KR, X), pw.
+%% sibling disjointness
+% c1900_NorthKorea ! c1900_SouthKorea
+ir(X, r69) :- in(c1900_NorthKorea, X), in(c1900_SouthKorea, X).
+:- #count {X : vrs(X), in(c1900_NorthKorea,X), out(c1900_SouthKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_NorthKorea,X), in(c1900_SouthKorea,X)} <= 0, pw.
+pie(r69, A, 1) :- ir(X, A), in(c1900_NorthKorea, X), out(c1900_SouthKorea, X), ix.
+c(r69, A, 1) :- vr(X, A), in(c1900_NorthKorea, X), out(c1900_SouthKorea, X), ix.
+pie(r69, A, 2) :- ir(X, A), out(c1900_NorthKorea, X), in(c1900_SouthKorea, X), ix.
+c(r69, A, 2) :- vr(X, A), out(c1900_NorthKorea, X), in(c1900_SouthKorea, X), ix.
+
+% c1900_NorthKorea ! c1900_nc_KR
+ir(X, r70) :- in(c1900_NorthKorea, X), in(c1900_nc_KR, X).
+:- #count {X : vrs(X), in(c1900_NorthKorea,X), out(c1900_nc_KR,X)} <= 0, pw.
+pie(r70, A, 1) :- ir(X, A), in(c1900_NorthKorea, X), out(c1900_nc_KR, X), ix.
+c(r70, A, 1) :- vr(X, A), in(c1900_NorthKorea, X), out(c1900_nc_KR, X), ix.
+% c1900_SouthKorea ! c1900_nc_KR
+ir(X, r71) :- in(c1900_SouthKorea, X), in(c1900_nc_KR, X).
+:- #count {X : vrs(X), in(c1900_SouthKorea,X), out(c1900_nc_KR,X)} <= 0, pw.
+pie(r71, A, 1) :- ir(X, A), in(c1900_SouthKorea, X), out(c1900_nc_KR, X), ix.
+c(r71, A, 1) :- vr(X, A), in(c1900_SouthKorea, X), out(c1900_nc_KR, X), ix.
+%% ISA
+% c1900_Cambodia isa c1900_FrenchIndochina
+ir(X, r72) :- in(c1900_Cambodia, X), out(c1900_FrenchIndochina, X), pw.
+ir(X, prod(r72,R)) :- in(c1900_Cambodia,X), out3(c1900_FrenchIndochina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Cambodia,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r72, A, 1) :- ir(X, A), in(c1900_Cambodia, X), in(c1900_FrenchIndochina, X), ix.
+c(r72, A, 1) :- vr(X, A), in(c1900_Cambodia, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_Cochinchina isa c1900_FrenchIndochina
+ir(X, r73) :- in(c1900_Cochinchina, X), out(c1900_FrenchIndochina, X), pw.
+ir(X, prod(r73,R)) :- in(c1900_Cochinchina,X), out3(c1900_FrenchIndochina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Cochinchina,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r73, A, 1) :- ir(X, A), in(c1900_Cochinchina, X), in(c1900_FrenchIndochina, X), ix.
+c(r73, A, 1) :- vr(X, A), in(c1900_Cochinchina, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_AnnamProtectorate isa c1900_FrenchIndochina
+ir(X, r74) :- in(c1900_AnnamProtectorate, X), out(c1900_FrenchIndochina, X), pw.
+ir(X, prod(r74,R)) :- in(c1900_AnnamProtectorate,X), out3(c1900_FrenchIndochina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_AnnamProtectorate,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r74, A, 1) :- ir(X, A), in(c1900_AnnamProtectorate, X), in(c1900_FrenchIndochina, X), ix.
+c(r74, A, 1) :- vr(X, A), in(c1900_AnnamProtectorate, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_TokinProtectorate isa c1900_FrenchIndochina
+ir(X, r75) :- in(c1900_TokinProtectorate, X), out(c1900_FrenchIndochina, X), pw.
+ir(X, prod(r75,R)) :- in(c1900_TokinProtectorate,X), out3(c1900_FrenchIndochina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_TokinProtectorate,X), in(c1900_FrenchIndochina,X)} <= 0, pw.
+pie(r75, A, 1) :- ir(X, A), in(c1900_TokinProtectorate, X), in(c1900_FrenchIndochina, X), ix.
+c(r75, A, 1) :- vr(X, A), in(c1900_TokinProtectorate, X), in(c1900_FrenchIndochina, X), ix.
+
+% c1900_nc_FrenchIndochina isa c1900_FrenchIndochina
+ir(X, r76) :- in(c1900_nc_FrenchIndochina, X), out(c1900_FrenchIndochina, X), pw.
+ir(X, prod(r76,R)) :- in(c1900_nc_FrenchIndochina,X), out3(c1900_FrenchIndochina, X, R), ix.
+%% coverage
+out3(c1900_FrenchIndochina, X, r77) :- out(c1900_Cambodia, X), out(c1900_Cochinchina, X), out(c1900_AnnamProtectorate, X), out(c1900_TokinProtectorate, X), out(c1900_nc_FrenchIndochina, X), ix.
+out(c1900_FrenchIndochina, X) :- out(c1900_Cambodia, X), out(c1900_Cochinchina, X), out(c1900_AnnamProtectorate, X), out(c1900_TokinProtectorate, X), out(c1900_nc_FrenchIndochina, X), pw.
+%% sibling disjointness
+% c1900_Cambodia ! c1900_Cochinchina
+ir(X, r78) :- in(c1900_Cambodia, X), in(c1900_Cochinchina, X).
+:- #count {X : vrs(X), in(c1900_Cambodia,X), out(c1900_Cochinchina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Cambodia,X), in(c1900_Cochinchina,X)} <= 0, pw.
+pie(r78, A, 1) :- ir(X, A), in(c1900_Cambodia, X), out(c1900_Cochinchina, X), ix.
+c(r78, A, 1) :- vr(X, A), in(c1900_Cambodia, X), out(c1900_Cochinchina, X), ix.
+pie(r78, A, 2) :- ir(X, A), out(c1900_Cambodia, X), in(c1900_Cochinchina, X), ix.
+c(r78, A, 2) :- vr(X, A), out(c1900_Cambodia, X), in(c1900_Cochinchina, X), ix.
+
+% c1900_Cambodia ! c1900_AnnamProtectorate
+ir(X, r79) :- in(c1900_Cambodia, X), in(c1900_AnnamProtectorate, X).
+:- #count {X : vrs(X), in(c1900_Cambodia,X), out(c1900_AnnamProtectorate,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Cambodia,X), in(c1900_AnnamProtectorate,X)} <= 0, pw.
+pie(r79, A, 1) :- ir(X, A), in(c1900_Cambodia, X), out(c1900_AnnamProtectorate, X), ix.
+c(r79, A, 1) :- vr(X, A), in(c1900_Cambodia, X), out(c1900_AnnamProtectorate, X), ix.
+pie(r79, A, 2) :- ir(X, A), out(c1900_Cambodia, X), in(c1900_AnnamProtectorate, X), ix.
+c(r79, A, 2) :- vr(X, A), out(c1900_Cambodia, X), in(c1900_AnnamProtectorate, X), ix.
+
+% c1900_Cambodia ! c1900_TokinProtectorate
+ir(X, r80) :- in(c1900_Cambodia, X), in(c1900_TokinProtectorate, X).
+:- #count {X : vrs(X), in(c1900_Cambodia,X), out(c1900_TokinProtectorate,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Cambodia,X), in(c1900_TokinProtectorate,X)} <= 0, pw.
+pie(r80, A, 1) :- ir(X, A), in(c1900_Cambodia, X), out(c1900_TokinProtectorate, X), ix.
+c(r80, A, 1) :- vr(X, A), in(c1900_Cambodia, X), out(c1900_TokinProtectorate, X), ix.
+pie(r80, A, 2) :- ir(X, A), out(c1900_Cambodia, X), in(c1900_TokinProtectorate, X), ix.
+c(r80, A, 2) :- vr(X, A), out(c1900_Cambodia, X), in(c1900_TokinProtectorate, X), ix.
+
+% c1900_Cambodia ! c1900_nc_FrenchIndochina
+ir(X, r81) :- in(c1900_Cambodia, X), in(c1900_nc_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_Cambodia,X), out(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+pie(r81, A, 1) :- ir(X, A), in(c1900_Cambodia, X), out(c1900_nc_FrenchIndochina, X), ix.
+c(r81, A, 1) :- vr(X, A), in(c1900_Cambodia, X), out(c1900_nc_FrenchIndochina, X), ix.
+% c1900_Cochinchina ! c1900_AnnamProtectorate
+ir(X, r82) :- in(c1900_Cochinchina, X), in(c1900_AnnamProtectorate, X).
+:- #count {X : vrs(X), in(c1900_Cochinchina,X), out(c1900_AnnamProtectorate,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Cochinchina,X), in(c1900_AnnamProtectorate,X)} <= 0, pw.
+pie(r82, A, 1) :- ir(X, A), in(c1900_Cochinchina, X), out(c1900_AnnamProtectorate, X), ix.
+c(r82, A, 1) :- vr(X, A), in(c1900_Cochinchina, X), out(c1900_AnnamProtectorate, X), ix.
+pie(r82, A, 2) :- ir(X, A), out(c1900_Cochinchina, X), in(c1900_AnnamProtectorate, X), ix.
+c(r82, A, 2) :- vr(X, A), out(c1900_Cochinchina, X), in(c1900_AnnamProtectorate, X), ix.
+
+% c1900_Cochinchina ! c1900_TokinProtectorate
+ir(X, r83) :- in(c1900_Cochinchina, X), in(c1900_TokinProtectorate, X).
+:- #count {X : vrs(X), in(c1900_Cochinchina,X), out(c1900_TokinProtectorate,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_Cochinchina,X), in(c1900_TokinProtectorate,X)} <= 0, pw.
+pie(r83, A, 1) :- ir(X, A), in(c1900_Cochinchina, X), out(c1900_TokinProtectorate, X), ix.
+c(r83, A, 1) :- vr(X, A), in(c1900_Cochinchina, X), out(c1900_TokinProtectorate, X), ix.
+pie(r83, A, 2) :- ir(X, A), out(c1900_Cochinchina, X), in(c1900_TokinProtectorate, X), ix.
+c(r83, A, 2) :- vr(X, A), out(c1900_Cochinchina, X), in(c1900_TokinProtectorate, X), ix.
+
+% c1900_Cochinchina ! c1900_nc_FrenchIndochina
+ir(X, r84) :- in(c1900_Cochinchina, X), in(c1900_nc_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_Cochinchina,X), out(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+pie(r84, A, 1) :- ir(X, A), in(c1900_Cochinchina, X), out(c1900_nc_FrenchIndochina, X), ix.
+c(r84, A, 1) :- vr(X, A), in(c1900_Cochinchina, X), out(c1900_nc_FrenchIndochina, X), ix.
+% c1900_AnnamProtectorate ! c1900_TokinProtectorate
+ir(X, r85) :- in(c1900_AnnamProtectorate, X), in(c1900_TokinProtectorate, X).
+:- #count {X : vrs(X), in(c1900_AnnamProtectorate,X), out(c1900_TokinProtectorate,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c1900_AnnamProtectorate,X), in(c1900_TokinProtectorate,X)} <= 0, pw.
+pie(r85, A, 1) :- ir(X, A), in(c1900_AnnamProtectorate, X), out(c1900_TokinProtectorate, X), ix.
+c(r85, A, 1) :- vr(X, A), in(c1900_AnnamProtectorate, X), out(c1900_TokinProtectorate, X), ix.
+pie(r85, A, 2) :- ir(X, A), out(c1900_AnnamProtectorate, X), in(c1900_TokinProtectorate, X), ix.
+c(r85, A, 2) :- vr(X, A), out(c1900_AnnamProtectorate, X), in(c1900_TokinProtectorate, X), ix.
+
+% c1900_AnnamProtectorate ! c1900_nc_FrenchIndochina
+ir(X, r86) :- in(c1900_AnnamProtectorate, X), in(c1900_nc_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_AnnamProtectorate,X), out(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+pie(r86, A, 1) :- ir(X, A), in(c1900_AnnamProtectorate, X), out(c1900_nc_FrenchIndochina, X), ix.
+c(r86, A, 1) :- vr(X, A), in(c1900_AnnamProtectorate, X), out(c1900_nc_FrenchIndochina, X), ix.
+% c1900_TokinProtectorate ! c1900_nc_FrenchIndochina
+ir(X, r87) :- in(c1900_TokinProtectorate, X), in(c1900_nc_FrenchIndochina, X).
+:- #count {X : vrs(X), in(c1900_TokinProtectorate,X), out(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+pie(r87, A, 1) :- ir(X, A), in(c1900_TokinProtectorate, X), out(c1900_nc_FrenchIndochina, X), ix.
+c(r87, A, 1) :- vr(X, A), in(c1900_TokinProtectorate, X), out(c1900_nc_FrenchIndochina, X), ix.
+%% ISA
+% c1900_Philippines isa c1900_UnitedStatesMilitaryGovernment
+ir(X, r88) :- in(c1900_Philippines, X), out(c1900_UnitedStatesMilitaryGovernment, X), pw.
+ir(X, prod(r88,R)) :- in(c1900_Philippines,X), out3(c1900_UnitedStatesMilitaryGovernment, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Philippines,X), in(c1900_UnitedStatesMilitaryGovernment,X)} <= 0, pw.
+pie(r88, A, 1) :- ir(X, A), in(c1900_Philippines, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+c(r88, A, 1) :- vr(X, A), in(c1900_Philippines, X), in(c1900_UnitedStatesMilitaryGovernment, X), ix.
+
+% c1900_nc_US isa c1900_UnitedStatesMilitaryGovernment
+ir(X, r89) :- in(c1900_nc_US, X), out(c1900_UnitedStatesMilitaryGovernment, X), pw.
+ir(X, prod(r89,R)) :- in(c1900_nc_US,X), out3(c1900_UnitedStatesMilitaryGovernment, X, R), ix.
+%% coverage
+out3(c1900_UnitedStatesMilitaryGovernment, X, r90) :- out(c1900_Philippines, X), out(c1900_nc_US, X), ix.
+out(c1900_UnitedStatesMilitaryGovernment, X) :- out(c1900_Philippines, X), out(c1900_nc_US, X), pw.
+%% sibling disjointness
+% c1900_Philippines ! c1900_nc_US
+ir(X, r91) :- in(c1900_Philippines, X), in(c1900_nc_US, X).
+:- #count {X : vrs(X), in(c1900_Philippines,X), out(c1900_nc_US,X)} <= 0, pw.
+pie(r91, A, 1) :- ir(X, A), in(c1900_Philippines, X), out(c1900_nc_US, X), ix.
+c(r91, A, 1) :- vr(X, A), in(c1900_Philippines, X), out(c1900_nc_US, X), ix.
+%% ISA
+% c1900_Thailand isa c1900_RattanakosinKingdomOfSiam
+ir(X, r92) :- in(c1900_Thailand, X), out(c1900_RattanakosinKingdomOfSiam, X), pw.
+ir(X, prod(r92,R)) :- in(c1900_Thailand,X), out3(c1900_RattanakosinKingdomOfSiam, X, R), ix.
+:- #count {X : vrs(X), in(c1900_Thailand,X), in(c1900_RattanakosinKingdomOfSiam,X)} <= 0, pw.
+pie(r92, A, 1) :- ir(X, A), in(c1900_Thailand, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+c(r92, A, 1) :- vr(X, A), in(c1900_Thailand, X), in(c1900_RattanakosinKingdomOfSiam, X), ix.
+
+% c1900_nc_RKOS isa c1900_RattanakosinKingdomOfSiam
+ir(X, r93) :- in(c1900_nc_RKOS, X), out(c1900_RattanakosinKingdomOfSiam, X), pw.
+ir(X, prod(r93,R)) :- in(c1900_nc_RKOS,X), out3(c1900_RattanakosinKingdomOfSiam, X, R), ix.
+%% coverage
+out3(c1900_RattanakosinKingdomOfSiam, X, r94) :- out(c1900_Thailand, X), out(c1900_nc_RKOS, X), ix.
+out(c1900_RattanakosinKingdomOfSiam, X) :- out(c1900_Thailand, X), out(c1900_nc_RKOS, X), pw.
+%% sibling disjointness
+% c1900_Thailand ! c1900_nc_RKOS
+ir(X, r95) :- in(c1900_Thailand, X), in(c1900_nc_RKOS, X).
+:- #count {X : vrs(X), in(c1900_Thailand,X), out(c1900_nc_RKOS,X)} <= 0, pw.
+pie(r95, A, 1) :- ir(X, A), in(c1900_Thailand, X), out(c1900_nc_RKOS, X), ix.
+c(r95, A, 1) :- vr(X, A), in(c1900_Thailand, X), out(c1900_nc_RKOS, X), ix.
+ncf(c1900_nc_World).
+ncf(c1900_nc_Qing).
+ncf(c1900_nc_UK).
+ncf(c1900_nc_Portugal).
+ncf(c1900_nc_JP).
+ncf(c1900_nc_KR).
+%% ISA
+% c1900_SouthVietnam isa c1900_Cochinchina
+ir(X, r96) :- in(c1900_SouthVietnam, X), out(c1900_Cochinchina, X), pw.
+ir(X, prod(r96,R)) :- in(c1900_SouthVietnam,X), out3(c1900_Cochinchina, X, R), ix.
+:- #count {X : vrs(X), in(c1900_SouthVietnam,X), in(c1900_Cochinchina,X)} <= 0, pw.
+pie(r96, A, 1) :- ir(X, A), in(c1900_SouthVietnam, X), in(c1900_Cochinchina, X), ix.
+c(r96, A, 1) :- vr(X, A), in(c1900_SouthVietnam, X), in(c1900_Cochinchina, X), ix.
+
+% c1900_nc_Cochin isa c1900_Cochinchina
+ir(X, r97) :- in(c1900_nc_Cochin, X), out(c1900_Cochinchina, X), pw.
+ir(X, prod(r97,R)) :- in(c1900_nc_Cochin,X), out3(c1900_Cochinchina, X, R), ix.
+%% coverage
+out3(c1900_Cochinchina, X, r98) :- out(c1900_SouthVietnam, X), out(c1900_nc_Cochin, X), ix.
+out(c1900_Cochinchina, X) :- out(c1900_SouthVietnam, X), out(c1900_nc_Cochin, X), pw.
+%% sibling disjointness
+% c1900_SouthVietnam ! c1900_nc_Cochin
+ir(X, r99) :- in(c1900_SouthVietnam, X), in(c1900_nc_Cochin, X).
+:- #count {X : vrs(X), in(c1900_SouthVietnam,X), out(c1900_nc_Cochin,X)} <= 0, pw.
+pie(r99, A, 1) :- ir(X, A), in(c1900_SouthVietnam, X), out(c1900_nc_Cochin, X), ix.
+c(r99, A, 1) :- vr(X, A), in(c1900_SouthVietnam, X), out(c1900_nc_Cochin, X), ix.
+%% ISA
+% c1900_CentralVietnam isa c1900_AnnamProtectorate
+ir(X, r100) :- in(c1900_CentralVietnam, X), out(c1900_AnnamProtectorate, X), pw.
+ir(X, prod(r100,R)) :- in(c1900_CentralVietnam,X), out3(c1900_AnnamProtectorate, X, R), ix.
+:- #count {X : vrs(X), in(c1900_CentralVietnam,X), in(c1900_AnnamProtectorate,X)} <= 0, pw.
+pie(r100, A, 1) :- ir(X, A), in(c1900_CentralVietnam, X), in(c1900_AnnamProtectorate, X), ix.
+c(r100, A, 1) :- vr(X, A), in(c1900_CentralVietnam, X), in(c1900_AnnamProtectorate, X), ix.
+
+% c1900_nc_Annam isa c1900_AnnamProtectorate
+ir(X, r101) :- in(c1900_nc_Annam, X), out(c1900_AnnamProtectorate, X), pw.
+ir(X, prod(r101,R)) :- in(c1900_nc_Annam,X), out3(c1900_AnnamProtectorate, X, R), ix.
+%% coverage
+out3(c1900_AnnamProtectorate, X, r102) :- out(c1900_CentralVietnam, X), out(c1900_nc_Annam, X), ix.
+out(c1900_AnnamProtectorate, X) :- out(c1900_CentralVietnam, X), out(c1900_nc_Annam, X), pw.
+%% sibling disjointness
+% c1900_CentralVietnam ! c1900_nc_Annam
+ir(X, r103) :- in(c1900_CentralVietnam, X), in(c1900_nc_Annam, X).
+:- #count {X : vrs(X), in(c1900_CentralVietnam,X), out(c1900_nc_Annam,X)} <= 0, pw.
+pie(r103, A, 1) :- ir(X, A), in(c1900_CentralVietnam, X), out(c1900_nc_Annam, X), ix.
+c(r103, A, 1) :- vr(X, A), in(c1900_CentralVietnam, X), out(c1900_nc_Annam, X), ix.
+%% ISA
+% c1900_NorthVietnam isa c1900_TokinProtectorate
+ir(X, r104) :- in(c1900_NorthVietnam, X), out(c1900_TokinProtectorate, X), pw.
+ir(X, prod(r104,R)) :- in(c1900_NorthVietnam,X), out3(c1900_TokinProtectorate, X, R), ix.
+:- #count {X : vrs(X), in(c1900_NorthVietnam,X), in(c1900_TokinProtectorate,X)} <= 0, pw.
+pie(r104, A, 1) :- ir(X, A), in(c1900_NorthVietnam, X), in(c1900_TokinProtectorate, X), ix.
+c(r104, A, 1) :- vr(X, A), in(c1900_NorthVietnam, X), in(c1900_TokinProtectorate, X), ix.
+
+% c1900_nc_Tokin isa c1900_TokinProtectorate
+ir(X, r105) :- in(c1900_nc_Tokin, X), out(c1900_TokinProtectorate, X), pw.
+ir(X, prod(r105,R)) :- in(c1900_nc_Tokin,X), out3(c1900_TokinProtectorate, X, R), ix.
+%% coverage
+out3(c1900_TokinProtectorate, X, r106) :- out(c1900_NorthVietnam, X), out(c1900_nc_Tokin, X), ix.
+out(c1900_TokinProtectorate, X) :- out(c1900_NorthVietnam, X), out(c1900_nc_Tokin, X), pw.
+%% sibling disjointness
+% c1900_NorthVietnam ! c1900_nc_Tokin
+ir(X, r107) :- in(c1900_NorthVietnam, X), in(c1900_nc_Tokin, X).
+:- #count {X : vrs(X), in(c1900_NorthVietnam,X), out(c1900_nc_Tokin,X)} <= 0, pw.
+pie(r107, A, 1) :- ir(X, A), in(c1900_NorthVietnam, X), out(c1900_nc_Tokin, X), ix.
+c(r107, A, 1) :- vr(X, A), in(c1900_NorthVietnam, X), out(c1900_nc_Tokin, X), ix.
+ncf(c1900_nc_FrenchIndochina).
+ncf(c1900_nc_US).
+ncf(c1900_nc_RKOS).
+ncf(c1900_nc_Cochin).
+ncf(c1900_nc_Annam).
+ncf(c1900_nc_Tokin).
+%% ISA
+% c2022_RepublicOfChina isa c2022_World
+ir(X, r108) :- in(c2022_RepublicOfChina, X), out(c2022_World, X), pw.
+ir(X, prod(r108,R)) :- in(c2022_RepublicOfChina,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), in(c2022_World,X)} <= 0, pw.
+pie(r108, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), in(c2022_World, X), ix.
+c(r108, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), in(c2022_World, X), ix.
+
+% c2022_PeoplesRepublicOfChina isa c2022_World
+ir(X, r109) :- in(c2022_PeoplesRepublicOfChina, X), out(c2022_World, X), pw.
+ir(X, prod(r109,R)) :- in(c2022_PeoplesRepublicOfChina,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), in(c2022_World,X)} <= 0, pw.
+pie(r109, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), in(c2022_World, X), ix.
+c(r109, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), in(c2022_World, X), ix.
+
+% c2022_NihonKoku isa c2022_World
+ir(X, r110) :- in(c2022_NihonKoku, X), out(c2022_World, X), pw.
+ir(X, prod(r110,R)) :- in(c2022_NihonKoku,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), in(c2022_World,X)} <= 0, pw.
+pie(r110, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), in(c2022_World, X), ix.
+c(r110, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), in(c2022_World, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea isa c2022_World
+ir(X, r111) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_World, X), pw.
+ir(X, prod(r111,R)) :- in(c2022_DemocraticPeoplesRepublicOfKorea,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_World,X)} <= 0, pw.
+pie(r111, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_World, X), ix.
+c(r111, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_World, X), ix.
+
+% c2022_RepublicOfKorea isa c2022_World
+ir(X, r112) :- in(c2022_RepublicOfKorea, X), out(c2022_World, X), pw.
+ir(X, prod(r112,R)) :- in(c2022_RepublicOfKorea,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), in(c2022_World,X)} <= 0, pw.
+pie(r112, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), in(c2022_World, X), ix.
+c(r112, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), in(c2022_World, X), ix.
+
+% c2022_KingdomOfCambodia isa c2022_World
+ir(X, r113) :- in(c2022_KingdomOfCambodia, X), out(c2022_World, X), pw.
+ir(X, prod(r113,R)) :- in(c2022_KingdomOfCambodia,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_KingdomOfCambodia,X), in(c2022_World,X)} <= 0, pw.
+pie(r113, A, 1) :- ir(X, A), in(c2022_KingdomOfCambodia, X), in(c2022_World, X), ix.
+c(r113, A, 1) :- vr(X, A), in(c2022_KingdomOfCambodia, X), in(c2022_World, X), ix.
+
+% c2022_RepublicOfThePhilippines isa c2022_World
+ir(X, r114) :- in(c2022_RepublicOfThePhilippines, X), out(c2022_World, X), pw.
+ir(X, prod(r114,R)) :- in(c2022_RepublicOfThePhilippines,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_RepublicOfThePhilippines,X), in(c2022_World,X)} <= 0, pw.
+pie(r114, A, 1) :- ir(X, A), in(c2022_RepublicOfThePhilippines, X), in(c2022_World, X), ix.
+c(r114, A, 1) :- vr(X, A), in(c2022_RepublicOfThePhilippines, X), in(c2022_World, X), ix.
+
+% c2022_KingdomOfThailand isa c2022_World
+ir(X, r115) :- in(c2022_KingdomOfThailand, X), out(c2022_World, X), pw.
+ir(X, prod(r115,R)) :- in(c2022_KingdomOfThailand,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_KingdomOfThailand,X), in(c2022_World,X)} <= 0, pw.
+pie(r115, A, 1) :- ir(X, A), in(c2022_KingdomOfThailand, X), in(c2022_World, X), ix.
+c(r115, A, 1) :- vr(X, A), in(c2022_KingdomOfThailand, X), in(c2022_World, X), ix.
+
+% c2022_SocialistRepublicOfVietnam isa c2022_World
+ir(X, r116) :- in(c2022_SocialistRepublicOfVietnam, X), out(c2022_World, X), pw.
+ir(X, prod(r116,R)) :- in(c2022_SocialistRepublicOfVietnam,X), out3(c2022_World, X, R), ix.
+:- #count {X : vrs(X), in(c2022_SocialistRepublicOfVietnam,X), in(c2022_World,X)} <= 0, pw.
+pie(r116, A, 1) :- ir(X, A), in(c2022_SocialistRepublicOfVietnam, X), in(c2022_World, X), ix.
+c(r116, A, 1) :- vr(X, A), in(c2022_SocialistRepublicOfVietnam, X), in(c2022_World, X), ix.
+
+% c2022_nc_World isa c2022_World
+ir(X, r117) :- in(c2022_nc_World, X), out(c2022_World, X), pw.
+ir(X, prod(r117,R)) :- in(c2022_nc_World,X), out3(c2022_World, X, R), ix.
+%% coverage
+out3(c2022_World, X, r118) :- out(c2022_RepublicOfChina, X), out(c2022_PeoplesRepublicOfChina, X), out(c2022_NihonKoku, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), out(c2022_RepublicOfThePhilippines, X), out(c2022_KingdomOfThailand, X), out(c2022_SocialistRepublicOfVietnam, X), out(c2022_nc_World, X), ix.
+out(c2022_World, X) :- out(c2022_RepublicOfChina, X), out(c2022_PeoplesRepublicOfChina, X), out(c2022_NihonKoku, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), out(c2022_RepublicOfThePhilippines, X), out(c2022_KingdomOfThailand, X), out(c2022_SocialistRepublicOfVietnam, X), out(c2022_nc_World, X), pw.
+%% sibling disjointness
+% c2022_RepublicOfChina ! c2022_PeoplesRepublicOfChina
+ir(X, r119) :- in(c2022_RepublicOfChina, X), in(c2022_PeoplesRepublicOfChina, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_PeoplesRepublicOfChina,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_PeoplesRepublicOfChina,X)} <= 0, pw.
+pie(r119, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_PeoplesRepublicOfChina, X), ix.
+c(r119, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_PeoplesRepublicOfChina, X), ix.
+pie(r119, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+c(r119, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+
+% c2022_RepublicOfChina ! c2022_NihonKoku
+ir(X, r120) :- in(c2022_RepublicOfChina, X), in(c2022_NihonKoku, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_NihonKoku,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_NihonKoku,X)} <= 0, pw.
+pie(r120, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_NihonKoku, X), ix.
+c(r120, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_NihonKoku, X), ix.
+pie(r120, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_NihonKoku, X), ix.
+c(r120, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_NihonKoku, X), ix.
+
+% c2022_RepublicOfChina ! c2022_DemocraticPeoplesRepublicOfKorea
+ir(X, r121) :- in(c2022_RepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+pie(r121, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r121, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+pie(r121, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r121, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+
+% c2022_RepublicOfChina ! c2022_RepublicOfKorea
+ir(X, r122) :- in(c2022_RepublicOfChina, X), in(c2022_RepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_RepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_RepublicOfKorea,X)} <= 0, pw.
+pie(r122, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_RepublicOfKorea, X), ix.
+c(r122, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_RepublicOfKorea, X), ix.
+pie(r122, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_RepublicOfKorea, X), ix.
+c(r122, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_RepublicOfKorea, X), ix.
+
+% c2022_RepublicOfChina ! c2022_KingdomOfCambodia
+ir(X, r123) :- in(c2022_RepublicOfChina, X), in(c2022_KingdomOfCambodia, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_KingdomOfCambodia,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r123, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_KingdomOfCambodia, X), ix.
+c(r123, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_KingdomOfCambodia, X), ix.
+pie(r123, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r123, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_RepublicOfChina ! c2022_RepublicOfThePhilippines
+ir(X, r124) :- in(c2022_RepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r124, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r124, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r124, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r124, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_RepublicOfChina ! c2022_KingdomOfThailand
+ir(X, r125) :- in(c2022_RepublicOfChina, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r125, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_KingdomOfThailand, X), ix.
+c(r125, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r125, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_KingdomOfThailand, X), ix.
+c(r125, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_RepublicOfChina ! c2022_SocialistRepublicOfVietnam
+ir(X, r126) :- in(c2022_RepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfChina,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r126, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r126, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r126, A, 2) :- ir(X, A), out(c2022_RepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r126, A, 2) :- vr(X, A), out(c2022_RepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_RepublicOfChina ! c2022_nc_World
+ir(X, r127) :- in(c2022_RepublicOfChina, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfChina,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r127, A, 1) :- ir(X, A), in(c2022_RepublicOfChina, X), out(c2022_nc_World, X), ix.
+c(r127, A, 1) :- vr(X, A), in(c2022_RepublicOfChina, X), out(c2022_nc_World, X), ix.
+% c2022_PeoplesRepublicOfChina ! c2022_NihonKoku
+ir(X, r128) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_NihonKoku, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_NihonKoku,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_NihonKoku,X)} <= 0, pw.
+pie(r128, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_NihonKoku, X), ix.
+c(r128, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_NihonKoku, X), ix.
+pie(r128, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_NihonKoku, X), ix.
+c(r128, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_NihonKoku, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_DemocraticPeoplesRepublicOfKorea
+ir(X, r129) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+pie(r129, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r129, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+pie(r129, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r129, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_RepublicOfKorea
+ir(X, r130) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_RepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_RepublicOfKorea,X)} <= 0, pw.
+pie(r130, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_RepublicOfKorea, X), ix.
+c(r130, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_RepublicOfKorea, X), ix.
+pie(r130, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfKorea, X), ix.
+c(r130, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfKorea, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_KingdomOfCambodia
+ir(X, r131) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfCambodia, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_KingdomOfCambodia,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r131, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_KingdomOfCambodia, X), ix.
+c(r131, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_KingdomOfCambodia, X), ix.
+pie(r131, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r131, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_RepublicOfThePhilippines
+ir(X, r132) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r132, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r132, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r132, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r132, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_KingdomOfThailand
+ir(X, r133) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r133, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_KingdomOfThailand, X), ix.
+c(r133, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r133, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfThailand, X), ix.
+c(r133, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_SocialistRepublicOfVietnam
+ir(X, r134) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_PeoplesRepublicOfChina,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r134, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r134, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r134, A, 2) :- ir(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r134, A, 2) :- vr(X, A), out(c2022_PeoplesRepublicOfChina, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_PeoplesRepublicOfChina ! c2022_nc_World
+ir(X, r135) :- in(c2022_PeoplesRepublicOfChina, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_PeoplesRepublicOfChina,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r135, A, 1) :- ir(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_nc_World, X), ix.
+c(r135, A, 1) :- vr(X, A), in(c2022_PeoplesRepublicOfChina, X), out(c2022_nc_World, X), ix.
+% c2022_NihonKoku ! c2022_DemocraticPeoplesRepublicOfKorea
+ir(X, r136) :- in(c2022_NihonKoku, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+pie(r136, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r136, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+pie(r136, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r136, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+
+% c2022_NihonKoku ! c2022_RepublicOfKorea
+ir(X, r137) :- in(c2022_NihonKoku, X), in(c2022_RepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_RepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_RepublicOfKorea,X)} <= 0, pw.
+pie(r137, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_RepublicOfKorea, X), ix.
+c(r137, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_RepublicOfKorea, X), ix.
+pie(r137, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_RepublicOfKorea, X), ix.
+c(r137, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_RepublicOfKorea, X), ix.
+
+% c2022_NihonKoku ! c2022_KingdomOfCambodia
+ir(X, r138) :- in(c2022_NihonKoku, X), in(c2022_KingdomOfCambodia, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_KingdomOfCambodia,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r138, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_KingdomOfCambodia, X), ix.
+c(r138, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_KingdomOfCambodia, X), ix.
+pie(r138, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r138, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_NihonKoku ! c2022_RepublicOfThePhilippines
+ir(X, r139) :- in(c2022_NihonKoku, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r139, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r139, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r139, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r139, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_NihonKoku ! c2022_KingdomOfThailand
+ir(X, r140) :- in(c2022_NihonKoku, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r140, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_KingdomOfThailand, X), ix.
+c(r140, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r140, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_KingdomOfThailand, X), ix.
+c(r140, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_NihonKoku ! c2022_SocialistRepublicOfVietnam
+ir(X, r141) :- in(c2022_NihonKoku, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_NihonKoku,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r141, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r141, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r141, A, 2) :- ir(X, A), out(c2022_NihonKoku, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r141, A, 2) :- vr(X, A), out(c2022_NihonKoku, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_NihonKoku ! c2022_nc_World
+ir(X, r142) :- in(c2022_NihonKoku, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_NihonKoku,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r142, A, 1) :- ir(X, A), in(c2022_NihonKoku, X), out(c2022_nc_World, X), ix.
+c(r142, A, 1) :- vr(X, A), in(c2022_NihonKoku, X), out(c2022_nc_World, X), ix.
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_RepublicOfKorea
+ir(X, r143) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfKorea, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_RepublicOfKorea,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_RepublicOfKorea,X)} <= 0, pw.
+pie(r143, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfKorea, X), ix.
+c(r143, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfKorea, X), ix.
+pie(r143, A, 2) :- ir(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfKorea, X), ix.
+c(r143, A, 2) :- vr(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfKorea, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_KingdomOfCambodia
+ir(X, r144) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfCambodia, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_KingdomOfCambodia,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r144, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), ix.
+c(r144, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), ix.
+pie(r144, A, 2) :- ir(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r144, A, 2) :- vr(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_RepublicOfThePhilippines
+ir(X, r145) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r145, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r145, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r145, A, 2) :- ir(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r145, A, 2) :- vr(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_KingdomOfThailand
+ir(X, r146) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r146, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_KingdomOfThailand, X), ix.
+c(r146, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r146, A, 2) :- ir(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfThailand, X), ix.
+c(r146, A, 2) :- vr(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_SocialistRepublicOfVietnam
+ir(X, r147) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_DemocraticPeoplesRepublicOfKorea,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r147, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r147, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r147, A, 2) :- ir(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r147, A, 2) :- vr(X, A), out(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_DemocraticPeoplesRepublicOfKorea ! c2022_nc_World
+ir(X, r148) :- in(c2022_DemocraticPeoplesRepublicOfKorea, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_DemocraticPeoplesRepublicOfKorea,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r148, A, 1) :- ir(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_nc_World, X), ix.
+c(r148, A, 1) :- vr(X, A), in(c2022_DemocraticPeoplesRepublicOfKorea, X), out(c2022_nc_World, X), ix.
+% c2022_RepublicOfKorea ! c2022_KingdomOfCambodia
+ir(X, r149) :- in(c2022_RepublicOfKorea, X), in(c2022_KingdomOfCambodia, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), out(c2022_KingdomOfCambodia,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfKorea,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r149, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), ix.
+c(r149, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), out(c2022_KingdomOfCambodia, X), ix.
+pie(r149, A, 2) :- ir(X, A), out(c2022_RepublicOfKorea, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r149, A, 2) :- vr(X, A), out(c2022_RepublicOfKorea, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_RepublicOfKorea ! c2022_RepublicOfThePhilippines
+ir(X, r150) :- in(c2022_RepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfKorea,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r150, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r150, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r150, A, 2) :- ir(X, A), out(c2022_RepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r150, A, 2) :- vr(X, A), out(c2022_RepublicOfKorea, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_RepublicOfKorea ! c2022_KingdomOfThailand
+ir(X, r151) :- in(c2022_RepublicOfKorea, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfKorea,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r151, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), out(c2022_KingdomOfThailand, X), ix.
+c(r151, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r151, A, 2) :- ir(X, A), out(c2022_RepublicOfKorea, X), in(c2022_KingdomOfThailand, X), ix.
+c(r151, A, 2) :- vr(X, A), out(c2022_RepublicOfKorea, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_RepublicOfKorea ! c2022_SocialistRepublicOfVietnam
+ir(X, r152) :- in(c2022_RepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfKorea,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r152, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r152, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r152, A, 2) :- ir(X, A), out(c2022_RepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r152, A, 2) :- vr(X, A), out(c2022_RepublicOfKorea, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_RepublicOfKorea ! c2022_nc_World
+ir(X, r153) :- in(c2022_RepublicOfKorea, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfKorea,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r153, A, 1) :- ir(X, A), in(c2022_RepublicOfKorea, X), out(c2022_nc_World, X), ix.
+c(r153, A, 1) :- vr(X, A), in(c2022_RepublicOfKorea, X), out(c2022_nc_World, X), ix.
+% c2022_KingdomOfCambodia ! c2022_RepublicOfThePhilippines
+ir(X, r154) :- in(c2022_KingdomOfCambodia, X), in(c2022_RepublicOfThePhilippines, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfCambodia,X), out(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_KingdomOfCambodia,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r154, A, 1) :- ir(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_RepublicOfThePhilippines, X), ix.
+c(r154, A, 1) :- vr(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_RepublicOfThePhilippines, X), ix.
+pie(r154, A, 2) :- ir(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r154, A, 2) :- vr(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_KingdomOfCambodia ! c2022_KingdomOfThailand
+ir(X, r155) :- in(c2022_KingdomOfCambodia, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfCambodia,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_KingdomOfCambodia,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r155, A, 1) :- ir(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_KingdomOfThailand, X), ix.
+c(r155, A, 1) :- vr(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r155, A, 2) :- ir(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_KingdomOfThailand, X), ix.
+c(r155, A, 2) :- vr(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_KingdomOfCambodia ! c2022_SocialistRepublicOfVietnam
+ir(X, r156) :- in(c2022_KingdomOfCambodia, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfCambodia,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_KingdomOfCambodia,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r156, A, 1) :- ir(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r156, A, 1) :- vr(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r156, A, 2) :- ir(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r156, A, 2) :- vr(X, A), out(c2022_KingdomOfCambodia, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_KingdomOfCambodia ! c2022_nc_World
+ir(X, r157) :- in(c2022_KingdomOfCambodia, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfCambodia,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r157, A, 1) :- ir(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_nc_World, X), ix.
+c(r157, A, 1) :- vr(X, A), in(c2022_KingdomOfCambodia, X), out(c2022_nc_World, X), ix.
+% c2022_RepublicOfThePhilippines ! c2022_KingdomOfThailand
+ir(X, r158) :- in(c2022_RepublicOfThePhilippines, X), in(c2022_KingdomOfThailand, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfThePhilippines,X), out(c2022_KingdomOfThailand,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfThePhilippines,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r158, A, 1) :- ir(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_KingdomOfThailand, X), ix.
+c(r158, A, 1) :- vr(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_KingdomOfThailand, X), ix.
+pie(r158, A, 2) :- ir(X, A), out(c2022_RepublicOfThePhilippines, X), in(c2022_KingdomOfThailand, X), ix.
+c(r158, A, 2) :- vr(X, A), out(c2022_RepublicOfThePhilippines, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_RepublicOfThePhilippines ! c2022_SocialistRepublicOfVietnam
+ir(X, r159) :- in(c2022_RepublicOfThePhilippines, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfThePhilippines,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_RepublicOfThePhilippines,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r159, A, 1) :- ir(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r159, A, 1) :- vr(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r159, A, 2) :- ir(X, A), out(c2022_RepublicOfThePhilippines, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r159, A, 2) :- vr(X, A), out(c2022_RepublicOfThePhilippines, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_RepublicOfThePhilippines ! c2022_nc_World
+ir(X, r160) :- in(c2022_RepublicOfThePhilippines, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_RepublicOfThePhilippines,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r160, A, 1) :- ir(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_nc_World, X), ix.
+c(r160, A, 1) :- vr(X, A), in(c2022_RepublicOfThePhilippines, X), out(c2022_nc_World, X), ix.
+% c2022_KingdomOfThailand ! c2022_SocialistRepublicOfVietnam
+ir(X, r161) :- in(c2022_KingdomOfThailand, X), in(c2022_SocialistRepublicOfVietnam, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfThailand,X), out(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_KingdomOfThailand,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r161, A, 1) :- ir(X, A), in(c2022_KingdomOfThailand, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r161, A, 1) :- vr(X, A), in(c2022_KingdomOfThailand, X), out(c2022_SocialistRepublicOfVietnam, X), ix.
+pie(r161, A, 2) :- ir(X, A), out(c2022_KingdomOfThailand, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r161, A, 2) :- vr(X, A), out(c2022_KingdomOfThailand, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_KingdomOfThailand ! c2022_nc_World
+ir(X, r162) :- in(c2022_KingdomOfThailand, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_KingdomOfThailand,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r162, A, 1) :- ir(X, A), in(c2022_KingdomOfThailand, X), out(c2022_nc_World, X), ix.
+c(r162, A, 1) :- vr(X, A), in(c2022_KingdomOfThailand, X), out(c2022_nc_World, X), ix.
+% c2022_SocialistRepublicOfVietnam ! c2022_nc_World
+ir(X, r163) :- in(c2022_SocialistRepublicOfVietnam, X), in(c2022_nc_World, X).
+:- #count {X : vrs(X), in(c2022_SocialistRepublicOfVietnam,X), out(c2022_nc_World,X)} <= 0, pw.
+pie(r163, A, 1) :- ir(X, A), in(c2022_SocialistRepublicOfVietnam, X), out(c2022_nc_World, X), ix.
+c(r163, A, 1) :- vr(X, A), in(c2022_SocialistRepublicOfVietnam, X), out(c2022_nc_World, X), ix.
+%% ISA
+% c2022_Taiwan isa c2022_RepublicOfChina
+ir(X, r164) :- in(c2022_Taiwan, X), out(c2022_RepublicOfChina, X), pw.
+ir(X, prod(r164,R)) :- in(c2022_Taiwan,X), out3(c2022_RepublicOfChina, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Taiwan,X), in(c2022_RepublicOfChina,X)} <= 0, pw.
+pie(r164, A, 1) :- ir(X, A), in(c2022_Taiwan, X), in(c2022_RepublicOfChina, X), ix.
+c(r164, A, 1) :- vr(X, A), in(c2022_Taiwan, X), in(c2022_RepublicOfChina, X), ix.
+
+% c2022_nc_ROC isa c2022_RepublicOfChina
+ir(X, r165) :- in(c2022_nc_ROC, X), out(c2022_RepublicOfChina, X), pw.
+ir(X, prod(r165,R)) :- in(c2022_nc_ROC,X), out3(c2022_RepublicOfChina, X, R), ix.
+%% coverage
+out3(c2022_RepublicOfChina, X, r166) :- out(c2022_Taiwan, X), out(c2022_nc_ROC, X), ix.
+out(c2022_RepublicOfChina, X) :- out(c2022_Taiwan, X), out(c2022_nc_ROC, X), pw.
+%% sibling disjointness
+% c2022_Taiwan ! c2022_nc_ROC
+ir(X, r167) :- in(c2022_Taiwan, X), in(c2022_nc_ROC, X).
+:- #count {X : vrs(X), in(c2022_Taiwan,X), out(c2022_nc_ROC,X)} <= 0, pw.
+pie(r167, A, 1) :- ir(X, A), in(c2022_Taiwan, X), out(c2022_nc_ROC, X), ix.
+c(r167, A, 1) :- vr(X, A), in(c2022_Taiwan, X), out(c2022_nc_ROC, X), ix.
+%% ISA
+% c2022_MainlandChina isa c2022_PeoplesRepublicOfChina
+ir(X, r168) :- in(c2022_MainlandChina, X), out(c2022_PeoplesRepublicOfChina, X), pw.
+ir(X, prod(r168,R)) :- in(c2022_MainlandChina,X), out3(c2022_PeoplesRepublicOfChina, X, R), ix.
+:- #count {X : vrs(X), in(c2022_MainlandChina,X), in(c2022_PeoplesRepublicOfChina,X)} <= 0, pw.
+pie(r168, A, 1) :- ir(X, A), in(c2022_MainlandChina, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+c(r168, A, 1) :- vr(X, A), in(c2022_MainlandChina, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+
+% c2022_HongKong isa c2022_PeoplesRepublicOfChina
+ir(X, r169) :- in(c2022_HongKong, X), out(c2022_PeoplesRepublicOfChina, X), pw.
+ir(X, prod(r169,R)) :- in(c2022_HongKong,X), out3(c2022_PeoplesRepublicOfChina, X, R), ix.
+:- #count {X : vrs(X), in(c2022_HongKong,X), in(c2022_PeoplesRepublicOfChina,X)} <= 0, pw.
+pie(r169, A, 1) :- ir(X, A), in(c2022_HongKong, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+c(r169, A, 1) :- vr(X, A), in(c2022_HongKong, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+
+% c2022_Macau isa c2022_PeoplesRepublicOfChina
+ir(X, r170) :- in(c2022_Macau, X), out(c2022_PeoplesRepublicOfChina, X), pw.
+ir(X, prod(r170,R)) :- in(c2022_Macau,X), out3(c2022_PeoplesRepublicOfChina, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Macau,X), in(c2022_PeoplesRepublicOfChina,X)} <= 0, pw.
+pie(r170, A, 1) :- ir(X, A), in(c2022_Macau, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+c(r170, A, 1) :- vr(X, A), in(c2022_Macau, X), in(c2022_PeoplesRepublicOfChina, X), ix.
+
+% c2022_nc_PRC isa c2022_PeoplesRepublicOfChina
+ir(X, r171) :- in(c2022_nc_PRC, X), out(c2022_PeoplesRepublicOfChina, X), pw.
+ir(X, prod(r171,R)) :- in(c2022_nc_PRC,X), out3(c2022_PeoplesRepublicOfChina, X, R), ix.
+%% coverage
+out3(c2022_PeoplesRepublicOfChina, X, r172) :- out(c2022_MainlandChina, X), out(c2022_HongKong, X), out(c2022_Macau, X), out(c2022_nc_PRC, X), ix.
+out(c2022_PeoplesRepublicOfChina, X) :- out(c2022_MainlandChina, X), out(c2022_HongKong, X), out(c2022_Macau, X), out(c2022_nc_PRC, X), pw.
+%% sibling disjointness
+% c2022_MainlandChina ! c2022_HongKong
+ir(X, r173) :- in(c2022_MainlandChina, X), in(c2022_HongKong, X).
+:- #count {X : vrs(X), in(c2022_MainlandChina,X), out(c2022_HongKong,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_MainlandChina,X), in(c2022_HongKong,X)} <= 0, pw.
+pie(r173, A, 1) :- ir(X, A), in(c2022_MainlandChina, X), out(c2022_HongKong, X), ix.
+c(r173, A, 1) :- vr(X, A), in(c2022_MainlandChina, X), out(c2022_HongKong, X), ix.
+pie(r173, A, 2) :- ir(X, A), out(c2022_MainlandChina, X), in(c2022_HongKong, X), ix.
+c(r173, A, 2) :- vr(X, A), out(c2022_MainlandChina, X), in(c2022_HongKong, X), ix.
+
+% c2022_MainlandChina ! c2022_Macau
+ir(X, r174) :- in(c2022_MainlandChina, X), in(c2022_Macau, X).
+:- #count {X : vrs(X), in(c2022_MainlandChina,X), out(c2022_Macau,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_MainlandChina,X), in(c2022_Macau,X)} <= 0, pw.
+pie(r174, A, 1) :- ir(X, A), in(c2022_MainlandChina, X), out(c2022_Macau, X), ix.
+c(r174, A, 1) :- vr(X, A), in(c2022_MainlandChina, X), out(c2022_Macau, X), ix.
+pie(r174, A, 2) :- ir(X, A), out(c2022_MainlandChina, X), in(c2022_Macau, X), ix.
+c(r174, A, 2) :- vr(X, A), out(c2022_MainlandChina, X), in(c2022_Macau, X), ix.
+
+% c2022_MainlandChina ! c2022_nc_PRC
+ir(X, r175) :- in(c2022_MainlandChina, X), in(c2022_nc_PRC, X).
+:- #count {X : vrs(X), in(c2022_MainlandChina,X), out(c2022_nc_PRC,X)} <= 0, pw.
+pie(r175, A, 1) :- ir(X, A), in(c2022_MainlandChina, X), out(c2022_nc_PRC, X), ix.
+c(r175, A, 1) :- vr(X, A), in(c2022_MainlandChina, X), out(c2022_nc_PRC, X), ix.
+% c2022_HongKong ! c2022_Macau
+ir(X, r176) :- in(c2022_HongKong, X), in(c2022_Macau, X).
+:- #count {X : vrs(X), in(c2022_HongKong,X), out(c2022_Macau,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_HongKong,X), in(c2022_Macau,X)} <= 0, pw.
+pie(r176, A, 1) :- ir(X, A), in(c2022_HongKong, X), out(c2022_Macau, X), ix.
+c(r176, A, 1) :- vr(X, A), in(c2022_HongKong, X), out(c2022_Macau, X), ix.
+pie(r176, A, 2) :- ir(X, A), out(c2022_HongKong, X), in(c2022_Macau, X), ix.
+c(r176, A, 2) :- vr(X, A), out(c2022_HongKong, X), in(c2022_Macau, X), ix.
+
+% c2022_HongKong ! c2022_nc_PRC
+ir(X, r177) :- in(c2022_HongKong, X), in(c2022_nc_PRC, X).
+:- #count {X : vrs(X), in(c2022_HongKong,X), out(c2022_nc_PRC,X)} <= 0, pw.
+pie(r177, A, 1) :- ir(X, A), in(c2022_HongKong, X), out(c2022_nc_PRC, X), ix.
+c(r177, A, 1) :- vr(X, A), in(c2022_HongKong, X), out(c2022_nc_PRC, X), ix.
+% c2022_Macau ! c2022_nc_PRC
+ir(X, r178) :- in(c2022_Macau, X), in(c2022_nc_PRC, X).
+:- #count {X : vrs(X), in(c2022_Macau,X), out(c2022_nc_PRC,X)} <= 0, pw.
+pie(r178, A, 1) :- ir(X, A), in(c2022_Macau, X), out(c2022_nc_PRC, X), ix.
+c(r178, A, 1) :- vr(X, A), in(c2022_Macau, X), out(c2022_nc_PRC, X), ix.
+%% ISA
+% c2022_Japan isa c2022_NihonKoku
+ir(X, r179) :- in(c2022_Japan, X), out(c2022_NihonKoku, X), pw.
+ir(X, prod(r179,R)) :- in(c2022_Japan,X), out3(c2022_NihonKoku, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Japan,X), in(c2022_NihonKoku,X)} <= 0, pw.
+pie(r179, A, 1) :- ir(X, A), in(c2022_Japan, X), in(c2022_NihonKoku, X), ix.
+c(r179, A, 1) :- vr(X, A), in(c2022_Japan, X), in(c2022_NihonKoku, X), ix.
+
+% c2022_nc_Nihon isa c2022_NihonKoku
+ir(X, r180) :- in(c2022_nc_Nihon, X), out(c2022_NihonKoku, X), pw.
+ir(X, prod(r180,R)) :- in(c2022_nc_Nihon,X), out3(c2022_NihonKoku, X, R), ix.
+%% coverage
+out3(c2022_NihonKoku, X, r181) :- out(c2022_Japan, X), out(c2022_nc_Nihon, X), ix.
+out(c2022_NihonKoku, X) :- out(c2022_Japan, X), out(c2022_nc_Nihon, X), pw.
+%% sibling disjointness
+% c2022_Japan ! c2022_nc_Nihon
+ir(X, r182) :- in(c2022_Japan, X), in(c2022_nc_Nihon, X).
+:- #count {X : vrs(X), in(c2022_Japan,X), out(c2022_nc_Nihon,X)} <= 0, pw.
+pie(r182, A, 1) :- ir(X, A), in(c2022_Japan, X), out(c2022_nc_Nihon, X), ix.
+c(r182, A, 1) :- vr(X, A), in(c2022_Japan, X), out(c2022_nc_Nihon, X), ix.
+%% ISA
+% c2022_NorthKorea isa c2022_DemocraticPeoplesRepublicOfKorea
+ir(X, r183) :- in(c2022_NorthKorea, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), pw.
+ir(X, prod(r183,R)) :- in(c2022_NorthKorea,X), out3(c2022_DemocraticPeoplesRepublicOfKorea, X, R), ix.
+:- #count {X : vrs(X), in(c2022_NorthKorea,X), in(c2022_DemocraticPeoplesRepublicOfKorea,X)} <= 0, pw.
+pie(r183, A, 1) :- ir(X, A), in(c2022_NorthKorea, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+c(r183, A, 1) :- vr(X, A), in(c2022_NorthKorea, X), in(c2022_DemocraticPeoplesRepublicOfKorea, X), ix.
+
+% c2022_nc_DPRK isa c2022_DemocraticPeoplesRepublicOfKorea
+ir(X, r184) :- in(c2022_nc_DPRK, X), out(c2022_DemocraticPeoplesRepublicOfKorea, X), pw.
+ir(X, prod(r184,R)) :- in(c2022_nc_DPRK,X), out3(c2022_DemocraticPeoplesRepublicOfKorea, X, R), ix.
+%% coverage
+out3(c2022_DemocraticPeoplesRepublicOfKorea, X, r185) :- out(c2022_NorthKorea, X), out(c2022_nc_DPRK, X), ix.
+out(c2022_DemocraticPeoplesRepublicOfKorea, X) :- out(c2022_NorthKorea, X), out(c2022_nc_DPRK, X), pw.
+%% sibling disjointness
+% c2022_NorthKorea ! c2022_nc_DPRK
+ir(X, r186) :- in(c2022_NorthKorea, X), in(c2022_nc_DPRK, X).
+:- #count {X : vrs(X), in(c2022_NorthKorea,X), out(c2022_nc_DPRK,X)} <= 0, pw.
+pie(r186, A, 1) :- ir(X, A), in(c2022_NorthKorea, X), out(c2022_nc_DPRK, X), ix.
+c(r186, A, 1) :- vr(X, A), in(c2022_NorthKorea, X), out(c2022_nc_DPRK, X), ix.
+%% ISA
+% c2022_SouthKorea isa c2022_RepublicOfKorea
+ir(X, r187) :- in(c2022_SouthKorea, X), out(c2022_RepublicOfKorea, X), pw.
+ir(X, prod(r187,R)) :- in(c2022_SouthKorea,X), out3(c2022_RepublicOfKorea, X, R), ix.
+:- #count {X : vrs(X), in(c2022_SouthKorea,X), in(c2022_RepublicOfKorea,X)} <= 0, pw.
+pie(r187, A, 1) :- ir(X, A), in(c2022_SouthKorea, X), in(c2022_RepublicOfKorea, X), ix.
+c(r187, A, 1) :- vr(X, A), in(c2022_SouthKorea, X), in(c2022_RepublicOfKorea, X), ix.
+
+% c2022_nc_ROK isa c2022_RepublicOfKorea
+ir(X, r188) :- in(c2022_nc_ROK, X), out(c2022_RepublicOfKorea, X), pw.
+ir(X, prod(r188,R)) :- in(c2022_nc_ROK,X), out3(c2022_RepublicOfKorea, X, R), ix.
+%% coverage
+out3(c2022_RepublicOfKorea, X, r189) :- out(c2022_SouthKorea, X), out(c2022_nc_ROK, X), ix.
+out(c2022_RepublicOfKorea, X) :- out(c2022_SouthKorea, X), out(c2022_nc_ROK, X), pw.
+%% sibling disjointness
+% c2022_SouthKorea ! c2022_nc_ROK
+ir(X, r190) :- in(c2022_SouthKorea, X), in(c2022_nc_ROK, X).
+:- #count {X : vrs(X), in(c2022_SouthKorea,X), out(c2022_nc_ROK,X)} <= 0, pw.
+pie(r190, A, 1) :- ir(X, A), in(c2022_SouthKorea, X), out(c2022_nc_ROK, X), ix.
+c(r190, A, 1) :- vr(X, A), in(c2022_SouthKorea, X), out(c2022_nc_ROK, X), ix.
+%% ISA
+% c2022_Cambodia isa c2022_KingdomOfCambodia
+ir(X, r191) :- in(c2022_Cambodia, X), out(c2022_KingdomOfCambodia, X), pw.
+ir(X, prod(r191,R)) :- in(c2022_Cambodia,X), out3(c2022_KingdomOfCambodia, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Cambodia,X), in(c2022_KingdomOfCambodia,X)} <= 0, pw.
+pie(r191, A, 1) :- ir(X, A), in(c2022_Cambodia, X), in(c2022_KingdomOfCambodia, X), ix.
+c(r191, A, 1) :- vr(X, A), in(c2022_Cambodia, X), in(c2022_KingdomOfCambodia, X), ix.
+
+% c2022_nc_KOC isa c2022_KingdomOfCambodia
+ir(X, r192) :- in(c2022_nc_KOC, X), out(c2022_KingdomOfCambodia, X), pw.
+ir(X, prod(r192,R)) :- in(c2022_nc_KOC,X), out3(c2022_KingdomOfCambodia, X, R), ix.
+%% coverage
+out3(c2022_KingdomOfCambodia, X, r193) :- out(c2022_Cambodia, X), out(c2022_nc_KOC, X), ix.
+out(c2022_KingdomOfCambodia, X) :- out(c2022_Cambodia, X), out(c2022_nc_KOC, X), pw.
+%% sibling disjointness
+% c2022_Cambodia ! c2022_nc_KOC
+ir(X, r194) :- in(c2022_Cambodia, X), in(c2022_nc_KOC, X).
+:- #count {X : vrs(X), in(c2022_Cambodia,X), out(c2022_nc_KOC,X)} <= 0, pw.
+pie(r194, A, 1) :- ir(X, A), in(c2022_Cambodia, X), out(c2022_nc_KOC, X), ix.
+c(r194, A, 1) :- vr(X, A), in(c2022_Cambodia, X), out(c2022_nc_KOC, X), ix.
+%% ISA
+% c2022_Philippines isa c2022_RepublicOfThePhilippines
+ir(X, r195) :- in(c2022_Philippines, X), out(c2022_RepublicOfThePhilippines, X), pw.
+ir(X, prod(r195,R)) :- in(c2022_Philippines,X), out3(c2022_RepublicOfThePhilippines, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Philippines,X), in(c2022_RepublicOfThePhilippines,X)} <= 0, pw.
+pie(r195, A, 1) :- ir(X, A), in(c2022_Philippines, X), in(c2022_RepublicOfThePhilippines, X), ix.
+c(r195, A, 1) :- vr(X, A), in(c2022_Philippines, X), in(c2022_RepublicOfThePhilippines, X), ix.
+
+% c2022_nc_ROP isa c2022_RepublicOfThePhilippines
+ir(X, r196) :- in(c2022_nc_ROP, X), out(c2022_RepublicOfThePhilippines, X), pw.
+ir(X, prod(r196,R)) :- in(c2022_nc_ROP,X), out3(c2022_RepublicOfThePhilippines, X, R), ix.
+%% coverage
+out3(c2022_RepublicOfThePhilippines, X, r197) :- out(c2022_Philippines, X), out(c2022_nc_ROP, X), ix.
+out(c2022_RepublicOfThePhilippines, X) :- out(c2022_Philippines, X), out(c2022_nc_ROP, X), pw.
+%% sibling disjointness
+% c2022_Philippines ! c2022_nc_ROP
+ir(X, r198) :- in(c2022_Philippines, X), in(c2022_nc_ROP, X).
+:- #count {X : vrs(X), in(c2022_Philippines,X), out(c2022_nc_ROP,X)} <= 0, pw.
+pie(r198, A, 1) :- ir(X, A), in(c2022_Philippines, X), out(c2022_nc_ROP, X), ix.
+c(r198, A, 1) :- vr(X, A), in(c2022_Philippines, X), out(c2022_nc_ROP, X), ix.
+%% ISA
+% c2022_Thailand isa c2022_KingdomOfThailand
+ir(X, r199) :- in(c2022_Thailand, X), out(c2022_KingdomOfThailand, X), pw.
+ir(X, prod(r199,R)) :- in(c2022_Thailand,X), out3(c2022_KingdomOfThailand, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Thailand,X), in(c2022_KingdomOfThailand,X)} <= 0, pw.
+pie(r199, A, 1) :- ir(X, A), in(c2022_Thailand, X), in(c2022_KingdomOfThailand, X), ix.
+c(r199, A, 1) :- vr(X, A), in(c2022_Thailand, X), in(c2022_KingdomOfThailand, X), ix.
+
+% c2022_nc_KOT isa c2022_KingdomOfThailand
+ir(X, r200) :- in(c2022_nc_KOT, X), out(c2022_KingdomOfThailand, X), pw.
+ir(X, prod(r200,R)) :- in(c2022_nc_KOT,X), out3(c2022_KingdomOfThailand, X, R), ix.
+%% coverage
+out3(c2022_KingdomOfThailand, X, r201) :- out(c2022_Thailand, X), out(c2022_nc_KOT, X), ix.
+out(c2022_KingdomOfThailand, X) :- out(c2022_Thailand, X), out(c2022_nc_KOT, X), pw.
+%% sibling disjointness
+% c2022_Thailand ! c2022_nc_KOT
+ir(X, r202) :- in(c2022_Thailand, X), in(c2022_nc_KOT, X).
+:- #count {X : vrs(X), in(c2022_Thailand,X), out(c2022_nc_KOT,X)} <= 0, pw.
+pie(r202, A, 1) :- ir(X, A), in(c2022_Thailand, X), out(c2022_nc_KOT, X), ix.
+c(r202, A, 1) :- vr(X, A), in(c2022_Thailand, X), out(c2022_nc_KOT, X), ix.
+%% ISA
+% c2022_Vietnam isa c2022_SocialistRepublicOfVietnam
+ir(X, r203) :- in(c2022_Vietnam, X), out(c2022_SocialistRepublicOfVietnam, X), pw.
+ir(X, prod(r203,R)) :- in(c2022_Vietnam,X), out3(c2022_SocialistRepublicOfVietnam, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), in(c2022_SocialistRepublicOfVietnam,X)} <= 0, pw.
+pie(r203, A, 1) :- ir(X, A), in(c2022_Vietnam, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+c(r203, A, 1) :- vr(X, A), in(c2022_Vietnam, X), in(c2022_SocialistRepublicOfVietnam, X), ix.
+
+% c2022_nc_VN isa c2022_SocialistRepublicOfVietnam
+ir(X, r204) :- in(c2022_nc_VN, X), out(c2022_SocialistRepublicOfVietnam, X), pw.
+ir(X, prod(r204,R)) :- in(c2022_nc_VN,X), out3(c2022_SocialistRepublicOfVietnam, X, R), ix.
+%% coverage
+out3(c2022_SocialistRepublicOfVietnam, X, r205) :- out(c2022_Vietnam, X), out(c2022_nc_VN, X), ix.
+out(c2022_SocialistRepublicOfVietnam, X) :- out(c2022_Vietnam, X), out(c2022_nc_VN, X), pw.
+%% sibling disjointness
+% c2022_Vietnam ! c2022_nc_VN
+ir(X, r206) :- in(c2022_Vietnam, X), in(c2022_nc_VN, X).
+:- #count {X : vrs(X), in(c2022_Vietnam,X), out(c2022_nc_VN,X)} <= 0, pw.
+pie(r206, A, 1) :- ir(X, A), in(c2022_Vietnam, X), out(c2022_nc_VN, X), ix.
+c(r206, A, 1) :- vr(X, A), in(c2022_Vietnam, X), out(c2022_nc_VN, X), ix.
+ncf(c2022_nc_World).
+ncf(c2022_nc_ROC).
+ncf(c2022_nc_PRC).
+ncf(c2022_nc_Nihon).
+ncf(c2022_nc_DPRK).
+ncf(c2022_nc_ROK).
+ncf(c2022_nc_KOC).
+ncf(c2022_nc_ROP).
+ncf(c2022_nc_KOT).
+ncf(c2022_nc_VN).
+
+%%% Articulations
+% 2022.Taiwan equals 1900.Taiwan
+ir(X, r207) :- out(c2022_Taiwan,X), in(c1900_Taiwan,X).
+ir(X, r207) :- in(c2022_Taiwan,X), out(c1900_Taiwan,X).
+ir(X, prod(r207,R)) :- out3(c2022_Taiwan, X, R), in(c1900_Taiwan,X), ix.
+ir(X, prod(r207,R)) :- in(c2022_Taiwan,X), out3(c1900_Taiwan, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Taiwan,X), in(c1900_Taiwan,X)} <= 0, pw.
+pie(r207, A, 1) :- ir(X, A), in(c2022_Taiwan, X), in(c1900_Taiwan, X), ix.
+c(r207, A, 1) :- vr(X, A), in(c2022_Taiwan, X), in(c1900_Taiwan, X), ix.
+
+
+% 2022.MainlandChina equals 1900.MainlandChina
+ir(X, r208) :- out(c2022_MainlandChina,X), in(c1900_MainlandChina,X).
+ir(X, r208) :- in(c2022_MainlandChina,X), out(c1900_MainlandChina,X).
+ir(X, prod(r208,R)) :- out3(c2022_MainlandChina, X, R), in(c1900_MainlandChina,X), ix.
+ir(X, prod(r208,R)) :- in(c2022_MainlandChina,X), out3(c1900_MainlandChina, X, R), ix.
+:- #count {X : vrs(X), in(c2022_MainlandChina,X), in(c1900_MainlandChina,X)} <= 0, pw.
+pie(r208, A, 1) :- ir(X, A), in(c2022_MainlandChina, X), in(c1900_MainlandChina, X), ix.
+c(r208, A, 1) :- vr(X, A), in(c2022_MainlandChina, X), in(c1900_MainlandChina, X), ix.
+
+
+% 2022.HongKong equals 1900.HongKong
+ir(X, r209) :- out(c2022_HongKong,X), in(c1900_HongKong,X).
+ir(X, r209) :- in(c2022_HongKong,X), out(c1900_HongKong,X).
+ir(X, prod(r209,R)) :- out3(c2022_HongKong, X, R), in(c1900_HongKong,X), ix.
+ir(X, prod(r209,R)) :- in(c2022_HongKong,X), out3(c1900_HongKong, X, R), ix.
+:- #count {X : vrs(X), in(c2022_HongKong,X), in(c1900_HongKong,X)} <= 0, pw.
+pie(r209, A, 1) :- ir(X, A), in(c2022_HongKong, X), in(c1900_HongKong, X), ix.
+c(r209, A, 1) :- vr(X, A), in(c2022_HongKong, X), in(c1900_HongKong, X), ix.
+
+
+% 2022.Macau equals 1900.Macau
+ir(X, r210) :- out(c2022_Macau,X), in(c1900_Macau,X).
+ir(X, r210) :- in(c2022_Macau,X), out(c1900_Macau,X).
+ir(X, prod(r210,R)) :- out3(c2022_Macau, X, R), in(c1900_Macau,X), ix.
+ir(X, prod(r210,R)) :- in(c2022_Macau,X), out3(c1900_Macau, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Macau,X), in(c1900_Macau,X)} <= 0, pw.
+pie(r210, A, 1) :- ir(X, A), in(c2022_Macau, X), in(c1900_Macau, X), ix.
+c(r210, A, 1) :- vr(X, A), in(c2022_Macau, X), in(c1900_Macau, X), ix.
+
+
+% 2022.Japan equals 1900.Japan
+ir(X, r211) :- out(c2022_Japan,X), in(c1900_Japan,X).
+ir(X, r211) :- in(c2022_Japan,X), out(c1900_Japan,X).
+ir(X, prod(r211,R)) :- out3(c2022_Japan, X, R), in(c1900_Japan,X), ix.
+ir(X, prod(r211,R)) :- in(c2022_Japan,X), out3(c1900_Japan, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Japan,X), in(c1900_Japan,X)} <= 0, pw.
+pie(r211, A, 1) :- ir(X, A), in(c2022_Japan, X), in(c1900_Japan, X), ix.
+c(r211, A, 1) :- vr(X, A), in(c2022_Japan, X), in(c1900_Japan, X), ix.
+
+
+% 2022.NorthKorea equals 1900.NorthKorea
+ir(X, r212) :- out(c2022_NorthKorea,X), in(c1900_NorthKorea,X).
+ir(X, r212) :- in(c2022_NorthKorea,X), out(c1900_NorthKorea,X).
+ir(X, prod(r212,R)) :- out3(c2022_NorthKorea, X, R), in(c1900_NorthKorea,X), ix.
+ir(X, prod(r212,R)) :- in(c2022_NorthKorea,X), out3(c1900_NorthKorea, X, R), ix.
+:- #count {X : vrs(X), in(c2022_NorthKorea,X), in(c1900_NorthKorea,X)} <= 0, pw.
+pie(r212, A, 1) :- ir(X, A), in(c2022_NorthKorea, X), in(c1900_NorthKorea, X), ix.
+c(r212, A, 1) :- vr(X, A), in(c2022_NorthKorea, X), in(c1900_NorthKorea, X), ix.
+
+
+% 2022.SouthKorea equals 1900.SouthKorea
+ir(X, r213) :- out(c2022_SouthKorea,X), in(c1900_SouthKorea,X).
+ir(X, r213) :- in(c2022_SouthKorea,X), out(c1900_SouthKorea,X).
+ir(X, prod(r213,R)) :- out3(c2022_SouthKorea, X, R), in(c1900_SouthKorea,X), ix.
+ir(X, prod(r213,R)) :- in(c2022_SouthKorea,X), out3(c1900_SouthKorea, X, R), ix.
+:- #count {X : vrs(X), in(c2022_SouthKorea,X), in(c1900_SouthKorea,X)} <= 0, pw.
+pie(r213, A, 1) :- ir(X, A), in(c2022_SouthKorea, X), in(c1900_SouthKorea, X), ix.
+c(r213, A, 1) :- vr(X, A), in(c2022_SouthKorea, X), in(c1900_SouthKorea, X), ix.
+
+
+% 2022.Cambodia equals 1900.Cambodia
+ir(X, r214) :- out(c2022_Cambodia,X), in(c1900_Cambodia,X).
+ir(X, r214) :- in(c2022_Cambodia,X), out(c1900_Cambodia,X).
+ir(X, prod(r214,R)) :- out3(c2022_Cambodia, X, R), in(c1900_Cambodia,X), ix.
+ir(X, prod(r214,R)) :- in(c2022_Cambodia,X), out3(c1900_Cambodia, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Cambodia,X), in(c1900_Cambodia,X)} <= 0, pw.
+pie(r214, A, 1) :- ir(X, A), in(c2022_Cambodia, X), in(c1900_Cambodia, X), ix.
+c(r214, A, 1) :- vr(X, A), in(c2022_Cambodia, X), in(c1900_Cambodia, X), ix.
+
+
+% 2022.Philippines equals 1900.Philippines
+ir(X, r215) :- out(c2022_Philippines,X), in(c1900_Philippines,X).
+ir(X, r215) :- in(c2022_Philippines,X), out(c1900_Philippines,X).
+ir(X, prod(r215,R)) :- out3(c2022_Philippines, X, R), in(c1900_Philippines,X), ix.
+ir(X, prod(r215,R)) :- in(c2022_Philippines,X), out3(c1900_Philippines, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Philippines,X), in(c1900_Philippines,X)} <= 0, pw.
+pie(r215, A, 1) :- ir(X, A), in(c2022_Philippines, X), in(c1900_Philippines, X), ix.
+c(r215, A, 1) :- vr(X, A), in(c2022_Philippines, X), in(c1900_Philippines, X), ix.
+
+
+% 2022.Thailand equals 1900.Thailand
+ir(X, r216) :- out(c2022_Thailand,X), in(c1900_Thailand,X).
+ir(X, r216) :- in(c2022_Thailand,X), out(c1900_Thailand,X).
+ir(X, prod(r216,R)) :- out3(c2022_Thailand, X, R), in(c1900_Thailand,X), ix.
+ir(X, prod(r216,R)) :- in(c2022_Thailand,X), out3(c1900_Thailand, X, R), ix.
+:- #count {X : vrs(X), in(c2022_Thailand,X), in(c1900_Thailand,X)} <= 0, pw.
+pie(r216, A, 1) :- ir(X, A), in(c2022_Thailand, X), in(c1900_Thailand, X), ix.
+c(r216, A, 1) :- vr(X, A), in(c2022_Thailand, X), in(c1900_Thailand, X), ix.
+
+
+% 2022.Vietnam includes 1900.NorthVietnam
+ir(X, r217) :- out(c2022_Vietnam,X), in(c1900_NorthVietnam,X), pw.
+ir(X, prod(r217,R)) :- out3(c2022_Vietnam, X, R), in(c1900_NorthVietnam,X), ix.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), in(c1900_NorthVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), out(c1900_NorthVietnam,X)} <= 0, pw.
+pie(r217, A, 1) :- ir(X, A), in(c2022_Vietnam, X), out(c1900_NorthVietnam, X), ix.
+c(r217, A, 1) :- vr(X, A), in(c2022_Vietnam, X), out(c1900_NorthVietnam, X), ix.
+
+pie(r217, A, 2) :- ir(X, A), in(c2022_Vietnam, X), in(c1900_NorthVietnam, X), ix.
+c(r217, A, 2) :- vr(X, A), in(c2022_Vietnam, X), in(c1900_NorthVietnam, X), ix.
+
+
+% 2022.Vietnam includes 1900.CentralVietnam
+ir(X, r218) :- out(c2022_Vietnam,X), in(c1900_CentralVietnam,X), pw.
+ir(X, prod(r218,R)) :- out3(c2022_Vietnam, X, R), in(c1900_CentralVietnam,X), ix.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), in(c1900_CentralVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), out(c1900_CentralVietnam,X)} <= 0, pw.
+pie(r218, A, 1) :- ir(X, A), in(c2022_Vietnam, X), out(c1900_CentralVietnam, X), ix.
+c(r218, A, 1) :- vr(X, A), in(c2022_Vietnam, X), out(c1900_CentralVietnam, X), ix.
+
+pie(r218, A, 2) :- ir(X, A), in(c2022_Vietnam, X), in(c1900_CentralVietnam, X), ix.
+c(r218, A, 2) :- vr(X, A), in(c2022_Vietnam, X), in(c1900_CentralVietnam, X), ix.
+
+
+% 2022.Vietnam includes 1900.SouthVietnam
+ir(X, r219) :- out(c2022_Vietnam,X), in(c1900_SouthVietnam,X), pw.
+ir(X, prod(r219,R)) :- out3(c2022_Vietnam, X, R), in(c1900_SouthVietnam,X), ix.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), in(c1900_SouthVietnam,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_Vietnam,X), out(c1900_SouthVietnam,X)} <= 0, pw.
+pie(r219, A, 1) :- ir(X, A), in(c2022_Vietnam, X), out(c1900_SouthVietnam, X), ix.
+c(r219, A, 1) :- vr(X, A), in(c2022_Vietnam, X), out(c1900_SouthVietnam, X), ix.
+
+pie(r219, A, 2) :- ir(X, A), in(c2022_Vietnam, X), in(c1900_SouthVietnam, X), ix.
+c(r219, A, 2) :- vr(X, A), in(c2022_Vietnam, X), in(c1900_SouthVietnam, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_Qing
+ir(X, r220) :- out(c2022_nc_World,X), in(c1900_nc_Qing,X), pw.
+ir(X, prod(r220,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_Qing,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_Qing,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_Qing,X)} <= 0, pw.
+pie(r220, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_Qing, X), ix.
+c(r220, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_Qing, X), ix.
+
+pie(r220, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_Qing, X), ix.
+c(r220, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_Qing, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_JP
+ir(X, r221) :- out(c2022_nc_World,X), in(c1900_nc_JP,X), pw.
+ir(X, prod(r221,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_JP,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_JP,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_JP,X)} <= 0, pw.
+pie(r221, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_JP, X), ix.
+c(r221, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_JP, X), ix.
+
+pie(r221, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_JP, X), ix.
+c(r221, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_JP, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_RKOS
+ir(X, r222) :- out(c2022_nc_World,X), in(c1900_nc_RKOS,X), pw.
+ir(X, prod(r222,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_RKOS,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_RKOS,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_RKOS,X)} <= 0, pw.
+pie(r222, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_RKOS, X), ix.
+c(r222, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_RKOS, X), ix.
+
+pie(r222, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_RKOS, X), ix.
+c(r222, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_RKOS, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_UK
+ir(X, r223) :- out(c2022_nc_World,X), in(c1900_nc_UK,X), pw.
+ir(X, prod(r223,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_UK,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_UK,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_UK,X)} <= 0, pw.
+pie(r223, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_UK, X), ix.
+c(r223, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_UK, X), ix.
+
+pie(r223, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_UK, X), ix.
+c(r223, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_UK, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_Portugal
+ir(X, r224) :- out(c2022_nc_World,X), in(c1900_nc_Portugal,X), pw.
+ir(X, prod(r224,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_Portugal,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_Portugal,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_Portugal,X)} <= 0, pw.
+pie(r224, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_Portugal, X), ix.
+c(r224, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_Portugal, X), ix.
+
+pie(r224, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_Portugal, X), ix.
+c(r224, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_Portugal, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_FrenchIndochina
+ir(X, r225) :- out(c2022_nc_World,X), in(c1900_nc_FrenchIndochina,X), pw.
+ir(X, prod(r225,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_FrenchIndochina,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_FrenchIndochina,X)} <= 0, pw.
+pie(r225, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_FrenchIndochina, X), ix.
+c(r225, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_FrenchIndochina, X), ix.
+
+pie(r225, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_FrenchIndochina, X), ix.
+c(r225, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_FrenchIndochina, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_US
+ir(X, r226) :- out(c2022_nc_World,X), in(c1900_nc_US,X), pw.
+ir(X, prod(r226,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_US,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_US,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_US,X)} <= 0, pw.
+pie(r226, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_US, X), ix.
+c(r226, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_US, X), ix.
+
+pie(r226, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_US, X), ix.
+c(r226, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_US, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_KR
+ir(X, r227) :- out(c2022_nc_World,X), in(c1900_nc_KR,X), pw.
+ir(X, prod(r227,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_KR,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_KR,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_KR,X)} <= 0, pw.
+pie(r227, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_KR, X), ix.
+c(r227, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_KR, X), ix.
+
+pie(r227, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_KR, X), ix.
+c(r227, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_KR, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_Tokin
+ir(X, r228) :- out(c2022_nc_World,X), in(c1900_nc_Tokin,X), pw.
+ir(X, prod(r228,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_Tokin,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_Tokin,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_Tokin,X)} <= 0, pw.
+pie(r228, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_Tokin, X), ix.
+c(r228, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_Tokin, X), ix.
+
+pie(r228, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_Tokin, X), ix.
+c(r228, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_Tokin, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_Annam
+ir(X, r229) :- out(c2022_nc_World,X), in(c1900_nc_Annam,X), pw.
+ir(X, prod(r229,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_Annam,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_Annam,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_Annam,X)} <= 0, pw.
+pie(r229, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_Annam, X), ix.
+c(r229, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_Annam, X), ix.
+
+pie(r229, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_Annam, X), ix.
+c(r229, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_Annam, X), ix.
+
+
+% 2022.nc_World includes 1900.nc_Cochin
+ir(X, r230) :- out(c2022_nc_World,X), in(c1900_nc_Cochin,X), pw.
+ir(X, prod(r230,R)) :- out3(c2022_nc_World, X, R), in(c1900_nc_Cochin,X), ix.
+:- #count {X : vrs(X), in(c2022_nc_World,X), in(c1900_nc_Cochin,X)} <= 0, pw.
+:- #count {X : vrs(X), in(c2022_nc_World,X), out(c1900_nc_Cochin,X)} <= 0, pw.
+pie(r230, A, 1) :- ir(X, A), in(c2022_nc_World, X), out(c1900_nc_Cochin, X), ix.
+c(r230, A, 1) :- vr(X, A), in(c2022_nc_World, X), out(c1900_nc_Cochin, X), ix.
+
+pie(r230, A, 2) :- ir(X, A), in(c2022_nc_World, X), in(c1900_nc_Cochin, X), ix.
+c(r230, A, 2) :- vr(X, A), in(c2022_nc_World, X), in(c1900_nc_Cochin, X), ix.
+
+
+% 2022.nc_ROC is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_ROC,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_ROC,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r231) :- in(c2022_nc_ROC,X), out(c1900_nc_World,X), pw.
+pie(r231, A, 1) :- ir(X, A), out(c2022_nc_ROC, X), in(c1900_nc_World, X), ix.
+c(r231, A, 1) :- vr(X, A), out(c2022_nc_ROC, X), in(c1900_nc_World, X), ix.
+
+pie(r231, A, 2) :- ir(X, A), in(c2022_nc_ROC, X), in(c1900_nc_World, X), ix.
+c(r231, A, 2) :- vr(X, A), in(c2022_nc_ROC, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_PRC is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_PRC,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_PRC,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r232) :- in(c2022_nc_PRC,X), out(c1900_nc_World,X), pw.
+pie(r232, A, 1) :- ir(X, A), out(c2022_nc_PRC, X), in(c1900_nc_World, X), ix.
+c(r232, A, 1) :- vr(X, A), out(c2022_nc_PRC, X), in(c1900_nc_World, X), ix.
+
+pie(r232, A, 2) :- ir(X, A), in(c2022_nc_PRC, X), in(c1900_nc_World, X), ix.
+c(r232, A, 2) :- vr(X, A), in(c2022_nc_PRC, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_Nihon is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_Nihon,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_Nihon,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r233) :- in(c2022_nc_Nihon,X), out(c1900_nc_World,X), pw.
+pie(r233, A, 1) :- ir(X, A), out(c2022_nc_Nihon, X), in(c1900_nc_World, X), ix.
+c(r233, A, 1) :- vr(X, A), out(c2022_nc_Nihon, X), in(c1900_nc_World, X), ix.
+
+pie(r233, A, 2) :- ir(X, A), in(c2022_nc_Nihon, X), in(c1900_nc_World, X), ix.
+c(r233, A, 2) :- vr(X, A), in(c2022_nc_Nihon, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_DPRK is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_DPRK,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_DPRK,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r234) :- in(c2022_nc_DPRK,X), out(c1900_nc_World,X), pw.
+pie(r234, A, 1) :- ir(X, A), out(c2022_nc_DPRK, X), in(c1900_nc_World, X), ix.
+c(r234, A, 1) :- vr(X, A), out(c2022_nc_DPRK, X), in(c1900_nc_World, X), ix.
+
+pie(r234, A, 2) :- ir(X, A), in(c2022_nc_DPRK, X), in(c1900_nc_World, X), ix.
+c(r234, A, 2) :- vr(X, A), in(c2022_nc_DPRK, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_ROK is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_ROK,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_ROK,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r235) :- in(c2022_nc_ROK,X), out(c1900_nc_World,X), pw.
+pie(r235, A, 1) :- ir(X, A), out(c2022_nc_ROK, X), in(c1900_nc_World, X), ix.
+c(r235, A, 1) :- vr(X, A), out(c2022_nc_ROK, X), in(c1900_nc_World, X), ix.
+
+pie(r235, A, 2) :- ir(X, A), in(c2022_nc_ROK, X), in(c1900_nc_World, X), ix.
+c(r235, A, 2) :- vr(X, A), in(c2022_nc_ROK, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_KOC is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_KOC,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_KOC,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r236) :- in(c2022_nc_KOC,X), out(c1900_nc_World,X), pw.
+pie(r236, A, 1) :- ir(X, A), out(c2022_nc_KOC, X), in(c1900_nc_World, X), ix.
+c(r236, A, 1) :- vr(X, A), out(c2022_nc_KOC, X), in(c1900_nc_World, X), ix.
+
+pie(r236, A, 2) :- ir(X, A), in(c2022_nc_KOC, X), in(c1900_nc_World, X), ix.
+c(r236, A, 2) :- vr(X, A), in(c2022_nc_KOC, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_ROP is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_ROP,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_ROP,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r237) :- in(c2022_nc_ROP,X), out(c1900_nc_World,X), pw.
+pie(r237, A, 1) :- ir(X, A), out(c2022_nc_ROP, X), in(c1900_nc_World, X), ix.
+c(r237, A, 1) :- vr(X, A), out(c2022_nc_ROP, X), in(c1900_nc_World, X), ix.
+
+pie(r237, A, 2) :- ir(X, A), in(c2022_nc_ROP, X), in(c1900_nc_World, X), ix.
+c(r237, A, 2) :- vr(X, A), in(c2022_nc_ROP, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_KOT is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_KOT,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_KOT,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r238) :- in(c2022_nc_KOT,X), out(c1900_nc_World,X), pw.
+pie(r238, A, 1) :- ir(X, A), out(c2022_nc_KOT, X), in(c1900_nc_World, X), ix.
+c(r238, A, 1) :- vr(X, A), out(c2022_nc_KOT, X), in(c1900_nc_World, X), ix.
+
+pie(r238, A, 2) :- ir(X, A), in(c2022_nc_KOT, X), in(c1900_nc_World, X), ix.
+c(r238, A, 2) :- vr(X, A), in(c2022_nc_KOT, X), in(c1900_nc_World, X), ix.
+
+
+% 2022.nc_VN is_included_in 1900.nc_World
+:- #count {X : vrs(X), in(c2022_nc_VN,X), in(c1900_nc_World,X)} <= 0, pw.
+:- #count {X : vrs(X), out(c2022_nc_VN,X), in(c1900_nc_World,X)} <= 0, pw.
+ir(X, r239) :- in(c2022_nc_VN,X), out(c1900_nc_World,X), pw.
+pie(r239, A, 1) :- ir(X, A), out(c2022_nc_VN, X), in(c1900_nc_World, X), ix.
+c(r239, A, 1) :- vr(X, A), out(c2022_nc_VN, X), in(c1900_nc_World, X), ix.
+
+pie(r239, A, 2) :- ir(X, A), in(c2022_nc_VN, X), in(c1900_nc_World, X), ix.
+c(r239, A, 2) :- vr(X, A), in(c2022_nc_VN, X), in(c1900_nc_World, X), ix.
+
+
+%%% Decoding now
+:- rel(X, Y, "="), rel(X, Y, "<"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "="), rel(X, Y, ">"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "="), rel(X, Y, "><"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "="), rel(X, Y, "!"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "<"), rel(X, Y, ">"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "<"), rel(X, Y, "><"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "<"), rel(X, Y, "!"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, ">"), rel(X, Y, "><"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, ">"), rel(X, Y, "!"), concept2(X, N1), concept2(Y, N2), pw.
+:- rel(X, Y, "><"), rel(X, Y, "!"), concept2(X, N1), concept2(Y, N2), pw.
+:- not rel(X, Y, "="), not rel(X, Y, "<"), not rel(X, Y, ">"), not rel(X, Y, "><"), not rel(X, Y, "!"), concept2(X, N1), concept2(Y, N2), N1 < N2, not ncf(X), not ncf(Y), pw.
+
+rel(X, Y, "=") :- not hint(X, Y, 0), hint(X, Y, 1), not hint(X, Y, 2), pw.
+rel(X, Y, "<") :- not hint(X, Y, 0), hint(X, Y, 1), hint(X, Y, 2), pw.
+rel(X, Y, ">") :- hint(X, Y, 0), hint(X, Y, 1), not hint(X, Y, 2), pw.
+rel(X, Y, "><") :- hint(X, Y, 0), hint(X, Y, 1), hint(X, Y, 2), pw.
+rel(X, Y, "!") :- hint(X, Y, 0), not hint(X, Y, 1), hint(X, Y, 2), pw.
+
+
+hint(X, Y, 0) :- concept2(X, N1), concept2(Y, N2), N1 < N2, vrs(R), in(X, R), out(Y, R), not ncf(X), not ncf(Y), pw.
+hint(X, Y, 1) :- concept2(X, N1), concept2(Y, N2), N1 < N2, vrs(R), in(X, R), in(Y, R), not ncf(X), not ncf(Y), pw.
+hint(X, Y, 2) :- concept2(X, N1), concept2(Y, N2), N1 < N2, vrs(R), out(X, R), in(Y, R), not ncf(X), not ncf(Y), pw.
+

@@ -1,0 +1,66 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1930
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1930 1930T2
+(World NationalistGovernmentOfROChina UnitedKingdomOfGreatBritainAndNorthernIreland PortugeseRepublic EmpireOfJapan FrenchIndochina InsularGovernmentOfThePhilippineIslands RattanakosinKingdomOfSiam nc_World)
+(NationalistGovernmentOfROChina MainlandChina nc_NGROC)
+(UnitedKingdomOfGreatBritainAndNorthernIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(EmpireOfJapan Japan Taiwan NorthKorea SouthKorea nc_JP)
+(InsularGovernmentOfThePhilippineIslands Philippines nc_IGOP)
+(RattanakosinKingdomOfSiam Thailand nc_RKOS)
+(FrenchIndochina Cambodia Cochinchina AnnamProtectorate TokinProtectorate nc_FrenchIndochina)
+(TokinProtectorate NorthVietnam nc_Tokin)
+(AnnamProtectorate CentralVietnam nc_Annam)
+(Cochinchina SouthVietnam nc_Cochin)
+
+articulation 2022-1930 2022T1-1930T2
+#[2022.World equals 1930.World]
+[2022.Taiwan equals 1930.Taiwan]
+[2022.MainlandChina equals 1930.MainlandChina]
+[2022.HongKong equals 1930.HongKong]
+[2022.Macau equals 1930.Macau]
+[2022.Japan equals 1930.Japan]
+[2022.NorthKorea equals 1930.NorthKorea]
+[2022.SouthKorea equals 1930.SouthKorea]
+[2022.Cambodia equals 1930.Cambodia]
+[2022.Philippines equals 1930.Philippines]
+[2022.Thailand equals 1930.Thailand]
+[2022.Vietnam includes 1930.NorthVietnam]
+[2022.Vietnam includes 1930.CentralVietnam]
+[2022.Vietnam includes 1930.SouthVietnam]
+[2022.nc_World includes 1930.nc_NGROC]
+[2022.nc_World includes 1930.nc_JP]
+[2022.nc_World includes 1930.nc_IGOP]
+[2022.nc_World includes 1930.nc_RKOS]
+[2022.nc_World includes 1930.nc_UK]
+[2022.nc_World includes 1930.nc_Portugal]
+[2022.nc_World includes 1930.nc_FrenchIndochina]
+[2022.nc_World includes 1930.nc_Tokin]
+[2022.nc_World includes 1930.nc_Annam]
+[2022.nc_World includes 1930.nc_Cochin]
+[2022.nc_ROC is_included_in 1930.nc_World]
+[2022.nc_PRC is_included_in 1930.nc_World]
+[2022.nc_Nihon is_included_in 1930.nc_World]
+[2022.nc_DPRK is_included_in 1930.nc_World]
+[2022.nc_ROK is_included_in 1930.nc_World]
+[2022.nc_KOC is_included_in 1930.nc_World]
+[2022.nc_ROP is_included_in 1930.nc_World]
+[2022.nc_KOT is_included_in 1930.nc_World]
+[2022.nc_VN is_included_in 1930.nc_World]
+
+
+
+

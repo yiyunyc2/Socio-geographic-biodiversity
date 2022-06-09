@@ -1,0 +1,564 @@
+1880.Cambodia:
+  concept: Cambodia
+  group: '1880'
+1880.CentralVietnam:
+  concept: CentralVietnam
+  group: '1880'
+1880.EmpireOfJapan:
+  concept: EmpireOfJapan
+  group: '1880'
+1880.FrenchIndochina:
+  concept: FrenchIndochina
+  group: '1880'
+1880.HongKong:
+  concept: HongKong
+  group: '1880'
+1880.Japan:
+  concept: Japan
+  group: '1880'
+1880.KingdomOfGreatJoseon:
+  concept: KingdomOfGreatJoseon
+  group: '1880'
+1880.Macau:
+  concept: Macau
+  group: '1880'
+1880.MainlandChina:
+  concept: MainlandChina
+  group: '1880'
+1880.NguyenDynasty:
+  concept: NguyenDynasty
+  group: '1880'
+1880.NorthKorea:
+  concept: NorthKorea
+  group: '1880'
+1880.NorthVietnam:
+  concept: NorthVietnam
+  group: '1880'
+1880.Philippines:
+  concept: Philippines
+  group: '1880'
+1880.PortugeseRepublic:
+  concept: PortugeseRepublic
+  group: '1880'
+1880.QingDynastyChina:
+  concept: QingDynastyChina
+  group: '1880'
+1880.RattanakosinKingdomOfSiam:
+  concept: RattanakosinKingdomOfSiam
+  group: '1880'
+1880.SouthKorea:
+  concept: SouthKorea
+  group: '1880'
+1880.SouthVietnam:
+  concept: SouthVietnam
+  group: '1880'
+1880.SpanishEmpire:
+  concept: SpanishEmpire
+  group: '1880'
+1880.Taiwan:
+  concept: Taiwan
+  group: '1880'
+1880.Thailand:
+  concept: Thailand
+  group: '1880'
+1880.UnitedKingdomOfGreatBritainAndIreland:
+  concept: UnitedKingdomOfGreatBritainAndIreland
+  group: '1880'
+1880.World:
+  concept: World
+  group: '1880'
+1880.nc_FrenchIndochina:
+  concept: nc_FrenchIndochina
+  group: '1880'
+1880.nc_JP:
+  concept: nc_JP
+  group: '1880'
+1880.nc_Joseon:
+  concept: nc_Joseon
+  group: '1880'
+1880.nc_Nguyen:
+  concept: nc_Nguyen
+  group: '1880'
+1880.nc_Portugal:
+  concept: nc_Portugal
+  group: '1880'
+1880.nc_Qing:
+  concept: nc_Qing
+  group: '1880'
+1880.nc_RKOS:
+  concept: nc_RKOS
+  group: '1880'
+1880.nc_Spain:
+  concept: nc_Spain
+  group: '1880'
+1880.nc_UK:
+  concept: nc_UK
+  group: '1880'
+1880.nc_World:
+  concept: nc_World
+  group: '1880'
+2022.Cambodia:
+  concept: Cambodia
+  group: '2022'
+2022.DemocraticPeoplesRepublicOfKorea:
+  concept: DemocraticPeoplesRepublicOfKorea
+  group: '2022'
+2022.HongKong:
+  concept: HongKong
+  group: '2022'
+2022.Japan:
+  concept: Japan
+  group: '2022'
+2022.KingdomOfCambodia:
+  concept: KingdomOfCambodia
+  group: '2022'
+2022.KingdomOfThailand:
+  concept: KingdomOfThailand
+  group: '2022'
+2022.Macau:
+  concept: Macau
+  group: '2022'
+2022.MainlandChina:
+  concept: MainlandChina
+  group: '2022'
+2022.NihonKoku:
+  concept: NihonKoku
+  group: '2022'
+2022.NorthKorea:
+  concept: NorthKorea
+  group: '2022'
+2022.PeoplesRepublicOfChina:
+  concept: PeoplesRepublicOfChina
+  group: '2022'
+2022.Philippines:
+  concept: Philippines
+  group: '2022'
+2022.RepublicOfChina:
+  concept: RepublicOfChina
+  group: '2022'
+2022.RepublicOfKorea:
+  concept: RepublicOfKorea
+  group: '2022'
+2022.RepublicOfThePhilippines:
+  concept: RepublicOfThePhilippines
+  group: '2022'
+2022.SocialistRepublicOfVietnam:
+  concept: SocialistRepublicOfVietnam
+  group: '2022'
+2022.SouthKorea:
+  concept: SouthKorea
+  group: '2022'
+2022.Taiwan:
+  concept: Taiwan
+  group: '2022'
+2022.Thailand:
+  concept: Thailand
+  group: '2022'
+2022.Vietnam:
+  concept: Vietnam
+  group: '2022'
+2022.World:
+  concept: World
+  group: '2022'
+2022.nc_DPRK:
+  concept: nc_DPRK
+  group: '2022'
+2022.nc_KOC:
+  concept: nc_KOC
+  group: '2022'
+2022.nc_KOT:
+  concept: nc_KOT
+  group: '2022'
+2022.nc_Nihon:
+  concept: nc_Nihon
+  group: '2022'
+2022.nc_PRC:
+  concept: nc_PRC
+  group: '2022'
+2022.nc_ROC:
+  concept: nc_ROC
+  group: '2022'
+2022.nc_ROK:
+  concept: nc_ROK
+  group: '2022'
+2022.nc_ROP:
+  concept: nc_ROP
+  group: '2022'
+2022.nc_VN:
+  concept: nc_VN
+  group: '2022'
+2022.nc_World:
+  concept: nc_World
+  group: '2022'
+1880.Cambodia_1880.FrenchIndochina:
+  label: isa
+  s: 1880.Cambodia
+  t: 1880.FrenchIndochina
+1880.CentralVietnam_1880.NguyenDynasty:
+  label: isa
+  s: 1880.CentralVietnam
+  t: 1880.NguyenDynasty
+1880.EmpireOfJapan_1880.World:
+  label: isa
+  s: 1880.EmpireOfJapan
+  t: 1880.World
+1880.FrenchIndochina_1880.World:
+  label: isa
+  s: 1880.FrenchIndochina
+  t: 1880.World
+1880.HongKong_1880.UnitedKingdomOfGreatBritainAndIreland:
+  label: isa
+  s: 1880.HongKong
+  t: 1880.UnitedKingdomOfGreatBritainAndIreland
+1880.Japan_1880.EmpireOfJapan:
+  label: isa
+  s: 1880.Japan
+  t: 1880.EmpireOfJapan
+1880.KingdomOfGreatJoseon_1880.World:
+  label: isa
+  s: 1880.KingdomOfGreatJoseon
+  t: 1880.World
+1880.Macau_1880.PortugeseRepublic:
+  label: isa
+  s: 1880.Macau
+  t: 1880.PortugeseRepublic
+1880.MainlandChina_1880.QingDynastyChina:
+  label: isa
+  s: 1880.MainlandChina
+  t: 1880.QingDynastyChina
+1880.NguyenDynasty_1880.World:
+  label: isa
+  s: 1880.NguyenDynasty
+  t: 1880.World
+1880.NorthKorea_1880.KingdomOfGreatJoseon:
+  label: isa
+  s: 1880.NorthKorea
+  t: 1880.KingdomOfGreatJoseon
+1880.NorthVietnam_1880.NguyenDynasty:
+  label: isa
+  s: 1880.NorthVietnam
+  t: 1880.NguyenDynasty
+1880.Philippines_1880.SpanishEmpire:
+  label: isa
+  s: 1880.Philippines
+  t: 1880.SpanishEmpire
+1880.PortugeseRepublic_1880.World:
+  label: isa
+  s: 1880.PortugeseRepublic
+  t: 1880.World
+1880.QingDynastyChina_1880.World:
+  label: isa
+  s: 1880.QingDynastyChina
+  t: 1880.World
+1880.RattanakosinKingdomOfSiam_1880.World:
+  label: isa
+  s: 1880.RattanakosinKingdomOfSiam
+  t: 1880.World
+1880.SouthKorea_1880.KingdomOfGreatJoseon:
+  label: isa
+  s: 1880.SouthKorea
+  t: 1880.KingdomOfGreatJoseon
+1880.SouthVietnam_1880.NguyenDynasty:
+  label: isa
+  s: 1880.SouthVietnam
+  t: 1880.NguyenDynasty
+1880.SpanishEmpire_1880.World:
+  label: isa
+  s: 1880.SpanishEmpire
+  t: 1880.World
+1880.Taiwan_1880.QingDynastyChina:
+  label: isa
+  s: 1880.Taiwan
+  t: 1880.QingDynastyChina
+1880.Thailand_1880.RattanakosinKingdomOfSiam:
+  label: isa
+  s: 1880.Thailand
+  t: 1880.RattanakosinKingdomOfSiam
+1880.UnitedKingdomOfGreatBritainAndIreland_1880.World:
+  label: isa
+  s: 1880.UnitedKingdomOfGreatBritainAndIreland
+  t: 1880.World
+1880.nc_FrenchIndochina_1880.FrenchIndochina:
+  label: isa
+  s: 1880.nc_FrenchIndochina
+  t: 1880.FrenchIndochina
+1880.nc_JP_1880.EmpireOfJapan:
+  label: isa
+  s: 1880.nc_JP
+  t: 1880.EmpireOfJapan
+1880.nc_Joseon_1880.KingdomOfGreatJoseon:
+  label: isa
+  s: 1880.nc_Joseon
+  t: 1880.KingdomOfGreatJoseon
+1880.nc_Nguyen_1880.NguyenDynasty:
+  label: isa
+  s: 1880.nc_Nguyen
+  t: 1880.NguyenDynasty
+1880.nc_Portugal_1880.PortugeseRepublic:
+  label: isa
+  s: 1880.nc_Portugal
+  t: 1880.PortugeseRepublic
+1880.nc_Qing_1880.QingDynastyChina:
+  label: isa
+  s: 1880.nc_Qing
+  t: 1880.QingDynastyChina
+1880.nc_RKOS_1880.RattanakosinKingdomOfSiam:
+  label: isa
+  s: 1880.nc_RKOS
+  t: 1880.RattanakosinKingdomOfSiam
+1880.nc_Spain_1880.SpanishEmpire:
+  label: isa
+  s: 1880.nc_Spain
+  t: 1880.SpanishEmpire
+1880.nc_UK_1880.UnitedKingdomOfGreatBritainAndIreland:
+  label: isa
+  s: 1880.nc_UK
+  t: 1880.UnitedKingdomOfGreatBritainAndIreland
+1880.nc_World_1880.World:
+  label: isa
+  s: 1880.nc_World
+  t: 1880.World
+2022.Cambodia_1880.Cambodia:
+  label: '='
+  s: 2022.Cambodia
+  t: 1880.Cambodia
+2022.Cambodia_2022.KingdomOfCambodia:
+  label: isa
+  s: 2022.Cambodia
+  t: 2022.KingdomOfCambodia
+2022.DemocraticPeoplesRepublicOfKorea_2022.World:
+  label: isa
+  s: 2022.DemocraticPeoplesRepublicOfKorea
+  t: 2022.World
+2022.HongKong_1880.HongKong:
+  label: '='
+  s: 2022.HongKong
+  t: 1880.HongKong
+2022.HongKong_2022.PeoplesRepublicOfChina:
+  label: isa
+  s: 2022.HongKong
+  t: 2022.PeoplesRepublicOfChina
+2022.Japan_1880.Japan:
+  label: '='
+  s: 2022.Japan
+  t: 1880.Japan
+2022.Japan_2022.NihonKoku:
+  label: isa
+  s: 2022.Japan
+  t: 2022.NihonKoku
+2022.KingdomOfCambodia_2022.World:
+  label: isa
+  s: 2022.KingdomOfCambodia
+  t: 2022.World
+2022.KingdomOfThailand_2022.World:
+  label: isa
+  s: 2022.KingdomOfThailand
+  t: 2022.World
+2022.Macau_1880.Macau:
+  label: '='
+  s: 2022.Macau
+  t: 1880.Macau
+2022.Macau_2022.PeoplesRepublicOfChina:
+  label: isa
+  s: 2022.Macau
+  t: 2022.PeoplesRepublicOfChina
+2022.MainlandChina_1880.MainlandChina:
+  label: '='
+  s: 2022.MainlandChina
+  t: 1880.MainlandChina
+2022.MainlandChina_2022.PeoplesRepublicOfChina:
+  label: isa
+  s: 2022.MainlandChina
+  t: 2022.PeoplesRepublicOfChina
+2022.NihonKoku_2022.World:
+  label: isa
+  s: 2022.NihonKoku
+  t: 2022.World
+2022.NorthKorea_1880.NorthKorea:
+  label: '='
+  s: 2022.NorthKorea
+  t: 1880.NorthKorea
+2022.NorthKorea_2022.DemocraticPeoplesRepublicOfKorea:
+  label: isa
+  s: 2022.NorthKorea
+  t: 2022.DemocraticPeoplesRepublicOfKorea
+2022.PeoplesRepublicOfChina_2022.World:
+  label: isa
+  s: 2022.PeoplesRepublicOfChina
+  t: 2022.World
+2022.Philippines_1880.Philippines:
+  label: '='
+  s: 2022.Philippines
+  t: 1880.Philippines
+2022.Philippines_2022.RepublicOfThePhilippines:
+  label: isa
+  s: 2022.Philippines
+  t: 2022.RepublicOfThePhilippines
+2022.RepublicOfChina_2022.World:
+  label: isa
+  s: 2022.RepublicOfChina
+  t: 2022.World
+2022.RepublicOfKorea_2022.World:
+  label: isa
+  s: 2022.RepublicOfKorea
+  t: 2022.World
+2022.RepublicOfThePhilippines_2022.World:
+  label: isa
+  s: 2022.RepublicOfThePhilippines
+  t: 2022.World
+2022.SocialistRepublicOfVietnam_2022.World:
+  label: isa
+  s: 2022.SocialistRepublicOfVietnam
+  t: 2022.World
+2022.SouthKorea_1880.SouthKorea:
+  label: '='
+  s: 2022.SouthKorea
+  t: 1880.SouthKorea
+2022.SouthKorea_2022.RepublicOfKorea:
+  label: isa
+  s: 2022.SouthKorea
+  t: 2022.RepublicOfKorea
+2022.Taiwan_1880.Taiwan:
+  label: '='
+  s: 2022.Taiwan
+  t: 1880.Taiwan
+2022.Taiwan_2022.RepublicOfChina:
+  label: isa
+  s: 2022.Taiwan
+  t: 2022.RepublicOfChina
+2022.Thailand_1880.Thailand:
+  label: '='
+  s: 2022.Thailand
+  t: 1880.Thailand
+2022.Thailand_2022.KingdomOfThailand:
+  label: isa
+  s: 2022.Thailand
+  t: 2022.KingdomOfThailand
+2022.Vietnam_1880.CentralVietnam:
+  label: '>'
+  s: 2022.Vietnam
+  t: 1880.CentralVietnam
+2022.Vietnam_1880.NorthVietnam:
+  label: '>'
+  s: 2022.Vietnam
+  t: 1880.NorthVietnam
+2022.Vietnam_1880.SouthVietnam:
+  label: '>'
+  s: 2022.Vietnam
+  t: 1880.SouthVietnam
+2022.Vietnam_2022.SocialistRepublicOfVietnam:
+  label: isa
+  s: 2022.Vietnam
+  t: 2022.SocialistRepublicOfVietnam
+2022.nc_DPRK_1880.nc_World:
+  label: <
+  s: 2022.nc_DPRK
+  t: 1880.nc_World
+2022.nc_DPRK_2022.DemocraticPeoplesRepublicOfKorea:
+  label: isa
+  s: 2022.nc_DPRK
+  t: 2022.DemocraticPeoplesRepublicOfKorea
+2022.nc_KOC_1880.nc_World:
+  label: <
+  s: 2022.nc_KOC
+  t: 1880.nc_World
+2022.nc_KOC_2022.KingdomOfCambodia:
+  label: isa
+  s: 2022.nc_KOC
+  t: 2022.KingdomOfCambodia
+2022.nc_KOT_1880.nc_World:
+  label: <
+  s: 2022.nc_KOT
+  t: 1880.nc_World
+2022.nc_KOT_2022.KingdomOfThailand:
+  label: isa
+  s: 2022.nc_KOT
+  t: 2022.KingdomOfThailand
+2022.nc_Nihon_1880.nc_World:
+  label: <
+  s: 2022.nc_Nihon
+  t: 1880.nc_World
+2022.nc_Nihon_2022.NihonKoku:
+  label: isa
+  s: 2022.nc_Nihon
+  t: 2022.NihonKoku
+2022.nc_PRC_1880.nc_World:
+  label: <
+  s: 2022.nc_PRC
+  t: 1880.nc_World
+2022.nc_PRC_2022.PeoplesRepublicOfChina:
+  label: isa
+  s: 2022.nc_PRC
+  t: 2022.PeoplesRepublicOfChina
+2022.nc_ROC_1880.nc_World:
+  label: <
+  s: 2022.nc_ROC
+  t: 1880.nc_World
+2022.nc_ROC_2022.RepublicOfChina:
+  label: isa
+  s: 2022.nc_ROC
+  t: 2022.RepublicOfChina
+2022.nc_ROK_1880.nc_World:
+  label: <
+  s: 2022.nc_ROK
+  t: 1880.nc_World
+2022.nc_ROK_2022.RepublicOfKorea:
+  label: isa
+  s: 2022.nc_ROK
+  t: 2022.RepublicOfKorea
+2022.nc_ROP_1880.nc_World:
+  label: <
+  s: 2022.nc_ROP
+  t: 1880.nc_World
+2022.nc_ROP_2022.RepublicOfThePhilippines:
+  label: isa
+  s: 2022.nc_ROP
+  t: 2022.RepublicOfThePhilippines
+2022.nc_VN_1880.nc_World:
+  label: <
+  s: 2022.nc_VN
+  t: 1880.nc_World
+2022.nc_VN_2022.SocialistRepublicOfVietnam:
+  label: isa
+  s: 2022.nc_VN
+  t: 2022.SocialistRepublicOfVietnam
+2022.nc_World_1880.nc_FrenchIndochina:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_FrenchIndochina
+2022.nc_World_1880.nc_JP:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_JP
+2022.nc_World_1880.nc_Joseon:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_Joseon
+2022.nc_World_1880.nc_Nguyen:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_Nguyen
+2022.nc_World_1880.nc_Portugal:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_Portugal
+2022.nc_World_1880.nc_Qing:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_Qing
+2022.nc_World_1880.nc_RKOS:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_RKOS
+2022.nc_World_1880.nc_Spain:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_Spain
+2022.nc_World_1880.nc_UK:
+  label: '>'
+  s: 2022.nc_World
+  t: 1880.nc_UK
+2022.nc_World_2022.World:
+  label: isa
+  s: 2022.nc_World
+  t: 2022.World

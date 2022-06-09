@@ -1,0 +1,67 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1990
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1990 1990T2
+(World RepublicOfChina PeoplesRepublicOfChina UnitedKingdomOfGreatBritainAndNorthernIreland PortugeseRepublic NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea StateOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina nc_PRC)
+(UnitedKingdomOfGreatBritainAndNorthernIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(StateOfCambodia Cambodia nc_SOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+articulation 2022-1990 2022T1-1990T2
+#[2022.World equals 1990.World]
+[2022.Taiwan equals 1990.Taiwan]
+[2022.MainlandChina equals 1990.MainlandChina]
+[2022.HongKong equals 1990.HongKong]
+[2022.Macau equals 1990.Macau]
+[2022.Japan equals 1990.Japan]
+[2022.NorthKorea equals 1990.NorthKorea]
+[2022.SouthKorea equals 1990.SouthKorea]
+[2022.Cambodia equals 1990.Cambodia]
+[2022.Philippines equals 1990.Philippines]
+[2022.Thailand equals 1990.Thailand]
+[2022.Vietnam equals 1990.Vietnam]
+[2022.nc_World includes 1990.nc_ROC]
+[2022.nc_World includes 1990.nc_PRC]
+[2022.nc_World includes 1990.nc_Nihon]
+[2022.nc_World includes 1990.nc_DPRK]
+[2022.nc_World includes 1990.nc_ROK]
+[2022.nc_World includes 1990.nc_SOC]
+[2022.nc_World includes 1990.nc_ROP]
+[2022.nc_World includes 1990.nc_KOT]
+[2022.nc_World includes 1990.nc_VN]
+[2022.nc_World includes 1990.nc_UK]
+[2022.nc_World includes 1990.nc_Portugal]
+[2022.nc_ROC is_included_in 1990.nc_World]
+[2022.nc_PRC is_included_in 1990.nc_World]
+[2022.nc_Nihon is_included_in 1990.nc_World]
+[2022.nc_DPRK is_included_in 1990.nc_World]
+[2022.nc_ROK is_included_in 1990.nc_World]
+[2022.nc_KOC is_included_in 1990.nc_World]
+[2022.nc_ROP is_included_in 1990.nc_World]
+[2022.nc_KOT is_included_in 1990.nc_World]
+[2022.nc_VN is_included_in 1990.nc_World]
+
+
+
+
+

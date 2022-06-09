@@ -1,0 +1,204 @@
+digraph{
+rankdir=LR
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=note style=filled fillcolor="#FFFFCC" fontname="helvetica"] 
+"1900.nc_Qing"
+"1900.nc_RKOS"
+"1900.nc_FrenchIndochina"
+"1900.KoreanEmpire"
+"1900.UnitedKingdomOfGreatBritainAndIreland"
+"1900.NorthKorea"
+"1900.RattanakosinKingdomOfSiam"
+"1900.UnitedStatesMilitaryGovernment"
+"1900.nc_JP"
+"1900.Japan"
+"1900.Taiwan"
+"1900.nc_Annam"
+"1900.Cambodia"
+"1900.PortugeseRepublic"
+"1900.nc_Tokin"
+"1900.nc_World"
+"1900.SouthKorea"
+"1900.EmpireOfJapan"
+"1900.nc_Cochin"
+"1900.FrenchIndochina"
+"1900.nc_Portugal"
+"1900.nc_KR"
+"1900.NorthVietnam"
+"1900.World"
+"1900.Thailand"
+"1900.Macau"
+"1900.nc_UK"
+"1900.nc_US"
+"1900.TokinProtectorate"
+"1900.CentralVietnam"
+"1900.HongKong"
+"1900.QingDynastyChina"
+"1900.Cochinchina"
+"1900.AnnamProtectorate"
+"1900.SouthVietnam"
+"1900.MainlandChina"
+"1900.Philippines"
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=box style=filled fillcolor="#CCFFCC" fontname="helvetica"] 
+"2022.Japan"
+"2022.HongKong"
+"2022.Macau"
+"2022.nc_VN"
+"2022.SocialistRepublicOfVietnam"
+"2022.RepublicOfKorea"
+"2022.DemocraticPeoplesRepublicOfKorea"
+"2022.NorthKorea"
+"2022.Philippines"
+"2022.nc_World"
+"2022.PeoplesRepublicOfChina"
+"2022.nc_ROC"
+"2022.MainlandChina"
+"2022.RepublicOfChina"
+"2022.RepublicOfThePhilippines"
+"2022.nc_Nihon"
+"2022.Vietnam"
+"2022.nc_DPRK"
+"2022.NihonKoku"
+"2022.Cambodia"
+"2022.World"
+"2022.KingdomOfThailand"
+"2022.Taiwan"
+"2022.nc_PRC"
+"2022.Thailand"
+"2022.nc_ROK"
+"2022.nc_KOC"
+"2022.SouthKorea"
+"2022.nc_KOT"
+"2022.nc_ROP"
+"2022.KingdomOfCambodia"
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+"1900.nc_Qing" -> "1900.QingDynastyChina"
+"1900.QingDynastyChina" -> "1900.World"
+"1900.UnitedKingdomOfGreatBritainAndIreland" -> "1900.World"
+"1900.FrenchIndochina" -> "1900.World"
+"1900.KoreanEmpire" -> "1900.World"
+"1900.CentralVietnam" -> "1900.AnnamProtectorate"
+"1900.nc_RKOS" -> "1900.RattanakosinKingdomOfSiam"
+"1900.Macau" -> "1900.PortugeseRepublic"
+"1900.SouthKorea" -> "1900.KoreanEmpire"
+"1900.nc_UK" -> "1900.UnitedKingdomOfGreatBritainAndIreland"
+"1900.nc_Tokin" -> "1900.TokinProtectorate"
+"1900.nc_KR" -> "1900.KoreanEmpire"
+"1900.NorthVietnam" -> "1900.TokinProtectorate"
+"1900.Cambodia" -> "1900.FrenchIndochina"
+"1900.nc_US" -> "1900.UnitedStatesMilitaryGovernment"
+"1900.Taiwan" -> "1900.EmpireOfJapan"
+"1900.Japan" -> "1900.EmpireOfJapan"
+"1900.nc_World" -> "1900.World"
+"1900.nc_Portugal" -> "1900.PortugeseRepublic"
+"1900.TokinProtectorate" -> "1900.FrenchIndochina"
+"1900.NorthKorea" -> "1900.KoreanEmpire"
+"1900.RattanakosinKingdomOfSiam" -> "1900.World"
+"1900.Cochinchina" -> "1900.FrenchIndochina"
+"1900.PortugeseRepublic" -> "1900.World"
+"1900.AnnamProtectorate" -> "1900.FrenchIndochina"
+"1900.nc_Cochin" -> "1900.Cochinchina"
+"1900.MainlandChina" -> "1900.QingDynastyChina"
+"1900.nc_JP" -> "1900.EmpireOfJapan"
+"1900.nc_Annam" -> "1900.AnnamProtectorate"
+"1900.HongKong" -> "1900.UnitedKingdomOfGreatBritainAndIreland"
+"1900.SouthVietnam" -> "1900.Cochinchina"
+"1900.Thailand" -> "1900.RattanakosinKingdomOfSiam"
+"1900.UnitedStatesMilitaryGovernment" -> "1900.World"
+"1900.Philippines" -> "1900.UnitedStatesMilitaryGovernment"
+"1900.nc_FrenchIndochina" -> "1900.FrenchIndochina"
+"1900.EmpireOfJapan" -> "1900.World"
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+"2022.RepublicOfChina" -> "2022.nc_ROC" [dir=back]
+"2022.DemocraticPeoplesRepublicOfKorea" -> "2022.nc_DPRK" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.Macau" [dir=back]
+"2022.SocialistRepublicOfVietnam" -> "2022.nc_VN" [dir=back]
+"2022.RepublicOfKorea" -> "2022.SouthKorea" [dir=back]
+"2022.NihonKoku" -> "2022.nc_Nihon" [dir=back]
+"2022.World" -> "2022.RepublicOfChina" [dir=back]
+"2022.World" -> "2022.SocialistRepublicOfVietnam" [dir=back]
+"2022.KingdomOfThailand" -> "2022.nc_KOT" [dir=back]
+"2022.KingdomOfCambodia" -> "2022.Cambodia" [dir=back]
+"2022.World" -> "2022.KingdomOfCambodia" [dir=back]
+"2022.World" -> "2022.RepublicOfKorea" [dir=back]
+"2022.RepublicOfChina" -> "2022.Taiwan" [dir=back]
+"2022.World" -> "2022.DemocraticPeoplesRepublicOfKorea" [dir=back]
+"2022.World" -> "2022.NihonKoku" [dir=back]
+"2022.RepublicOfKorea" -> "2022.nc_ROK" [dir=back]
+"2022.RepublicOfThePhilippines" -> "2022.nc_ROP" [dir=back]
+"2022.NihonKoku" -> "2022.Japan" [dir=back]
+"2022.World" -> "2022.nc_World" [dir=back]
+"2022.SocialistRepublicOfVietnam" -> "2022.Vietnam" [dir=back]
+"2022.World" -> "2022.RepublicOfThePhilippines" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.HongKong" [dir=back]
+"2022.World" -> "2022.PeoplesRepublicOfChina" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.MainlandChina" [dir=back]
+"2022.DemocraticPeoplesRepublicOfKorea" -> "2022.NorthKorea" [dir=back]
+"2022.RepublicOfThePhilippines" -> "2022.Philippines" [dir=back]
+"2022.KingdomOfThailand" -> "2022.Thailand" [dir=back]
+"2022.World" -> "2022.KingdomOfThailand" [dir=back]
+"2022.KingdomOfCambodia" -> "2022.nc_KOC" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.nc_PRC" [dir=back]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=dashed color="#AA00FF" constraint=true penwidth=2 dir=both]
+"2022.nc_ROK" -> "1900.nc_World" [label="<"]
+"2022.Macau" -> "1900.Macau" [label="="]
+"2022.nc_Nihon" -> "1900.nc_World" [label="<"]
+"2022.Japan" -> "1900.Japan" [label="="]
+"2022.Vietnam" -> "1900.NorthVietnam" [label=">"]
+"2022.nc_World" -> "1900.nc_JP" [label=">"]
+"2022.nc_VN" -> "1900.nc_World" [label="<"]
+"2022.nc_World" -> "1900.nc_FrenchIndochina" [label=">"]
+"2022.nc_ROC" -> "1900.nc_World" [label="<"]
+"2022.nc_World" -> "1900.nc_RKOS" [label=">"]
+"2022.nc_World" -> "1900.nc_KR" [label=">"]
+"2022.NorthKorea" -> "1900.NorthKorea" [label="="]
+"2022.nc_World" -> "1900.nc_Cochin" [label=">"]
+"2022.nc_World" -> "1900.nc_UK" [label=">"]
+"2022.MainlandChina" -> "1900.MainlandChina" [label="="]
+"2022.nc_World" -> "1900.nc_Tokin" [label=">"]
+"2022.nc_World" -> "1900.nc_US" [label=">"]
+"2022.nc_KOC" -> "1900.nc_World" [label="<"]
+"2022.Philippines" -> "1900.Philippines" [label="="]
+"2022.nc_PRC" -> "1900.nc_World" [label="<"]
+"2022.SouthKorea" -> "1900.SouthKorea" [label="="]
+"2022.HongKong" -> "1900.HongKong" [label="="]
+"2022.nc_World" -> "1900.nc_Portugal" [label=">"]
+"2022.Vietnam" -> "1900.CentralVietnam" [label=">"]
+"2022.nc_DPRK" -> "1900.nc_World" [label="<"]
+"2022.nc_KOT" -> "1900.nc_World" [label="<"]
+"2022.nc_ROP" -> "1900.nc_World" [label="<"]
+"2022.Cambodia" -> "1900.Cambodia" [label="="]
+"2022.Taiwan" -> "1900.Taiwan" [label="="]
+"2022.Vietnam" -> "1900.SouthVietnam" [label=">"]
+"2022.Thailand" -> "1900.Thailand" [label="="]
+"2022.nc_World" -> "1900.nc_Qing" [label=">"]
+"2022.nc_World" -> "1900.nc_Annam" [label=">"]
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC" fontname="helvetica">1900</TD> 
+ <TD>37</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC" fontname="helvetica">2022</TD> 
+ <TD>31</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#000000">is_a (1900)</font></TD><TD>36</TD>
+</TR>
+<TR> 
+ <TD><font color ="#000000">is_a (2022)</font></TD><TD>30</TD>
+</TR>
+<TR> 
+ <TD><font color ="#AA00FF">articulations</font></TD><TD>33</TD>
+</TR>
+</TABLE> 
+ >] } 
+}

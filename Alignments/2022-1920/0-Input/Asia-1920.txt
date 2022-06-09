@@ -1,0 +1,63 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1920
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1920 1920T2
+(World ROChina UnitedKingdomOfGreatBritainAndIreland PortugeseRepublic EmpireOfJapan FrenchIndochina InsularGovernmentOfThePhilippineIslands RattanakosinKingdomOfSiam nc_World)
+(ROChina MainlandChina nc_ROC)
+(UnitedKingdomOfGreatBritainAndIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(EmpireOfJapan Japan Taiwan NorthKorea SouthKorea nc_JP)
+(InsularGovernmentOfThePhilippineIslands Philippines nc_IGOP)
+(RattanakosinKingdomOfSiam Thailand nc_RKOS)
+(FrenchIndochina Cambodia Cochinchina AnnamProtectorate TokinProtectorate nc_FrenchIndochina)
+(TokinProtectorate NorthVietnam nc_Tokin)
+(AnnamProtectorate CentralVietnam nc_Annam)
+(Cochinchina SouthVietnam nc_Cochin)
+
+articulation 2022-1920 2022T1-1920T2
+#[2022.World equals 1920.World]
+[2022.Taiwan equals 1920.Taiwan]
+[2022.MainlandChina equals 1920.MainlandChina]
+[2022.HongKong equals 1920.HongKong]
+[2022.Macau equals 1920.Macau]
+[2022.Japan equals 1920.Japan]
+[2022.NorthKorea equals 1920.NorthKorea]
+[2022.SouthKorea equals 1920.SouthKorea]
+[2022.Cambodia equals 1920.Cambodia]
+[2022.Philippines equals 1920.Philippines]
+[2022.Thailand equals 1920.Thailand]
+[2022.Vietnam includes 1920.NorthVietnam]
+[2022.Vietnam includes 1920.CentralVietnam]
+[2022.Vietnam includes 1920.SouthVietnam]
+[2022.nc_World includes 1920.nc_ROC]
+[2022.nc_World includes 1920.nc_JP]
+[2022.nc_World includes 1920.nc_IGOP]
+[2022.nc_World includes 1920.nc_RKOS]
+[2022.nc_World includes 1920.nc_UK]
+[2022.nc_World includes 1920.nc_Portugal]
+[2022.nc_World includes 1920.nc_FrenchIndochina]
+[2022.nc_World includes 1920.nc_Tokin]
+[2022.nc_World includes 1920.nc_Annam]
+[2022.nc_World includes 1920.nc_Cochin]
+[2022.nc_ROC is_included_in 1920.nc_World]
+[2022.nc_PRC is_included_in 1920.nc_World]
+[2022.nc_Nihon is_included_in 1920.nc_World]
+[2022.nc_DPRK is_included_in 1920.nc_World]
+[2022.nc_ROK is_included_in 1920.nc_World]
+[2022.nc_KOC is_included_in 1920.nc_World]
+[2022.nc_ROP is_included_in 1920.nc_World]
+[2022.nc_KOT is_included_in 1920.nc_World]
+[2022.nc_VN is_included_in 1920.nc_World]
+

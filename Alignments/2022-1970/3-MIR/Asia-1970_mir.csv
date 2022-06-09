@@ -1,0 +1,1178 @@
+2022.Cambodia,!,1970.nc_KR,deduced
+2022.DemocraticPeoplesRepublicOfKorea,>,1970.NorthKorea,deduced
+2022.HongKong,!,1970.Macau,deduced
+2022.HongKong,!,1970.MainlandChina,deduced
+2022.HongKong,!,1970.nc_UK,deduced
+2022.Japan,!,1970.nc_Nihon,deduced
+2022.KingdomOfCambodia,>,1970.Cambodia,deduced
+2022.KingdomOfThailand,>,1970.Thailand,deduced
+2022.Macau,!,1970.HongKong,deduced
+2022.Macau,!,1970.MainlandChina,deduced
+2022.Macau,!,1970.nc_Portugal,deduced
+2022.MainlandChina,!,1970.HongKong,deduced
+2022.MainlandChina,!,1970.Macau,deduced
+2022.MainlandChina,!,1970.nc_PRC,deduced
+2022.NihonKoku,>,1970.Japan,deduced
+2022.NorthKorea,!,1970.nc_DPRK,deduced
+2022.PeoplesRepublicOfChina,>,1970.HongKong,deduced
+2022.PeoplesRepublicOfChina,>,1970.Macau,deduced
+2022.PeoplesRepublicOfChina,>,1970.MainlandChina,deduced
+2022.Philippines,!,1970.nc_ROP,deduced
+2022.RepublicOfChina,>,1970.Taiwan,deduced
+2022.RepublicOfKorea,>,1970.SouthKorea,deduced
+2022.RepublicOfThePhilippines,>,1970.Philippines,deduced
+2022.SocialistRepublicOfVietnam,>,1970.NorthVietnam,deduced
+2022.SocialistRepublicOfVietnam,>,1970.SouthVietnam,deduced
+2022.SouthKorea,!,1970.nc_ROK,deduced
+2022.Taiwan,!,1970.nc_ROC,deduced
+2022.Thailand,!,1970.nc_KOT,deduced
+2022.World,>,1970.Cambodia,deduced
+2022.World,>,1970.HongKong,deduced
+2022.World,>,1970.Japan,deduced
+2022.World,>,1970.Macau,deduced
+2022.World,>,1970.MainlandChina,deduced
+2022.World,>,1970.NorthKorea,deduced
+2022.World,>,1970.NorthVietnam,deduced
+2022.World,>,1970.Philippines,deduced
+2022.World,>,1970.SouthKorea,deduced
+2022.World,>,1970.SouthVietnam,deduced
+2022.World,>,1970.Taiwan,deduced
+2022.World,>,1970.Thailand,deduced
+2022.World,>,1970.nc_DPRK,deduced
+2022.World,>,1970.nc_DROV,deduced
+2022.World,>,1970.nc_KOT,deduced
+2022.World,>,1970.nc_KR,deduced
+2022.World,>,1970.nc_Nihon,deduced
+2022.World,>,1970.nc_PRC,deduced
+2022.World,>,1970.nc_Portugal,deduced
+2022.World,>,1970.nc_ROC,deduced
+2022.World,>,1970.nc_ROK,deduced
+2022.World,>,1970.nc_ROP,deduced
+2022.World,>,1970.nc_ROV,deduced
+2022.World,>,1970.nc_UK,deduced
+2022.nc_DPRK,!,1970.NorthKorea,deduced
+2022.nc_DPRK,<,1970.World,deduced
+2022.nc_KOC,!,1970.Cambodia,deduced
+2022.nc_KOC,<,1970.World,deduced
+2022.nc_KOT,!,1970.Thailand,deduced
+2022.nc_KOT,<,1970.World,deduced
+2022.nc_Nihon,!,1970.Japan,deduced
+2022.nc_Nihon,<,1970.World,deduced
+2022.nc_PRC,!,1970.HongKong,deduced
+2022.nc_PRC,!,1970.Macau,deduced
+2022.nc_PRC,!,1970.MainlandChina,deduced
+2022.nc_PRC,<,1970.World,deduced
+2022.nc_ROC,!,1970.Taiwan,deduced
+2022.nc_ROC,<,1970.World,deduced
+2022.nc_ROK,!,1970.SouthKorea,deduced
+2022.nc_ROK,<,1970.World,deduced
+2022.nc_ROP,!,1970.Philippines,deduced
+2022.nc_ROP,<,1970.World,deduced
+2022.nc_VN,<,1970.World,deduced
+2022.Cambodia,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Cambodia,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Cambodia,!,1970.HongKong,inferred
+2022.Cambodia,!,1970.Japan,inferred
+2022.Cambodia,<,1970.KhmerRepublic,inferred
+2022.Cambodia,!,1970.KingdomOfThailand,inferred
+2022.Cambodia,!,1970.Macau,inferred
+2022.Cambodia,!,1970.MainlandChina,inferred
+2022.Cambodia,!,1970.NihonKoku,inferred
+2022.Cambodia,!,1970.NorthKorea,inferred
+2022.Cambodia,!,1970.NorthVietnam,inferred
+2022.Cambodia,!,1970.PeoplesRepublicOfChina,inferred
+2022.Cambodia,!,1970.Philippines,inferred
+2022.Cambodia,!,1970.PortugeseRepublic,inferred
+2022.Cambodia,!,1970.RepublicOfChina,inferred
+2022.Cambodia,!,1970.RepublicOfKorea,inferred
+2022.Cambodia,!,1970.RepublicOfThePhilippines,inferred
+2022.Cambodia,!,1970.RepublicOfVietnam,inferred
+2022.Cambodia,!,1970.SouthKorea,inferred
+2022.Cambodia,!,1970.SouthVietnam,inferred
+2022.Cambodia,!,1970.Taiwan,inferred
+2022.Cambodia,!,1970.Thailand,inferred
+2022.Cambodia,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Cambodia,<,1970.World,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Cambodia,{=, >, <, !, ><},1970.nc_World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Cambodia,inferred
+2022.DemocraticPeoplesRepublicOfKorea,><,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.HongKong,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Japan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.KhmerRepublic,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.KingdomOfThailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Macau,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.MainlandChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.NihonKoku,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.NorthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.PeoplesRepublicOfChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Philippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.PortugeseRepublic,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.RepublicOfChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.RepublicOfKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.RepublicOfThePhilippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.RepublicOfVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.SouthKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.SouthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Taiwan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.Thailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.DemocraticPeoplesRepublicOfKorea,<,1970.World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1970.nc_World,inferred
+2022.HongKong,!,1970.Cambodia,inferred
+2022.HongKong,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.HongKong,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.HongKong,!,1970.Japan,inferred
+2022.HongKong,!,1970.KhmerRepublic,inferred
+2022.HongKong,!,1970.KingdomOfThailand,inferred
+2022.HongKong,!,1970.NihonKoku,inferred
+2022.HongKong,!,1970.NorthKorea,inferred
+2022.HongKong,!,1970.NorthVietnam,inferred
+2022.HongKong,!,1970.PeoplesRepublicOfChina,inferred
+2022.HongKong,!,1970.Philippines,inferred
+2022.HongKong,!,1970.PortugeseRepublic,inferred
+2022.HongKong,!,1970.RepublicOfChina,inferred
+2022.HongKong,!,1970.RepublicOfKorea,inferred
+2022.HongKong,!,1970.RepublicOfThePhilippines,inferred
+2022.HongKong,!,1970.RepublicOfVietnam,inferred
+2022.HongKong,!,1970.SouthKorea,inferred
+2022.HongKong,!,1970.SouthVietnam,inferred
+2022.HongKong,!,1970.Taiwan,inferred
+2022.HongKong,!,1970.Thailand,inferred
+2022.HongKong,<,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.HongKong,<,1970.World,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.HongKong,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Japan,!,1970.Cambodia,inferred
+2022.Japan,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Japan,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Japan,!,1970.HongKong,inferred
+2022.Japan,!,1970.KhmerRepublic,inferred
+2022.Japan,!,1970.KingdomOfThailand,inferred
+2022.Japan,!,1970.Macau,inferred
+2022.Japan,!,1970.MainlandChina,inferred
+2022.Japan,<,1970.NihonKoku,inferred
+2022.Japan,!,1970.NorthKorea,inferred
+2022.Japan,!,1970.NorthVietnam,inferred
+2022.Japan,!,1970.PeoplesRepublicOfChina,inferred
+2022.Japan,!,1970.Philippines,inferred
+2022.Japan,!,1970.PortugeseRepublic,inferred
+2022.Japan,!,1970.RepublicOfChina,inferred
+2022.Japan,!,1970.RepublicOfKorea,inferred
+2022.Japan,!,1970.RepublicOfThePhilippines,inferred
+2022.Japan,!,1970.RepublicOfVietnam,inferred
+2022.Japan,!,1970.SouthKorea,inferred
+2022.Japan,!,1970.SouthVietnam,inferred
+2022.Japan,!,1970.Taiwan,inferred
+2022.Japan,!,1970.Thailand,inferred
+2022.Japan,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Japan,<,1970.World,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Japan,{=, >, <, !, ><},1970.nc_World,inferred
+2022.KingdomOfCambodia,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.KingdomOfCambodia,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.KingdomOfCambodia,!,1970.HongKong,inferred
+2022.KingdomOfCambodia,!,1970.Japan,inferred
+2022.KingdomOfCambodia,><,1970.KhmerRepublic,inferred
+2022.KingdomOfCambodia,!,1970.KingdomOfThailand,inferred
+2022.KingdomOfCambodia,!,1970.Macau,inferred
+2022.KingdomOfCambodia,!,1970.MainlandChina,inferred
+2022.KingdomOfCambodia,!,1970.NihonKoku,inferred
+2022.KingdomOfCambodia,!,1970.NorthKorea,inferred
+2022.KingdomOfCambodia,!,1970.NorthVietnam,inferred
+2022.KingdomOfCambodia,!,1970.PeoplesRepublicOfChina,inferred
+2022.KingdomOfCambodia,!,1970.Philippines,inferred
+2022.KingdomOfCambodia,!,1970.PortugeseRepublic,inferred
+2022.KingdomOfCambodia,!,1970.RepublicOfChina,inferred
+2022.KingdomOfCambodia,!,1970.RepublicOfKorea,inferred
+2022.KingdomOfCambodia,!,1970.RepublicOfThePhilippines,inferred
+2022.KingdomOfCambodia,!,1970.RepublicOfVietnam,inferred
+2022.KingdomOfCambodia,!,1970.SouthKorea,inferred
+2022.KingdomOfCambodia,!,1970.SouthVietnam,inferred
+2022.KingdomOfCambodia,!,1970.Taiwan,inferred
+2022.KingdomOfCambodia,!,1970.Thailand,inferred
+2022.KingdomOfCambodia,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfCambodia,<,1970.World,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1970.nc_World,inferred
+2022.KingdomOfThailand,!,1970.Cambodia,inferred
+2022.KingdomOfThailand,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.KingdomOfThailand,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.KingdomOfThailand,!,1970.HongKong,inferred
+2022.KingdomOfThailand,!,1970.Japan,inferred
+2022.KingdomOfThailand,!,1970.KhmerRepublic,inferred
+2022.KingdomOfThailand,><,1970.KingdomOfThailand,inferred
+2022.KingdomOfThailand,!,1970.Macau,inferred
+2022.KingdomOfThailand,!,1970.MainlandChina,inferred
+2022.KingdomOfThailand,!,1970.NihonKoku,inferred
+2022.KingdomOfThailand,!,1970.NorthKorea,inferred
+2022.KingdomOfThailand,!,1970.NorthVietnam,inferred
+2022.KingdomOfThailand,!,1970.PeoplesRepublicOfChina,inferred
+2022.KingdomOfThailand,!,1970.Philippines,inferred
+2022.KingdomOfThailand,!,1970.PortugeseRepublic,inferred
+2022.KingdomOfThailand,!,1970.RepublicOfChina,inferred
+2022.KingdomOfThailand,!,1970.RepublicOfKorea,inferred
+2022.KingdomOfThailand,!,1970.RepublicOfThePhilippines,inferred
+2022.KingdomOfThailand,!,1970.RepublicOfVietnam,inferred
+2022.KingdomOfThailand,!,1970.SouthKorea,inferred
+2022.KingdomOfThailand,!,1970.SouthVietnam,inferred
+2022.KingdomOfThailand,!,1970.Taiwan,inferred
+2022.KingdomOfThailand,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfThailand,<,1970.World,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Macau,!,1970.Cambodia,inferred
+2022.Macau,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Macau,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Macau,!,1970.Japan,inferred
+2022.Macau,!,1970.KhmerRepublic,inferred
+2022.Macau,!,1970.KingdomOfThailand,inferred
+2022.Macau,!,1970.NihonKoku,inferred
+2022.Macau,!,1970.NorthKorea,inferred
+2022.Macau,!,1970.NorthVietnam,inferred
+2022.Macau,!,1970.PeoplesRepublicOfChina,inferred
+2022.Macau,!,1970.Philippines,inferred
+2022.Macau,<,1970.PortugeseRepublic,inferred
+2022.Macau,!,1970.RepublicOfChina,inferred
+2022.Macau,!,1970.RepublicOfKorea,inferred
+2022.Macau,!,1970.RepublicOfThePhilippines,inferred
+2022.Macau,!,1970.RepublicOfVietnam,inferred
+2022.Macau,!,1970.SouthKorea,inferred
+2022.Macau,!,1970.SouthVietnam,inferred
+2022.Macau,!,1970.Taiwan,inferred
+2022.Macau,!,1970.Thailand,inferred
+2022.Macau,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Macau,<,1970.World,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Macau,{=, >, <, !, ><},1970.nc_World,inferred
+2022.MainlandChina,!,1970.Cambodia,inferred
+2022.MainlandChina,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.MainlandChina,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.MainlandChina,!,1970.Japan,inferred
+2022.MainlandChina,!,1970.KhmerRepublic,inferred
+2022.MainlandChina,!,1970.KingdomOfThailand,inferred
+2022.MainlandChina,!,1970.NihonKoku,inferred
+2022.MainlandChina,!,1970.NorthKorea,inferred
+2022.MainlandChina,!,1970.NorthVietnam,inferred
+2022.MainlandChina,<,1970.PeoplesRepublicOfChina,inferred
+2022.MainlandChina,!,1970.Philippines,inferred
+2022.MainlandChina,!,1970.PortugeseRepublic,inferred
+2022.MainlandChina,!,1970.RepublicOfChina,inferred
+2022.MainlandChina,!,1970.RepublicOfKorea,inferred
+2022.MainlandChina,!,1970.RepublicOfThePhilippines,inferred
+2022.MainlandChina,!,1970.RepublicOfVietnam,inferred
+2022.MainlandChina,!,1970.SouthKorea,inferred
+2022.MainlandChina,!,1970.SouthVietnam,inferred
+2022.MainlandChina,!,1970.Taiwan,inferred
+2022.MainlandChina,!,1970.Thailand,inferred
+2022.MainlandChina,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.MainlandChina,<,1970.World,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1970.nc_World,inferred
+2022.NihonKoku,!,1970.Cambodia,inferred
+2022.NihonKoku,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.NihonKoku,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.NihonKoku,!,1970.HongKong,inferred
+2022.NihonKoku,!,1970.KhmerRepublic,inferred
+2022.NihonKoku,!,1970.KingdomOfThailand,inferred
+2022.NihonKoku,!,1970.Macau,inferred
+2022.NihonKoku,!,1970.MainlandChina,inferred
+2022.NihonKoku,><,1970.NihonKoku,inferred
+2022.NihonKoku,!,1970.NorthKorea,inferred
+2022.NihonKoku,!,1970.NorthVietnam,inferred
+2022.NihonKoku,!,1970.PeoplesRepublicOfChina,inferred
+2022.NihonKoku,!,1970.Philippines,inferred
+2022.NihonKoku,!,1970.PortugeseRepublic,inferred
+2022.NihonKoku,!,1970.RepublicOfChina,inferred
+2022.NihonKoku,!,1970.RepublicOfKorea,inferred
+2022.NihonKoku,!,1970.RepublicOfThePhilippines,inferred
+2022.NihonKoku,!,1970.RepublicOfVietnam,inferred
+2022.NihonKoku,!,1970.SouthKorea,inferred
+2022.NihonKoku,!,1970.SouthVietnam,inferred
+2022.NihonKoku,!,1970.Taiwan,inferred
+2022.NihonKoku,!,1970.Thailand,inferred
+2022.NihonKoku,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NihonKoku,<,1970.World,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1970.nc_World,inferred
+2022.NorthKorea,!,1970.Cambodia,inferred
+2022.NorthKorea,<,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.NorthKorea,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.NorthKorea,!,1970.HongKong,inferred
+2022.NorthKorea,!,1970.Japan,inferred
+2022.NorthKorea,!,1970.KhmerRepublic,inferred
+2022.NorthKorea,!,1970.KingdomOfThailand,inferred
+2022.NorthKorea,!,1970.Macau,inferred
+2022.NorthKorea,!,1970.MainlandChina,inferred
+2022.NorthKorea,!,1970.NihonKoku,inferred
+2022.NorthKorea,!,1970.NorthVietnam,inferred
+2022.NorthKorea,!,1970.PeoplesRepublicOfChina,inferred
+2022.NorthKorea,!,1970.Philippines,inferred
+2022.NorthKorea,!,1970.PortugeseRepublic,inferred
+2022.NorthKorea,!,1970.RepublicOfChina,inferred
+2022.NorthKorea,!,1970.RepublicOfKorea,inferred
+2022.NorthKorea,!,1970.RepublicOfThePhilippines,inferred
+2022.NorthKorea,!,1970.RepublicOfVietnam,inferred
+2022.NorthKorea,!,1970.SouthKorea,inferred
+2022.NorthKorea,!,1970.SouthVietnam,inferred
+2022.NorthKorea,!,1970.Taiwan,inferred
+2022.NorthKorea,!,1970.Thailand,inferred
+2022.NorthKorea,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NorthKorea,<,1970.World,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1970.nc_World,inferred
+2022.PeoplesRepublicOfChina,!,1970.Cambodia,inferred
+2022.PeoplesRepublicOfChina,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.PeoplesRepublicOfChina,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1970.Japan,inferred
+2022.PeoplesRepublicOfChina,!,1970.KhmerRepublic,inferred
+2022.PeoplesRepublicOfChina,!,1970.KingdomOfThailand,inferred
+2022.PeoplesRepublicOfChina,!,1970.NihonKoku,inferred
+2022.PeoplesRepublicOfChina,!,1970.NorthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1970.NorthVietnam,inferred
+2022.PeoplesRepublicOfChina,><,1970.PeoplesRepublicOfChina,inferred
+2022.PeoplesRepublicOfChina,!,1970.Philippines,inferred
+2022.PeoplesRepublicOfChina,><,1970.PortugeseRepublic,inferred
+2022.PeoplesRepublicOfChina,!,1970.RepublicOfChina,inferred
+2022.PeoplesRepublicOfChina,!,1970.RepublicOfKorea,inferred
+2022.PeoplesRepublicOfChina,!,1970.RepublicOfThePhilippines,inferred
+2022.PeoplesRepublicOfChina,!,1970.RepublicOfVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1970.SouthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1970.SouthVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1970.Taiwan,inferred
+2022.PeoplesRepublicOfChina,!,1970.Thailand,inferred
+2022.PeoplesRepublicOfChina,><,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.PeoplesRepublicOfChina,<,1970.World,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Philippines,!,1970.Cambodia,inferred
+2022.Philippines,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Philippines,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Philippines,!,1970.HongKong,inferred
+2022.Philippines,!,1970.Japan,inferred
+2022.Philippines,!,1970.KhmerRepublic,inferred
+2022.Philippines,!,1970.KingdomOfThailand,inferred
+2022.Philippines,!,1970.Macau,inferred
+2022.Philippines,!,1970.MainlandChina,inferred
+2022.Philippines,!,1970.NihonKoku,inferred
+2022.Philippines,!,1970.NorthKorea,inferred
+2022.Philippines,!,1970.NorthVietnam,inferred
+2022.Philippines,!,1970.PeoplesRepublicOfChina,inferred
+2022.Philippines,!,1970.PortugeseRepublic,inferred
+2022.Philippines,!,1970.RepublicOfChina,inferred
+2022.Philippines,!,1970.RepublicOfKorea,inferred
+2022.Philippines,<,1970.RepublicOfThePhilippines,inferred
+2022.Philippines,!,1970.RepublicOfVietnam,inferred
+2022.Philippines,!,1970.SouthKorea,inferred
+2022.Philippines,!,1970.SouthVietnam,inferred
+2022.Philippines,!,1970.Taiwan,inferred
+2022.Philippines,!,1970.Thailand,inferred
+2022.Philippines,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Philippines,<,1970.World,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Philippines,{=, >, <, !, ><},1970.nc_World,inferred
+2022.RepublicOfChina,!,1970.Cambodia,inferred
+2022.RepublicOfChina,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfChina,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.RepublicOfChina,!,1970.HongKong,inferred
+2022.RepublicOfChina,!,1970.Japan,inferred
+2022.RepublicOfChina,!,1970.KhmerRepublic,inferred
+2022.RepublicOfChina,!,1970.KingdomOfThailand,inferred
+2022.RepublicOfChina,!,1970.Macau,inferred
+2022.RepublicOfChina,!,1970.MainlandChina,inferred
+2022.RepublicOfChina,!,1970.NihonKoku,inferred
+2022.RepublicOfChina,!,1970.NorthKorea,inferred
+2022.RepublicOfChina,!,1970.NorthVietnam,inferred
+2022.RepublicOfChina,!,1970.PeoplesRepublicOfChina,inferred
+2022.RepublicOfChina,!,1970.Philippines,inferred
+2022.RepublicOfChina,!,1970.PortugeseRepublic,inferred
+2022.RepublicOfChina,><,1970.RepublicOfChina,inferred
+2022.RepublicOfChina,!,1970.RepublicOfKorea,inferred
+2022.RepublicOfChina,!,1970.RepublicOfThePhilippines,inferred
+2022.RepublicOfChina,!,1970.RepublicOfVietnam,inferred
+2022.RepublicOfChina,!,1970.SouthKorea,inferred
+2022.RepublicOfChina,!,1970.SouthVietnam,inferred
+2022.RepublicOfChina,!,1970.Thailand,inferred
+2022.RepublicOfChina,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfChina,<,1970.World,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1970.nc_World,inferred
+2022.RepublicOfKorea,!,1970.Cambodia,inferred
+2022.RepublicOfKorea,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfKorea,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.RepublicOfKorea,!,1970.HongKong,inferred
+2022.RepublicOfKorea,!,1970.Japan,inferred
+2022.RepublicOfKorea,!,1970.KhmerRepublic,inferred
+2022.RepublicOfKorea,!,1970.KingdomOfThailand,inferred
+2022.RepublicOfKorea,!,1970.Macau,inferred
+2022.RepublicOfKorea,!,1970.MainlandChina,inferred
+2022.RepublicOfKorea,!,1970.NihonKoku,inferred
+2022.RepublicOfKorea,!,1970.NorthKorea,inferred
+2022.RepublicOfKorea,!,1970.NorthVietnam,inferred
+2022.RepublicOfKorea,!,1970.PeoplesRepublicOfChina,inferred
+2022.RepublicOfKorea,!,1970.Philippines,inferred
+2022.RepublicOfKorea,!,1970.PortugeseRepublic,inferred
+2022.RepublicOfKorea,!,1970.RepublicOfChina,inferred
+2022.RepublicOfKorea,><,1970.RepublicOfKorea,inferred
+2022.RepublicOfKorea,!,1970.RepublicOfThePhilippines,inferred
+2022.RepublicOfKorea,!,1970.RepublicOfVietnam,inferred
+2022.RepublicOfKorea,!,1970.SouthVietnam,inferred
+2022.RepublicOfKorea,!,1970.Taiwan,inferred
+2022.RepublicOfKorea,!,1970.Thailand,inferred
+2022.RepublicOfKorea,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfKorea,<,1970.World,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1970.nc_World,inferred
+2022.RepublicOfThePhilippines,!,1970.Cambodia,inferred
+2022.RepublicOfThePhilippines,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfThePhilippines,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.RepublicOfThePhilippines,!,1970.HongKong,inferred
+2022.RepublicOfThePhilippines,!,1970.Japan,inferred
+2022.RepublicOfThePhilippines,!,1970.KhmerRepublic,inferred
+2022.RepublicOfThePhilippines,!,1970.KingdomOfThailand,inferred
+2022.RepublicOfThePhilippines,!,1970.Macau,inferred
+2022.RepublicOfThePhilippines,!,1970.MainlandChina,inferred
+2022.RepublicOfThePhilippines,!,1970.NihonKoku,inferred
+2022.RepublicOfThePhilippines,!,1970.NorthKorea,inferred
+2022.RepublicOfThePhilippines,!,1970.NorthVietnam,inferred
+2022.RepublicOfThePhilippines,!,1970.PeoplesRepublicOfChina,inferred
+2022.RepublicOfThePhilippines,!,1970.PortugeseRepublic,inferred
+2022.RepublicOfThePhilippines,!,1970.RepublicOfChina,inferred
+2022.RepublicOfThePhilippines,!,1970.RepublicOfKorea,inferred
+2022.RepublicOfThePhilippines,><,1970.RepublicOfThePhilippines,inferred
+2022.RepublicOfThePhilippines,!,1970.RepublicOfVietnam,inferred
+2022.RepublicOfThePhilippines,!,1970.SouthKorea,inferred
+2022.RepublicOfThePhilippines,!,1970.SouthVietnam,inferred
+2022.RepublicOfThePhilippines,!,1970.Taiwan,inferred
+2022.RepublicOfThePhilippines,!,1970.Thailand,inferred
+2022.RepublicOfThePhilippines,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfThePhilippines,<,1970.World,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1970.nc_World,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Cambodia,inferred
+2022.SocialistRepublicOfVietnam,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.SocialistRepublicOfVietnam,><,1970.DemocraticRepublicOfVietnam,inferred
+2022.SocialistRepublicOfVietnam,!,1970.HongKong,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Japan,inferred
+2022.SocialistRepublicOfVietnam,!,1970.KhmerRepublic,inferred
+2022.SocialistRepublicOfVietnam,!,1970.KingdomOfThailand,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Macau,inferred
+2022.SocialistRepublicOfVietnam,!,1970.MainlandChina,inferred
+2022.SocialistRepublicOfVietnam,!,1970.NihonKoku,inferred
+2022.SocialistRepublicOfVietnam,!,1970.NorthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1970.PeoplesRepublicOfChina,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Philippines,inferred
+2022.SocialistRepublicOfVietnam,!,1970.PortugeseRepublic,inferred
+2022.SocialistRepublicOfVietnam,!,1970.RepublicOfChina,inferred
+2022.SocialistRepublicOfVietnam,!,1970.RepublicOfKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1970.RepublicOfThePhilippines,inferred
+2022.SocialistRepublicOfVietnam,><,1970.RepublicOfVietnam,inferred
+2022.SocialistRepublicOfVietnam,!,1970.SouthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Taiwan,inferred
+2022.SocialistRepublicOfVietnam,!,1970.Thailand,inferred
+2022.SocialistRepublicOfVietnam,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SocialistRepublicOfVietnam,{<, ><},1970.World,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1970.nc_World,inferred
+2022.SouthKorea,!,1970.Cambodia,inferred
+2022.SouthKorea,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.SouthKorea,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.SouthKorea,!,1970.HongKong,inferred
+2022.SouthKorea,!,1970.Japan,inferred
+2022.SouthKorea,!,1970.KhmerRepublic,inferred
+2022.SouthKorea,!,1970.KingdomOfThailand,inferred
+2022.SouthKorea,!,1970.Macau,inferred
+2022.SouthKorea,!,1970.MainlandChina,inferred
+2022.SouthKorea,!,1970.NihonKoku,inferred
+2022.SouthKorea,!,1970.NorthKorea,inferred
+2022.SouthKorea,!,1970.NorthVietnam,inferred
+2022.SouthKorea,!,1970.PeoplesRepublicOfChina,inferred
+2022.SouthKorea,!,1970.Philippines,inferred
+2022.SouthKorea,!,1970.PortugeseRepublic,inferred
+2022.SouthKorea,!,1970.RepublicOfChina,inferred
+2022.SouthKorea,<,1970.RepublicOfKorea,inferred
+2022.SouthKorea,!,1970.RepublicOfThePhilippines,inferred
+2022.SouthKorea,!,1970.RepublicOfVietnam,inferred
+2022.SouthKorea,!,1970.SouthVietnam,inferred
+2022.SouthKorea,!,1970.Taiwan,inferred
+2022.SouthKorea,!,1970.Thailand,inferred
+2022.SouthKorea,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SouthKorea,<,1970.World,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Taiwan,!,1970.Cambodia,inferred
+2022.Taiwan,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Taiwan,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Taiwan,!,1970.HongKong,inferred
+2022.Taiwan,!,1970.Japan,inferred
+2022.Taiwan,!,1970.KhmerRepublic,inferred
+2022.Taiwan,!,1970.KingdomOfThailand,inferred
+2022.Taiwan,!,1970.Macau,inferred
+2022.Taiwan,!,1970.MainlandChina,inferred
+2022.Taiwan,!,1970.NihonKoku,inferred
+2022.Taiwan,!,1970.NorthKorea,inferred
+2022.Taiwan,!,1970.NorthVietnam,inferred
+2022.Taiwan,!,1970.PeoplesRepublicOfChina,inferred
+2022.Taiwan,!,1970.Philippines,inferred
+2022.Taiwan,!,1970.PortugeseRepublic,inferred
+2022.Taiwan,<,1970.RepublicOfChina,inferred
+2022.Taiwan,!,1970.RepublicOfKorea,inferred
+2022.Taiwan,!,1970.RepublicOfThePhilippines,inferred
+2022.Taiwan,!,1970.RepublicOfVietnam,inferred
+2022.Taiwan,!,1970.SouthKorea,inferred
+2022.Taiwan,!,1970.SouthVietnam,inferred
+2022.Taiwan,!,1970.Thailand,inferred
+2022.Taiwan,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Taiwan,<,1970.World,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Taiwan,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Thailand,!,1970.Cambodia,inferred
+2022.Thailand,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Thailand,!,1970.DemocraticRepublicOfVietnam,inferred
+2022.Thailand,!,1970.HongKong,inferred
+2022.Thailand,!,1970.Japan,inferred
+2022.Thailand,!,1970.KhmerRepublic,inferred
+2022.Thailand,<,1970.KingdomOfThailand,inferred
+2022.Thailand,!,1970.Macau,inferred
+2022.Thailand,!,1970.MainlandChina,inferred
+2022.Thailand,!,1970.NihonKoku,inferred
+2022.Thailand,!,1970.NorthKorea,inferred
+2022.Thailand,!,1970.NorthVietnam,inferred
+2022.Thailand,!,1970.PeoplesRepublicOfChina,inferred
+2022.Thailand,!,1970.Philippines,inferred
+2022.Thailand,!,1970.PortugeseRepublic,inferred
+2022.Thailand,!,1970.RepublicOfChina,inferred
+2022.Thailand,!,1970.RepublicOfKorea,inferred
+2022.Thailand,!,1970.RepublicOfThePhilippines,inferred
+2022.Thailand,!,1970.RepublicOfVietnam,inferred
+2022.Thailand,!,1970.SouthKorea,inferred
+2022.Thailand,!,1970.SouthVietnam,inferred
+2022.Thailand,!,1970.Taiwan,inferred
+2022.Thailand,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Thailand,<,1970.World,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Thailand,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Vietnam,!,1970.Cambodia,inferred
+2022.Vietnam,!,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Vietnam,><,1970.DemocraticRepublicOfVietnam,inferred
+2022.Vietnam,!,1970.HongKong,inferred
+2022.Vietnam,!,1970.Japan,inferred
+2022.Vietnam,!,1970.KhmerRepublic,inferred
+2022.Vietnam,!,1970.KingdomOfThailand,inferred
+2022.Vietnam,!,1970.Macau,inferred
+2022.Vietnam,!,1970.MainlandChina,inferred
+2022.Vietnam,!,1970.NihonKoku,inferred
+2022.Vietnam,!,1970.NorthKorea,inferred
+2022.Vietnam,!,1970.PeoplesRepublicOfChina,inferred
+2022.Vietnam,!,1970.Philippines,inferred
+2022.Vietnam,!,1970.PortugeseRepublic,inferred
+2022.Vietnam,!,1970.RepublicOfChina,inferred
+2022.Vietnam,!,1970.RepublicOfKorea,inferred
+2022.Vietnam,!,1970.RepublicOfThePhilippines,inferred
+2022.Vietnam,><,1970.RepublicOfVietnam,inferred
+2022.Vietnam,!,1970.SouthKorea,inferred
+2022.Vietnam,!,1970.Taiwan,inferred
+2022.Vietnam,!,1970.Thailand,inferred
+2022.Vietnam,!,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Vietnam,{<, ><},1970.World,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.Vietnam,{=, >, <, !, ><},1970.nc_World,inferred
+2022.World,>,1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.World,>,1970.DemocraticRepublicOfVietnam,inferred
+2022.World,>,1970.KhmerRepublic,inferred
+2022.World,>,1970.KingdomOfThailand,inferred
+2022.World,>,1970.NihonKoku,inferred
+2022.World,>,1970.PeoplesRepublicOfChina,inferred
+2022.World,>,1970.PortugeseRepublic,inferred
+2022.World,>,1970.RepublicOfChina,inferred
+2022.World,>,1970.RepublicOfKorea,inferred
+2022.World,>,1970.RepublicOfThePhilippines,inferred
+2022.World,>,1970.RepublicOfVietnam,inferred
+2022.World,>,1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.World,{=, >, <, ><},1970.World,inferred
+2022.World,{=, >, <, !, ><},1970.nc_World,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_KOC,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_KOT,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_PRC,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_ROC,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_ROK,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_ROP,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_DPRK,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_DROV,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_KOT,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_KR,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_Nihon,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_PRC,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_Portugal,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_ROC,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_ROK,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_ROP,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_ROV,inferred
+2022.nc_VN,{=, >, <, !, ><},1970.nc_UK,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Cambodia,inferred
+2022.nc_World,{=, >, <, !, ><},1970.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1970.DemocraticRepublicOfVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1970.HongKong,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Japan,inferred
+2022.nc_World,{=, >, <, !, ><},1970.KhmerRepublic,inferred
+2022.nc_World,{=, >, <, !, ><},1970.KingdomOfThailand,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Macau,inferred
+2022.nc_World,{=, >, <, !, ><},1970.MainlandChina,inferred
+2022.nc_World,{=, >, <, !, ><},1970.NihonKoku,inferred
+2022.nc_World,{=, >, <, !, ><},1970.NorthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1970.NorthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1970.PeoplesRepublicOfChina,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Philippines,inferred
+2022.nc_World,{=, >, <, !, ><},1970.PortugeseRepublic,inferred
+2022.nc_World,{=, >, <, !, ><},1970.RepublicOfChina,inferred
+2022.nc_World,{=, >, <, !, ><},1970.RepublicOfKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1970.RepublicOfThePhilippines,inferred
+2022.nc_World,{=, >, <, !, ><},1970.RepublicOfVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1970.SouthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1970.SouthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Taiwan,inferred
+2022.nc_World,{=, >, <, !, ><},1970.Thailand,inferred
+2022.nc_World,{=, >, <, !, ><},1970.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_World,{=, >, <, !, ><},1970.World,inferred
+2022.nc_World,{=, >, <, !, ><},1970.nc_World,inferred
+2022.Cambodia,=,1970.Cambodia,input
+2022.HongKong,=,1970.HongKong,input
+2022.Japan,=,1970.Japan,input
+2022.Macau,=,1970.Macau,input
+2022.MainlandChina,=,1970.MainlandChina,input
+2022.NorthKorea,=,1970.NorthKorea,input
+2022.Philippines,=,1970.Philippines,input
+2022.SouthKorea,=,1970.SouthKorea,input
+2022.Taiwan,=,1970.Taiwan,input
+2022.Thailand,=,1970.Thailand,input
+2022.Vietnam,>,1970.NorthVietnam,input
+2022.Vietnam,>,1970.SouthVietnam,input
+2022.nc_DPRK,<,1970.nc_World,input
+2022.nc_KOC,<,1970.nc_World,input
+2022.nc_KOT,<,1970.nc_World,input
+2022.nc_Nihon,<,1970.nc_World,input
+2022.nc_PRC,<,1970.nc_World,input
+2022.nc_ROC,<,1970.nc_World,input
+2022.nc_ROK,<,1970.nc_World,input
+2022.nc_ROP,<,1970.nc_World,input
+2022.nc_VN,<,1970.nc_World,input
+2022.nc_World,>,1970.nc_DPRK,input
+2022.nc_World,>,1970.nc_DROV,input
+2022.nc_World,>,1970.nc_KOT,input
+2022.nc_World,>,1970.nc_KR,input
+2022.nc_World,>,1970.nc_Nihon,input
+2022.nc_World,>,1970.nc_PRC,input
+2022.nc_World,>,1970.nc_Portugal,input
+2022.nc_World,>,1970.nc_ROC,input
+2022.nc_World,>,1970.nc_ROK,input
+2022.nc_World,>,1970.nc_ROP,input
+2022.nc_World,>,1970.nc_ROV,input
+2022.nc_World,>,1970.nc_UK,input

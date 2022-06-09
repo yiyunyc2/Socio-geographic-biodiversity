@@ -1,0 +1,1085 @@
+2022.Cambodia,<,1980.PeoplesRepublicOfKampuchea,deduced
+2022.Cambodia,<,1980.World,deduced
+2022.Cambodia,!,1980.nc_PRK,deduced
+2022.DemocraticPeoplesRepublicOfKorea,>,1980.NorthKorea,deduced
+2022.HongKong,!,1980.Macau,deduced
+2022.HongKong,!,1980.MainlandChina,deduced
+2022.HongKong,<,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,deduced
+2022.HongKong,<,1980.World,deduced
+2022.HongKong,!,1980.nc_UK,deduced
+2022.Japan,<,1980.NihonKoku,deduced
+2022.Japan,<,1980.World,deduced
+2022.Japan,!,1980.nc_Nihon,deduced
+2022.KingdomOfCambodia,>,1980.Cambodia,deduced
+2022.KingdomOfThailand,>,1980.Thailand,deduced
+2022.Macau,!,1980.HongKong,deduced
+2022.Macau,!,1980.MainlandChina,deduced
+2022.Macau,<,1980.PortugeseRepublic,deduced
+2022.Macau,<,1980.World,deduced
+2022.Macau,!,1980.nc_Portugal,deduced
+2022.MainlandChina,!,1980.HongKong,deduced
+2022.MainlandChina,!,1980.Macau,deduced
+2022.MainlandChina,<,1980.PeoplesRepublicOfChina,deduced
+2022.MainlandChina,<,1980.World,deduced
+2022.MainlandChina,!,1980.nc_PRC,deduced
+2022.NihonKoku,>,1980.Japan,deduced
+2022.NorthKorea,<,1980.DemocraticPeoplesRepublicOfKorea,deduced
+2022.NorthKorea,<,1980.World,deduced
+2022.NorthKorea,!,1980.nc_DPRK,deduced
+2022.PeoplesRepublicOfChina,>,1980.HongKong,deduced
+2022.PeoplesRepublicOfChina,>,1980.Macau,deduced
+2022.PeoplesRepublicOfChina,>,1980.MainlandChina,deduced
+2022.Philippines,<,1980.RepublicOfThePhilippines,deduced
+2022.Philippines,<,1980.World,deduced
+2022.Philippines,!,1980.nc_ROP,deduced
+2022.RepublicOfChina,>,1980.Taiwan,deduced
+2022.RepublicOfKorea,>,1980.SouthKorea,deduced
+2022.RepublicOfThePhilippines,>,1980.Philippines,deduced
+2022.SocialistRepublicOfVietnam,>,1980.Vietnam,deduced
+2022.SouthKorea,<,1980.RepublicOfKorea,deduced
+2022.SouthKorea,<,1980.World,deduced
+2022.SouthKorea,!,1980.nc_ROK,deduced
+2022.Taiwan,<,1980.RepublicOfChina,deduced
+2022.Taiwan,<,1980.World,deduced
+2022.Taiwan,!,1980.nc_ROC,deduced
+2022.Thailand,<,1980.KingdomOfThailand,deduced
+2022.Thailand,<,1980.World,deduced
+2022.Thailand,!,1980.nc_KOT,deduced
+2022.Vietnam,<,1980.SocialistRepublicOfVietnam,deduced
+2022.Vietnam,<,1980.World,deduced
+2022.Vietnam,!,1980.nc_VN,deduced
+2022.World,>,1980.Cambodia,deduced
+2022.World,>,1980.HongKong,deduced
+2022.World,>,1980.Japan,deduced
+2022.World,>,1980.Macau,deduced
+2022.World,>,1980.MainlandChina,deduced
+2022.World,>,1980.NorthKorea,deduced
+2022.World,>,1980.Philippines,deduced
+2022.World,>,1980.SouthKorea,deduced
+2022.World,>,1980.Taiwan,deduced
+2022.World,>,1980.Thailand,deduced
+2022.World,>,1980.Vietnam,deduced
+2022.World,>,1980.nc_DPRK,deduced
+2022.World,>,1980.nc_KOT,deduced
+2022.World,>,1980.nc_Nihon,deduced
+2022.World,>,1980.nc_PRC,deduced
+2022.World,>,1980.nc_PRK,deduced
+2022.World,>,1980.nc_Portugal,deduced
+2022.World,>,1980.nc_ROC,deduced
+2022.World,>,1980.nc_ROK,deduced
+2022.World,>,1980.nc_ROP,deduced
+2022.World,>,1980.nc_UK,deduced
+2022.World,>,1980.nc_VN,deduced
+2022.nc_DPRK,!,1980.NorthKorea,deduced
+2022.nc_DPRK,<,1980.World,deduced
+2022.nc_KOC,!,1980.Cambodia,deduced
+2022.nc_KOC,<,1980.World,deduced
+2022.nc_KOT,!,1980.Thailand,deduced
+2022.nc_KOT,<,1980.World,deduced
+2022.nc_Nihon,!,1980.Japan,deduced
+2022.nc_Nihon,<,1980.World,deduced
+2022.nc_PRC,!,1980.HongKong,deduced
+2022.nc_PRC,!,1980.Macau,deduced
+2022.nc_PRC,!,1980.MainlandChina,deduced
+2022.nc_PRC,<,1980.World,deduced
+2022.nc_ROC,!,1980.Taiwan,deduced
+2022.nc_ROC,<,1980.World,deduced
+2022.nc_ROK,!,1980.SouthKorea,deduced
+2022.nc_ROK,<,1980.World,deduced
+2022.nc_ROP,!,1980.Philippines,deduced
+2022.nc_ROP,<,1980.World,deduced
+2022.nc_VN,!,1980.Vietnam,deduced
+2022.nc_VN,<,1980.World,deduced
+2022.Cambodia,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Cambodia,!,1980.HongKong,inferred
+2022.Cambodia,!,1980.Japan,inferred
+2022.Cambodia,!,1980.KingdomOfThailand,inferred
+2022.Cambodia,!,1980.Macau,inferred
+2022.Cambodia,!,1980.MainlandChina,inferred
+2022.Cambodia,!,1980.NihonKoku,inferred
+2022.Cambodia,!,1980.NorthKorea,inferred
+2022.Cambodia,!,1980.PeoplesRepublicOfChina,inferred
+2022.Cambodia,!,1980.Philippines,inferred
+2022.Cambodia,!,1980.PortugeseRepublic,inferred
+2022.Cambodia,!,1980.RepublicOfChina,inferred
+2022.Cambodia,!,1980.RepublicOfKorea,inferred
+2022.Cambodia,!,1980.RepublicOfThePhilippines,inferred
+2022.Cambodia,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Cambodia,!,1980.SouthKorea,inferred
+2022.Cambodia,!,1980.Taiwan,inferred
+2022.Cambodia,!,1980.Thailand,inferred
+2022.Cambodia,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Cambodia,!,1980.Vietnam,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Cambodia,{=, >, <, !, ><},1980.nc_World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Cambodia,inferred
+2022.DemocraticPeoplesRepublicOfKorea,><,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.HongKong,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Japan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.KingdomOfThailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Macau,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.MainlandChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.NihonKoku,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.PeoplesRepublicOfChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Philippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.PortugeseRepublic,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.RepublicOfChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.RepublicOfKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.RepublicOfThePhilippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.SocialistRepublicOfVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.SouthKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Taiwan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Thailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1980.Vietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,<,1980.World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1980.nc_World,inferred
+2022.HongKong,!,1980.Cambodia,inferred
+2022.HongKong,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.HongKong,!,1980.Japan,inferred
+2022.HongKong,!,1980.KingdomOfThailand,inferred
+2022.HongKong,!,1980.NihonKoku,inferred
+2022.HongKong,!,1980.NorthKorea,inferred
+2022.HongKong,!,1980.PeoplesRepublicOfChina,inferred
+2022.HongKong,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.HongKong,!,1980.Philippines,inferred
+2022.HongKong,!,1980.PortugeseRepublic,inferred
+2022.HongKong,!,1980.RepublicOfChina,inferred
+2022.HongKong,!,1980.RepublicOfKorea,inferred
+2022.HongKong,!,1980.RepublicOfThePhilippines,inferred
+2022.HongKong,!,1980.SocialistRepublicOfVietnam,inferred
+2022.HongKong,!,1980.SouthKorea,inferred
+2022.HongKong,!,1980.Taiwan,inferred
+2022.HongKong,!,1980.Thailand,inferred
+2022.HongKong,!,1980.Vietnam,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.HongKong,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Japan,!,1980.Cambodia,inferred
+2022.Japan,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Japan,!,1980.HongKong,inferred
+2022.Japan,!,1980.KingdomOfThailand,inferred
+2022.Japan,!,1980.Macau,inferred
+2022.Japan,!,1980.MainlandChina,inferred
+2022.Japan,!,1980.NorthKorea,inferred
+2022.Japan,!,1980.PeoplesRepublicOfChina,inferred
+2022.Japan,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Japan,!,1980.Philippines,inferred
+2022.Japan,!,1980.PortugeseRepublic,inferred
+2022.Japan,!,1980.RepublicOfChina,inferred
+2022.Japan,!,1980.RepublicOfKorea,inferred
+2022.Japan,!,1980.RepublicOfThePhilippines,inferred
+2022.Japan,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Japan,!,1980.SouthKorea,inferred
+2022.Japan,!,1980.Taiwan,inferred
+2022.Japan,!,1980.Thailand,inferred
+2022.Japan,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Japan,!,1980.Vietnam,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Japan,{=, >, <, !, ><},1980.nc_World,inferred
+2022.KingdomOfCambodia,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.KingdomOfCambodia,!,1980.HongKong,inferred
+2022.KingdomOfCambodia,!,1980.Japan,inferred
+2022.KingdomOfCambodia,!,1980.KingdomOfThailand,inferred
+2022.KingdomOfCambodia,!,1980.Macau,inferred
+2022.KingdomOfCambodia,!,1980.MainlandChina,inferred
+2022.KingdomOfCambodia,!,1980.NihonKoku,inferred
+2022.KingdomOfCambodia,!,1980.NorthKorea,inferred
+2022.KingdomOfCambodia,!,1980.PeoplesRepublicOfChina,inferred
+2022.KingdomOfCambodia,><,1980.PeoplesRepublicOfKampuchea,inferred
+2022.KingdomOfCambodia,!,1980.Philippines,inferred
+2022.KingdomOfCambodia,!,1980.PortugeseRepublic,inferred
+2022.KingdomOfCambodia,!,1980.RepublicOfChina,inferred
+2022.KingdomOfCambodia,!,1980.RepublicOfKorea,inferred
+2022.KingdomOfCambodia,!,1980.RepublicOfThePhilippines,inferred
+2022.KingdomOfCambodia,!,1980.SocialistRepublicOfVietnam,inferred
+2022.KingdomOfCambodia,!,1980.SouthKorea,inferred
+2022.KingdomOfCambodia,!,1980.Taiwan,inferred
+2022.KingdomOfCambodia,!,1980.Thailand,inferred
+2022.KingdomOfCambodia,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfCambodia,!,1980.Vietnam,inferred
+2022.KingdomOfCambodia,<,1980.World,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1980.nc_World,inferred
+2022.KingdomOfThailand,!,1980.Cambodia,inferred
+2022.KingdomOfThailand,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.KingdomOfThailand,!,1980.HongKong,inferred
+2022.KingdomOfThailand,!,1980.Japan,inferred
+2022.KingdomOfThailand,><,1980.KingdomOfThailand,inferred
+2022.KingdomOfThailand,!,1980.Macau,inferred
+2022.KingdomOfThailand,!,1980.MainlandChina,inferred
+2022.KingdomOfThailand,!,1980.NihonKoku,inferred
+2022.KingdomOfThailand,!,1980.NorthKorea,inferred
+2022.KingdomOfThailand,!,1980.PeoplesRepublicOfChina,inferred
+2022.KingdomOfThailand,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.KingdomOfThailand,!,1980.Philippines,inferred
+2022.KingdomOfThailand,!,1980.PortugeseRepublic,inferred
+2022.KingdomOfThailand,!,1980.RepublicOfChina,inferred
+2022.KingdomOfThailand,!,1980.RepublicOfKorea,inferred
+2022.KingdomOfThailand,!,1980.RepublicOfThePhilippines,inferred
+2022.KingdomOfThailand,!,1980.SocialistRepublicOfVietnam,inferred
+2022.KingdomOfThailand,!,1980.SouthKorea,inferred
+2022.KingdomOfThailand,!,1980.Taiwan,inferred
+2022.KingdomOfThailand,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfThailand,!,1980.Vietnam,inferred
+2022.KingdomOfThailand,<,1980.World,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Macau,!,1980.Cambodia,inferred
+2022.Macau,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Macau,!,1980.Japan,inferred
+2022.Macau,!,1980.KingdomOfThailand,inferred
+2022.Macau,!,1980.NihonKoku,inferred
+2022.Macau,!,1980.NorthKorea,inferred
+2022.Macau,!,1980.PeoplesRepublicOfChina,inferred
+2022.Macau,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Macau,!,1980.Philippines,inferred
+2022.Macau,!,1980.RepublicOfChina,inferred
+2022.Macau,!,1980.RepublicOfKorea,inferred
+2022.Macau,!,1980.RepublicOfThePhilippines,inferred
+2022.Macau,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Macau,!,1980.SouthKorea,inferred
+2022.Macau,!,1980.Taiwan,inferred
+2022.Macau,!,1980.Thailand,inferred
+2022.Macau,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Macau,!,1980.Vietnam,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Macau,{=, >, <, !, ><},1980.nc_World,inferred
+2022.MainlandChina,!,1980.Cambodia,inferred
+2022.MainlandChina,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.MainlandChina,!,1980.Japan,inferred
+2022.MainlandChina,!,1980.KingdomOfThailand,inferred
+2022.MainlandChina,!,1980.NihonKoku,inferred
+2022.MainlandChina,!,1980.NorthKorea,inferred
+2022.MainlandChina,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.MainlandChina,!,1980.Philippines,inferred
+2022.MainlandChina,!,1980.PortugeseRepublic,inferred
+2022.MainlandChina,!,1980.RepublicOfChina,inferred
+2022.MainlandChina,!,1980.RepublicOfKorea,inferred
+2022.MainlandChina,!,1980.RepublicOfThePhilippines,inferred
+2022.MainlandChina,!,1980.SocialistRepublicOfVietnam,inferred
+2022.MainlandChina,!,1980.SouthKorea,inferred
+2022.MainlandChina,!,1980.Taiwan,inferred
+2022.MainlandChina,!,1980.Thailand,inferred
+2022.MainlandChina,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.MainlandChina,!,1980.Vietnam,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.MainlandChina,{=, >, <, !, ><},1980.nc_World,inferred
+2022.NihonKoku,!,1980.Cambodia,inferred
+2022.NihonKoku,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.NihonKoku,!,1980.HongKong,inferred
+2022.NihonKoku,!,1980.KingdomOfThailand,inferred
+2022.NihonKoku,!,1980.Macau,inferred
+2022.NihonKoku,!,1980.MainlandChina,inferred
+2022.NihonKoku,><,1980.NihonKoku,inferred
+2022.NihonKoku,!,1980.NorthKorea,inferred
+2022.NihonKoku,!,1980.PeoplesRepublicOfChina,inferred
+2022.NihonKoku,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.NihonKoku,!,1980.Philippines,inferred
+2022.NihonKoku,!,1980.PortugeseRepublic,inferred
+2022.NihonKoku,!,1980.RepublicOfChina,inferred
+2022.NihonKoku,!,1980.RepublicOfKorea,inferred
+2022.NihonKoku,!,1980.RepublicOfThePhilippines,inferred
+2022.NihonKoku,!,1980.SocialistRepublicOfVietnam,inferred
+2022.NihonKoku,!,1980.SouthKorea,inferred
+2022.NihonKoku,!,1980.Taiwan,inferred
+2022.NihonKoku,!,1980.Thailand,inferred
+2022.NihonKoku,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NihonKoku,!,1980.Vietnam,inferred
+2022.NihonKoku,<,1980.World,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.NihonKoku,{=, >, <, !, ><},1980.nc_World,inferred
+2022.NorthKorea,!,1980.Cambodia,inferred
+2022.NorthKorea,!,1980.HongKong,inferred
+2022.NorthKorea,!,1980.Japan,inferred
+2022.NorthKorea,!,1980.KingdomOfThailand,inferred
+2022.NorthKorea,!,1980.Macau,inferred
+2022.NorthKorea,!,1980.MainlandChina,inferred
+2022.NorthKorea,!,1980.NihonKoku,inferred
+2022.NorthKorea,!,1980.PeoplesRepublicOfChina,inferred
+2022.NorthKorea,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.NorthKorea,!,1980.Philippines,inferred
+2022.NorthKorea,!,1980.PortugeseRepublic,inferred
+2022.NorthKorea,!,1980.RepublicOfChina,inferred
+2022.NorthKorea,!,1980.RepublicOfKorea,inferred
+2022.NorthKorea,!,1980.RepublicOfThePhilippines,inferred
+2022.NorthKorea,!,1980.SocialistRepublicOfVietnam,inferred
+2022.NorthKorea,!,1980.SouthKorea,inferred
+2022.NorthKorea,!,1980.Taiwan,inferred
+2022.NorthKorea,!,1980.Thailand,inferred
+2022.NorthKorea,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NorthKorea,!,1980.Vietnam,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.NorthKorea,{=, >, <, !, ><},1980.nc_World,inferred
+2022.PeoplesRepublicOfChina,!,1980.Cambodia,inferred
+2022.PeoplesRepublicOfChina,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.PeoplesRepublicOfChina,!,1980.Japan,inferred
+2022.PeoplesRepublicOfChina,!,1980.KingdomOfThailand,inferred
+2022.PeoplesRepublicOfChina,!,1980.NihonKoku,inferred
+2022.PeoplesRepublicOfChina,!,1980.NorthKorea,inferred
+2022.PeoplesRepublicOfChina,><,1980.PeoplesRepublicOfChina,inferred
+2022.PeoplesRepublicOfChina,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.PeoplesRepublicOfChina,!,1980.Philippines,inferred
+2022.PeoplesRepublicOfChina,><,1980.PortugeseRepublic,inferred
+2022.PeoplesRepublicOfChina,!,1980.RepublicOfChina,inferred
+2022.PeoplesRepublicOfChina,!,1980.RepublicOfKorea,inferred
+2022.PeoplesRepublicOfChina,!,1980.RepublicOfThePhilippines,inferred
+2022.PeoplesRepublicOfChina,!,1980.SocialistRepublicOfVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1980.SouthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1980.Taiwan,inferred
+2022.PeoplesRepublicOfChina,!,1980.Thailand,inferred
+2022.PeoplesRepublicOfChina,><,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.PeoplesRepublicOfChina,!,1980.Vietnam,inferred
+2022.PeoplesRepublicOfChina,<,1980.World,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Philippines,!,1980.Cambodia,inferred
+2022.Philippines,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Philippines,!,1980.HongKong,inferred
+2022.Philippines,!,1980.Japan,inferred
+2022.Philippines,!,1980.KingdomOfThailand,inferred
+2022.Philippines,!,1980.Macau,inferred
+2022.Philippines,!,1980.MainlandChina,inferred
+2022.Philippines,!,1980.NihonKoku,inferred
+2022.Philippines,!,1980.NorthKorea,inferred
+2022.Philippines,!,1980.PeoplesRepublicOfChina,inferred
+2022.Philippines,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Philippines,!,1980.PortugeseRepublic,inferred
+2022.Philippines,!,1980.RepublicOfChina,inferred
+2022.Philippines,!,1980.RepublicOfKorea,inferred
+2022.Philippines,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Philippines,!,1980.SouthKorea,inferred
+2022.Philippines,!,1980.Taiwan,inferred
+2022.Philippines,!,1980.Thailand,inferred
+2022.Philippines,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Philippines,!,1980.Vietnam,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Philippines,{=, >, <, !, ><},1980.nc_World,inferred
+2022.RepublicOfChina,!,1980.Cambodia,inferred
+2022.RepublicOfChina,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfChina,!,1980.HongKong,inferred
+2022.RepublicOfChina,!,1980.Japan,inferred
+2022.RepublicOfChina,!,1980.KingdomOfThailand,inferred
+2022.RepublicOfChina,!,1980.Macau,inferred
+2022.RepublicOfChina,!,1980.MainlandChina,inferred
+2022.RepublicOfChina,!,1980.NihonKoku,inferred
+2022.RepublicOfChina,!,1980.NorthKorea,inferred
+2022.RepublicOfChina,!,1980.PeoplesRepublicOfChina,inferred
+2022.RepublicOfChina,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.RepublicOfChina,!,1980.Philippines,inferred
+2022.RepublicOfChina,!,1980.PortugeseRepublic,inferred
+2022.RepublicOfChina,><,1980.RepublicOfChina,inferred
+2022.RepublicOfChina,!,1980.RepublicOfKorea,inferred
+2022.RepublicOfChina,!,1980.RepublicOfThePhilippines,inferred
+2022.RepublicOfChina,!,1980.SocialistRepublicOfVietnam,inferred
+2022.RepublicOfChina,!,1980.SouthKorea,inferred
+2022.RepublicOfChina,!,1980.Thailand,inferred
+2022.RepublicOfChina,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfChina,!,1980.Vietnam,inferred
+2022.RepublicOfChina,<,1980.World,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1980.nc_World,inferred
+2022.RepublicOfKorea,!,1980.Cambodia,inferred
+2022.RepublicOfKorea,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfKorea,!,1980.HongKong,inferred
+2022.RepublicOfKorea,!,1980.Japan,inferred
+2022.RepublicOfKorea,!,1980.KingdomOfThailand,inferred
+2022.RepublicOfKorea,!,1980.Macau,inferred
+2022.RepublicOfKorea,!,1980.MainlandChina,inferred
+2022.RepublicOfKorea,!,1980.NihonKoku,inferred
+2022.RepublicOfKorea,!,1980.NorthKorea,inferred
+2022.RepublicOfKorea,!,1980.PeoplesRepublicOfChina,inferred
+2022.RepublicOfKorea,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.RepublicOfKorea,!,1980.Philippines,inferred
+2022.RepublicOfKorea,!,1980.PortugeseRepublic,inferred
+2022.RepublicOfKorea,!,1980.RepublicOfChina,inferred
+2022.RepublicOfKorea,><,1980.RepublicOfKorea,inferred
+2022.RepublicOfKorea,!,1980.RepublicOfThePhilippines,inferred
+2022.RepublicOfKorea,!,1980.SocialistRepublicOfVietnam,inferred
+2022.RepublicOfKorea,!,1980.Taiwan,inferred
+2022.RepublicOfKorea,!,1980.Thailand,inferred
+2022.RepublicOfKorea,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfKorea,!,1980.Vietnam,inferred
+2022.RepublicOfKorea,<,1980.World,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1980.nc_World,inferred
+2022.RepublicOfThePhilippines,!,1980.Cambodia,inferred
+2022.RepublicOfThePhilippines,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.RepublicOfThePhilippines,!,1980.HongKong,inferred
+2022.RepublicOfThePhilippines,!,1980.Japan,inferred
+2022.RepublicOfThePhilippines,!,1980.KingdomOfThailand,inferred
+2022.RepublicOfThePhilippines,!,1980.Macau,inferred
+2022.RepublicOfThePhilippines,!,1980.MainlandChina,inferred
+2022.RepublicOfThePhilippines,!,1980.NihonKoku,inferred
+2022.RepublicOfThePhilippines,!,1980.NorthKorea,inferred
+2022.RepublicOfThePhilippines,!,1980.PeoplesRepublicOfChina,inferred
+2022.RepublicOfThePhilippines,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.RepublicOfThePhilippines,!,1980.PortugeseRepublic,inferred
+2022.RepublicOfThePhilippines,!,1980.RepublicOfChina,inferred
+2022.RepublicOfThePhilippines,!,1980.RepublicOfKorea,inferred
+2022.RepublicOfThePhilippines,><,1980.RepublicOfThePhilippines,inferred
+2022.RepublicOfThePhilippines,!,1980.SocialistRepublicOfVietnam,inferred
+2022.RepublicOfThePhilippines,!,1980.SouthKorea,inferred
+2022.RepublicOfThePhilippines,!,1980.Taiwan,inferred
+2022.RepublicOfThePhilippines,!,1980.Thailand,inferred
+2022.RepublicOfThePhilippines,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfThePhilippines,!,1980.Vietnam,inferred
+2022.RepublicOfThePhilippines,<,1980.World,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1980.nc_World,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Cambodia,inferred
+2022.SocialistRepublicOfVietnam,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1980.HongKong,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Japan,inferred
+2022.SocialistRepublicOfVietnam,!,1980.KingdomOfThailand,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Macau,inferred
+2022.SocialistRepublicOfVietnam,!,1980.MainlandChina,inferred
+2022.SocialistRepublicOfVietnam,!,1980.NihonKoku,inferred
+2022.SocialistRepublicOfVietnam,!,1980.NorthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1980.PeoplesRepublicOfChina,inferred
+2022.SocialistRepublicOfVietnam,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Philippines,inferred
+2022.SocialistRepublicOfVietnam,!,1980.PortugeseRepublic,inferred
+2022.SocialistRepublicOfVietnam,!,1980.RepublicOfChina,inferred
+2022.SocialistRepublicOfVietnam,!,1980.RepublicOfKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1980.RepublicOfThePhilippines,inferred
+2022.SocialistRepublicOfVietnam,><,1980.SocialistRepublicOfVietnam,inferred
+2022.SocialistRepublicOfVietnam,!,1980.SouthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Taiwan,inferred
+2022.SocialistRepublicOfVietnam,!,1980.Thailand,inferred
+2022.SocialistRepublicOfVietnam,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SocialistRepublicOfVietnam,<,1980.World,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1980.nc_World,inferred
+2022.SouthKorea,!,1980.Cambodia,inferred
+2022.SouthKorea,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.SouthKorea,!,1980.HongKong,inferred
+2022.SouthKorea,!,1980.Japan,inferred
+2022.SouthKorea,!,1980.KingdomOfThailand,inferred
+2022.SouthKorea,!,1980.Macau,inferred
+2022.SouthKorea,!,1980.MainlandChina,inferred
+2022.SouthKorea,!,1980.NihonKoku,inferred
+2022.SouthKorea,!,1980.NorthKorea,inferred
+2022.SouthKorea,!,1980.PeoplesRepublicOfChina,inferred
+2022.SouthKorea,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.SouthKorea,!,1980.Philippines,inferred
+2022.SouthKorea,!,1980.PortugeseRepublic,inferred
+2022.SouthKorea,!,1980.RepublicOfChina,inferred
+2022.SouthKorea,!,1980.RepublicOfThePhilippines,inferred
+2022.SouthKorea,!,1980.SocialistRepublicOfVietnam,inferred
+2022.SouthKorea,!,1980.Taiwan,inferred
+2022.SouthKorea,!,1980.Thailand,inferred
+2022.SouthKorea,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SouthKorea,!,1980.Vietnam,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.SouthKorea,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Taiwan,!,1980.Cambodia,inferred
+2022.Taiwan,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Taiwan,!,1980.HongKong,inferred
+2022.Taiwan,!,1980.Japan,inferred
+2022.Taiwan,!,1980.KingdomOfThailand,inferred
+2022.Taiwan,!,1980.Macau,inferred
+2022.Taiwan,!,1980.MainlandChina,inferred
+2022.Taiwan,!,1980.NihonKoku,inferred
+2022.Taiwan,!,1980.NorthKorea,inferred
+2022.Taiwan,!,1980.PeoplesRepublicOfChina,inferred
+2022.Taiwan,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Taiwan,!,1980.Philippines,inferred
+2022.Taiwan,!,1980.PortugeseRepublic,inferred
+2022.Taiwan,!,1980.RepublicOfKorea,inferred
+2022.Taiwan,!,1980.RepublicOfThePhilippines,inferred
+2022.Taiwan,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Taiwan,!,1980.SouthKorea,inferred
+2022.Taiwan,!,1980.Thailand,inferred
+2022.Taiwan,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Taiwan,!,1980.Vietnam,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Taiwan,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Thailand,!,1980.Cambodia,inferred
+2022.Thailand,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Thailand,!,1980.HongKong,inferred
+2022.Thailand,!,1980.Japan,inferred
+2022.Thailand,!,1980.Macau,inferred
+2022.Thailand,!,1980.MainlandChina,inferred
+2022.Thailand,!,1980.NihonKoku,inferred
+2022.Thailand,!,1980.NorthKorea,inferred
+2022.Thailand,!,1980.PeoplesRepublicOfChina,inferred
+2022.Thailand,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Thailand,!,1980.Philippines,inferred
+2022.Thailand,!,1980.PortugeseRepublic,inferred
+2022.Thailand,!,1980.RepublicOfChina,inferred
+2022.Thailand,!,1980.RepublicOfKorea,inferred
+2022.Thailand,!,1980.RepublicOfThePhilippines,inferred
+2022.Thailand,!,1980.SocialistRepublicOfVietnam,inferred
+2022.Thailand,!,1980.SouthKorea,inferred
+2022.Thailand,!,1980.Taiwan,inferred
+2022.Thailand,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Thailand,!,1980.Vietnam,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.Thailand,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Vietnam,!,1980.Cambodia,inferred
+2022.Vietnam,!,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.Vietnam,!,1980.HongKong,inferred
+2022.Vietnam,!,1980.Japan,inferred
+2022.Vietnam,!,1980.KingdomOfThailand,inferred
+2022.Vietnam,!,1980.Macau,inferred
+2022.Vietnam,!,1980.MainlandChina,inferred
+2022.Vietnam,!,1980.NihonKoku,inferred
+2022.Vietnam,!,1980.NorthKorea,inferred
+2022.Vietnam,!,1980.PeoplesRepublicOfChina,inferred
+2022.Vietnam,!,1980.PeoplesRepublicOfKampuchea,inferred
+2022.Vietnam,!,1980.Philippines,inferred
+2022.Vietnam,!,1980.PortugeseRepublic,inferred
+2022.Vietnam,!,1980.RepublicOfChina,inferred
+2022.Vietnam,!,1980.RepublicOfKorea,inferred
+2022.Vietnam,!,1980.RepublicOfThePhilippines,inferred
+2022.Vietnam,!,1980.SouthKorea,inferred
+2022.Vietnam,!,1980.Taiwan,inferred
+2022.Vietnam,!,1980.Thailand,inferred
+2022.Vietnam,!,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.Vietnam,{=, >, <, !, ><},1980.nc_World,inferred
+2022.World,>,1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.World,>,1980.KingdomOfThailand,inferred
+2022.World,>,1980.NihonKoku,inferred
+2022.World,>,1980.PeoplesRepublicOfChina,inferred
+2022.World,>,1980.PeoplesRepublicOfKampuchea,inferred
+2022.World,>,1980.PortugeseRepublic,inferred
+2022.World,>,1980.RepublicOfChina,inferred
+2022.World,>,1980.RepublicOfKorea,inferred
+2022.World,>,1980.RepublicOfThePhilippines,inferred
+2022.World,>,1980.SocialistRepublicOfVietnam,inferred
+2022.World,>,1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.World,{=, >, <, ><},1980.World,inferred
+2022.World,{=, >, <, !, ><},1980.nc_World,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_DPRK,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_KOT,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_Nihon,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_PRC,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_PRK,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_Portugal,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_ROC,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_ROK,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_ROP,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_UK,inferred
+2022.nc_VN,{=, >, <, !, ><},1980.nc_VN,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Cambodia,inferred
+2022.nc_World,{=, >, <, !, ><},1980.DemocraticPeoplesRepublicOfKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1980.HongKong,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Japan,inferred
+2022.nc_World,{=, >, <, !, ><},1980.KingdomOfThailand,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Macau,inferred
+2022.nc_World,{=, >, <, !, ><},1980.MainlandChina,inferred
+2022.nc_World,{=, >, <, !, ><},1980.NihonKoku,inferred
+2022.nc_World,{=, >, <, !, ><},1980.NorthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1980.PeoplesRepublicOfChina,inferred
+2022.nc_World,{=, >, <, !, ><},1980.PeoplesRepublicOfKampuchea,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Philippines,inferred
+2022.nc_World,{=, >, <, !, ><},1980.PortugeseRepublic,inferred
+2022.nc_World,{=, >, <, !, ><},1980.RepublicOfChina,inferred
+2022.nc_World,{=, >, <, !, ><},1980.RepublicOfKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1980.RepublicOfThePhilippines,inferred
+2022.nc_World,{=, >, <, !, ><},1980.SocialistRepublicOfVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1980.SouthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Taiwan,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Thailand,inferred
+2022.nc_World,{=, >, <, !, ><},1980.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_World,{=, >, <, !, ><},1980.Vietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1980.World,inferred
+2022.nc_World,{=, >, <, !, ><},1980.nc_World,inferred
+2022.Cambodia,=,1980.Cambodia,input
+2022.HongKong,=,1980.HongKong,input
+2022.Japan,=,1980.Japan,input
+2022.Macau,=,1980.Macau,input
+2022.MainlandChina,=,1980.MainlandChina,input
+2022.NorthKorea,=,1980.NorthKorea,input
+2022.Philippines,=,1980.Philippines,input
+2022.SouthKorea,=,1980.SouthKorea,input
+2022.Taiwan,=,1980.Taiwan,input
+2022.Thailand,=,1980.Thailand,input
+2022.Vietnam,=,1980.Vietnam,input
+2022.nc_DPRK,<,1980.nc_World,input
+2022.nc_KOC,<,1980.nc_World,input
+2022.nc_KOT,<,1980.nc_World,input
+2022.nc_Nihon,<,1980.nc_World,input
+2022.nc_PRC,<,1980.nc_World,input
+2022.nc_ROC,<,1980.nc_World,input
+2022.nc_ROK,<,1980.nc_World,input
+2022.nc_ROP,<,1980.nc_World,input
+2022.nc_VN,<,1980.nc_World,input
+2022.nc_World,>,1980.nc_DPRK,input
+2022.nc_World,>,1980.nc_KOT,input
+2022.nc_World,>,1980.nc_Nihon,input
+2022.nc_World,>,1980.nc_PRC,input
+2022.nc_World,>,1980.nc_PRK,input
+2022.nc_World,>,1980.nc_Portugal,input
+2022.nc_World,>,1980.nc_ROC,input
+2022.nc_World,>,1980.nc_ROK,input
+2022.nc_World,>,1980.nc_ROP,input
+2022.nc_World,>,1980.nc_UK,input
+2022.nc_World,>,1980.nc_VN,input

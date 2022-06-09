@@ -1,0 +1,62 @@
+#Taxonomy 1 2022
+#Taxonomy 2 2000
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 2000 2000T2
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+articulation 2022-2000 2022T1-2000T2
+#[2022.World equals 2000.World]
+[2022.Taiwan equals 2000.Taiwan]
+[2022.MainlandChina equals 2000.MainlandChina]
+[2022.HongKong equals 2000.HongKong]
+[2022.Macau equals 2000.Macau]
+[2022.Japan equals 2000.Japan]
+[2022.NorthKorea equals 2000.NorthKorea]
+[2022.SouthKorea equals 2000.SouthKorea]
+[2022.Cambodia equals 2000.Cambodia]
+[2022.Philippines equals 2000.Philippines]
+[2022.Thailand equals 2000.Thailand]
+[2022.Vietnam equals 2000.Vietnam]
+[2022.nc_World includes 2000.nc_ROC]
+[2022.nc_World includes 2000.nc_PRC]
+[2022.nc_World includes 2000.nc_Nihon]
+[2022.nc_World includes 2000.nc_DPRK]
+[2022.nc_World includes 2000.nc_ROK]
+[2022.nc_World includes 2000.nc_KOC]
+[2022.nc_World includes 2000.nc_ROP]
+[2022.nc_World includes 2000.nc_KOT]
+[2022.nc_World includes 2000.nc_VN]
+[2022.nc_ROC is_included_in 2000.nc_World]
+[2022.nc_PRC is_included_in 2000.nc_World]
+[2022.nc_Nihon is_included_in 2000.nc_World]
+[2022.nc_DPRK is_included_in 2000.nc_World]
+[2022.nc_ROK is_included_in 2000.nc_World]
+[2022.nc_KOC is_included_in 2000.nc_World]
+[2022.nc_ROP is_included_in 2000.nc_World]
+[2022.nc_KOT is_included_in 2000.nc_World]
+[2022.nc_VN is_included_in 2000.nc_World]
+
+
+
+

@@ -1,0 +1,1023 @@
+2022.Cambodia,!,1880.nc_FrenchIndochina,deduced
+2022.DemocraticPeoplesRepublicOfKorea,>,1880.NorthKorea,deduced
+2022.HongKong,!,1880.Macau,deduced
+2022.HongKong,!,1880.MainlandChina,deduced
+2022.HongKong,!,1880.nc_UK,deduced
+2022.Japan,!,1880.nc_JP,deduced
+2022.KingdomOfCambodia,>,1880.Cambodia,deduced
+2022.KingdomOfThailand,>,1880.Thailand,deduced
+2022.Macau,!,1880.HongKong,deduced
+2022.Macau,!,1880.MainlandChina,deduced
+2022.Macau,!,1880.nc_Portugal,deduced
+2022.MainlandChina,!,1880.HongKong,deduced
+2022.MainlandChina,!,1880.Macau,deduced
+2022.MainlandChina,!,1880.Taiwan,deduced
+2022.MainlandChina,!,1880.nc_Qing,deduced
+2022.NihonKoku,>,1880.Japan,deduced
+2022.NorthKorea,!,1880.SouthKorea,deduced
+2022.NorthKorea,!,1880.nc_Joseon,deduced
+2022.PeoplesRepublicOfChina,>,1880.HongKong,deduced
+2022.PeoplesRepublicOfChina,>,1880.Macau,deduced
+2022.PeoplesRepublicOfChina,>,1880.MainlandChina,deduced
+2022.Philippines,!,1880.nc_Spain,deduced
+2022.RepublicOfChina,>,1880.Taiwan,deduced
+2022.RepublicOfKorea,>,1880.SouthKorea,deduced
+2022.RepublicOfThePhilippines,>,1880.Philippines,deduced
+2022.SocialistRepublicOfVietnam,>,1880.CentralVietnam,deduced
+2022.SocialistRepublicOfVietnam,>,1880.NorthVietnam,deduced
+2022.SocialistRepublicOfVietnam,>,1880.SouthVietnam,deduced
+2022.SouthKorea,!,1880.NorthKorea,deduced
+2022.SouthKorea,!,1880.nc_Joseon,deduced
+2022.Taiwan,!,1880.MainlandChina,deduced
+2022.Taiwan,!,1880.nc_Qing,deduced
+2022.Thailand,!,1880.nc_RKOS,deduced
+2022.World,>,1880.Cambodia,deduced
+2022.World,>,1880.CentralVietnam,deduced
+2022.World,>,1880.HongKong,deduced
+2022.World,>,1880.Japan,deduced
+2022.World,>,1880.Macau,deduced
+2022.World,>,1880.MainlandChina,deduced
+2022.World,>,1880.NorthKorea,deduced
+2022.World,>,1880.NorthVietnam,deduced
+2022.World,>,1880.Philippines,deduced
+2022.World,>,1880.SouthKorea,deduced
+2022.World,>,1880.SouthVietnam,deduced
+2022.World,>,1880.Taiwan,deduced
+2022.World,>,1880.Thailand,deduced
+2022.World,>,1880.nc_FrenchIndochina,deduced
+2022.World,>,1880.nc_JP,deduced
+2022.World,>,1880.nc_Joseon,deduced
+2022.World,>,1880.nc_Nguyen,deduced
+2022.World,>,1880.nc_Portugal,deduced
+2022.World,>,1880.nc_Qing,deduced
+2022.World,>,1880.nc_RKOS,deduced
+2022.World,>,1880.nc_Spain,deduced
+2022.World,>,1880.nc_UK,deduced
+2022.nc_DPRK,!,1880.NorthKorea,deduced
+2022.nc_DPRK,<,1880.World,deduced
+2022.nc_KOC,!,1880.Cambodia,deduced
+2022.nc_KOC,<,1880.World,deduced
+2022.nc_KOT,!,1880.Thailand,deduced
+2022.nc_KOT,<,1880.World,deduced
+2022.nc_Nihon,!,1880.Japan,deduced
+2022.nc_Nihon,<,1880.World,deduced
+2022.nc_PRC,!,1880.HongKong,deduced
+2022.nc_PRC,!,1880.Macau,deduced
+2022.nc_PRC,!,1880.MainlandChina,deduced
+2022.nc_PRC,<,1880.World,deduced
+2022.nc_ROC,!,1880.Taiwan,deduced
+2022.nc_ROC,<,1880.World,deduced
+2022.nc_ROK,!,1880.SouthKorea,deduced
+2022.nc_ROK,<,1880.World,deduced
+2022.nc_ROP,!,1880.Philippines,deduced
+2022.nc_ROP,<,1880.World,deduced
+2022.nc_VN,<,1880.World,deduced
+2022.Cambodia,!,1880.CentralVietnam,inferred
+2022.Cambodia,!,1880.EmpireOfJapan,inferred
+2022.Cambodia,<,1880.FrenchIndochina,inferred
+2022.Cambodia,!,1880.HongKong,inferred
+2022.Cambodia,!,1880.Japan,inferred
+2022.Cambodia,!,1880.KingdomOfGreatJoseon,inferred
+2022.Cambodia,!,1880.Macau,inferred
+2022.Cambodia,!,1880.MainlandChina,inferred
+2022.Cambodia,!,1880.NguyenDynasty,inferred
+2022.Cambodia,!,1880.NorthKorea,inferred
+2022.Cambodia,!,1880.NorthVietnam,inferred
+2022.Cambodia,!,1880.Philippines,inferred
+2022.Cambodia,!,1880.PortugeseRepublic,inferred
+2022.Cambodia,!,1880.QingDynastyChina,inferred
+2022.Cambodia,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Cambodia,!,1880.SouthKorea,inferred
+2022.Cambodia,!,1880.SouthVietnam,inferred
+2022.Cambodia,!,1880.SpanishEmpire,inferred
+2022.Cambodia,!,1880.Taiwan,inferred
+2022.Cambodia,!,1880.Thailand,inferred
+2022.Cambodia,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Cambodia,<,1880.World,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Cambodia,{=, >, <, !, ><},1880.nc_World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Cambodia,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.CentralVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.EmpireOfJapan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.FrenchIndochina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.HongKong,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Japan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,><,1880.KingdomOfGreatJoseon,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Macau,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.MainlandChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.NguyenDynasty,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.NorthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Philippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.PortugeseRepublic,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.QingDynastyChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.SouthKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.SouthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.SpanishEmpire,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Taiwan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.Thailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.DemocraticPeoplesRepublicOfKorea,<,1880.World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1880.nc_World,inferred
+2022.HongKong,!,1880.Cambodia,inferred
+2022.HongKong,!,1880.CentralVietnam,inferred
+2022.HongKong,!,1880.EmpireOfJapan,inferred
+2022.HongKong,!,1880.FrenchIndochina,inferred
+2022.HongKong,!,1880.Japan,inferred
+2022.HongKong,!,1880.KingdomOfGreatJoseon,inferred
+2022.HongKong,!,1880.NguyenDynasty,inferred
+2022.HongKong,!,1880.NorthKorea,inferred
+2022.HongKong,!,1880.NorthVietnam,inferred
+2022.HongKong,!,1880.Philippines,inferred
+2022.HongKong,!,1880.PortugeseRepublic,inferred
+2022.HongKong,!,1880.QingDynastyChina,inferred
+2022.HongKong,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.HongKong,!,1880.SouthKorea,inferred
+2022.HongKong,!,1880.SouthVietnam,inferred
+2022.HongKong,!,1880.SpanishEmpire,inferred
+2022.HongKong,!,1880.Taiwan,inferred
+2022.HongKong,!,1880.Thailand,inferred
+2022.HongKong,<,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.HongKong,<,1880.World,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.HongKong,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Japan,!,1880.Cambodia,inferred
+2022.Japan,!,1880.CentralVietnam,inferred
+2022.Japan,<,1880.EmpireOfJapan,inferred
+2022.Japan,!,1880.FrenchIndochina,inferred
+2022.Japan,!,1880.HongKong,inferred
+2022.Japan,!,1880.KingdomOfGreatJoseon,inferred
+2022.Japan,!,1880.Macau,inferred
+2022.Japan,!,1880.MainlandChina,inferred
+2022.Japan,!,1880.NguyenDynasty,inferred
+2022.Japan,!,1880.NorthKorea,inferred
+2022.Japan,!,1880.NorthVietnam,inferred
+2022.Japan,!,1880.Philippines,inferred
+2022.Japan,!,1880.PortugeseRepublic,inferred
+2022.Japan,!,1880.QingDynastyChina,inferred
+2022.Japan,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Japan,!,1880.SouthKorea,inferred
+2022.Japan,!,1880.SouthVietnam,inferred
+2022.Japan,!,1880.SpanishEmpire,inferred
+2022.Japan,!,1880.Taiwan,inferred
+2022.Japan,!,1880.Thailand,inferred
+2022.Japan,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Japan,<,1880.World,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Japan,{=, >, <, !, ><},1880.nc_World,inferred
+2022.KingdomOfCambodia,!,1880.CentralVietnam,inferred
+2022.KingdomOfCambodia,!,1880.EmpireOfJapan,inferred
+2022.KingdomOfCambodia,><,1880.FrenchIndochina,inferred
+2022.KingdomOfCambodia,!,1880.HongKong,inferred
+2022.KingdomOfCambodia,!,1880.Japan,inferred
+2022.KingdomOfCambodia,!,1880.KingdomOfGreatJoseon,inferred
+2022.KingdomOfCambodia,!,1880.Macau,inferred
+2022.KingdomOfCambodia,!,1880.MainlandChina,inferred
+2022.KingdomOfCambodia,!,1880.NguyenDynasty,inferred
+2022.KingdomOfCambodia,!,1880.NorthKorea,inferred
+2022.KingdomOfCambodia,!,1880.NorthVietnam,inferred
+2022.KingdomOfCambodia,!,1880.Philippines,inferred
+2022.KingdomOfCambodia,!,1880.PortugeseRepublic,inferred
+2022.KingdomOfCambodia,!,1880.QingDynastyChina,inferred
+2022.KingdomOfCambodia,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.KingdomOfCambodia,!,1880.SouthKorea,inferred
+2022.KingdomOfCambodia,!,1880.SouthVietnam,inferred
+2022.KingdomOfCambodia,!,1880.SpanishEmpire,inferred
+2022.KingdomOfCambodia,!,1880.Taiwan,inferred
+2022.KingdomOfCambodia,!,1880.Thailand,inferred
+2022.KingdomOfCambodia,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.KingdomOfCambodia,<,1880.World,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1880.nc_World,inferred
+2022.KingdomOfThailand,!,1880.Cambodia,inferred
+2022.KingdomOfThailand,!,1880.CentralVietnam,inferred
+2022.KingdomOfThailand,!,1880.EmpireOfJapan,inferred
+2022.KingdomOfThailand,!,1880.FrenchIndochina,inferred
+2022.KingdomOfThailand,!,1880.HongKong,inferred
+2022.KingdomOfThailand,!,1880.Japan,inferred
+2022.KingdomOfThailand,!,1880.KingdomOfGreatJoseon,inferred
+2022.KingdomOfThailand,!,1880.Macau,inferred
+2022.KingdomOfThailand,!,1880.MainlandChina,inferred
+2022.KingdomOfThailand,!,1880.NguyenDynasty,inferred
+2022.KingdomOfThailand,!,1880.NorthKorea,inferred
+2022.KingdomOfThailand,!,1880.NorthVietnam,inferred
+2022.KingdomOfThailand,!,1880.Philippines,inferred
+2022.KingdomOfThailand,!,1880.PortugeseRepublic,inferred
+2022.KingdomOfThailand,!,1880.QingDynastyChina,inferred
+2022.KingdomOfThailand,><,1880.RattanakosinKingdomOfSiam,inferred
+2022.KingdomOfThailand,!,1880.SouthKorea,inferred
+2022.KingdomOfThailand,!,1880.SouthVietnam,inferred
+2022.KingdomOfThailand,!,1880.SpanishEmpire,inferred
+2022.KingdomOfThailand,!,1880.Taiwan,inferred
+2022.KingdomOfThailand,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.KingdomOfThailand,<,1880.World,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Macau,!,1880.Cambodia,inferred
+2022.Macau,!,1880.CentralVietnam,inferred
+2022.Macau,!,1880.EmpireOfJapan,inferred
+2022.Macau,!,1880.FrenchIndochina,inferred
+2022.Macau,!,1880.Japan,inferred
+2022.Macau,!,1880.KingdomOfGreatJoseon,inferred
+2022.Macau,!,1880.NguyenDynasty,inferred
+2022.Macau,!,1880.NorthKorea,inferred
+2022.Macau,!,1880.NorthVietnam,inferred
+2022.Macau,!,1880.Philippines,inferred
+2022.Macau,<,1880.PortugeseRepublic,inferred
+2022.Macau,!,1880.QingDynastyChina,inferred
+2022.Macau,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Macau,!,1880.SouthKorea,inferred
+2022.Macau,!,1880.SouthVietnam,inferred
+2022.Macau,!,1880.SpanishEmpire,inferred
+2022.Macau,!,1880.Taiwan,inferred
+2022.Macau,!,1880.Thailand,inferred
+2022.Macau,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Macau,<,1880.World,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Macau,{=, >, <, !, ><},1880.nc_World,inferred
+2022.MainlandChina,!,1880.Cambodia,inferred
+2022.MainlandChina,!,1880.CentralVietnam,inferred
+2022.MainlandChina,!,1880.EmpireOfJapan,inferred
+2022.MainlandChina,!,1880.FrenchIndochina,inferred
+2022.MainlandChina,!,1880.Japan,inferred
+2022.MainlandChina,!,1880.KingdomOfGreatJoseon,inferred
+2022.MainlandChina,!,1880.NguyenDynasty,inferred
+2022.MainlandChina,!,1880.NorthKorea,inferred
+2022.MainlandChina,!,1880.NorthVietnam,inferred
+2022.MainlandChina,!,1880.Philippines,inferred
+2022.MainlandChina,!,1880.PortugeseRepublic,inferred
+2022.MainlandChina,<,1880.QingDynastyChina,inferred
+2022.MainlandChina,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.MainlandChina,!,1880.SouthKorea,inferred
+2022.MainlandChina,!,1880.SouthVietnam,inferred
+2022.MainlandChina,!,1880.SpanishEmpire,inferred
+2022.MainlandChina,!,1880.Thailand,inferred
+2022.MainlandChina,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.MainlandChina,<,1880.World,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1880.nc_World,inferred
+2022.NihonKoku,!,1880.Cambodia,inferred
+2022.NihonKoku,!,1880.CentralVietnam,inferred
+2022.NihonKoku,><,1880.EmpireOfJapan,inferred
+2022.NihonKoku,!,1880.FrenchIndochina,inferred
+2022.NihonKoku,!,1880.HongKong,inferred
+2022.NihonKoku,!,1880.KingdomOfGreatJoseon,inferred
+2022.NihonKoku,!,1880.Macau,inferred
+2022.NihonKoku,!,1880.MainlandChina,inferred
+2022.NihonKoku,!,1880.NguyenDynasty,inferred
+2022.NihonKoku,!,1880.NorthKorea,inferred
+2022.NihonKoku,!,1880.NorthVietnam,inferred
+2022.NihonKoku,!,1880.Philippines,inferred
+2022.NihonKoku,!,1880.PortugeseRepublic,inferred
+2022.NihonKoku,!,1880.QingDynastyChina,inferred
+2022.NihonKoku,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.NihonKoku,!,1880.SouthKorea,inferred
+2022.NihonKoku,!,1880.SouthVietnam,inferred
+2022.NihonKoku,!,1880.SpanishEmpire,inferred
+2022.NihonKoku,!,1880.Taiwan,inferred
+2022.NihonKoku,!,1880.Thailand,inferred
+2022.NihonKoku,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.NihonKoku,<,1880.World,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1880.nc_World,inferred
+2022.NorthKorea,!,1880.Cambodia,inferred
+2022.NorthKorea,!,1880.CentralVietnam,inferred
+2022.NorthKorea,!,1880.EmpireOfJapan,inferred
+2022.NorthKorea,!,1880.FrenchIndochina,inferred
+2022.NorthKorea,!,1880.HongKong,inferred
+2022.NorthKorea,!,1880.Japan,inferred
+2022.NorthKorea,<,1880.KingdomOfGreatJoseon,inferred
+2022.NorthKorea,!,1880.Macau,inferred
+2022.NorthKorea,!,1880.MainlandChina,inferred
+2022.NorthKorea,!,1880.NguyenDynasty,inferred
+2022.NorthKorea,!,1880.NorthVietnam,inferred
+2022.NorthKorea,!,1880.Philippines,inferred
+2022.NorthKorea,!,1880.PortugeseRepublic,inferred
+2022.NorthKorea,!,1880.QingDynastyChina,inferred
+2022.NorthKorea,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.NorthKorea,!,1880.SouthVietnam,inferred
+2022.NorthKorea,!,1880.SpanishEmpire,inferred
+2022.NorthKorea,!,1880.Taiwan,inferred
+2022.NorthKorea,!,1880.Thailand,inferred
+2022.NorthKorea,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.NorthKorea,<,1880.World,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1880.nc_World,inferred
+2022.PeoplesRepublicOfChina,!,1880.Cambodia,inferred
+2022.PeoplesRepublicOfChina,!,1880.CentralVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1880.EmpireOfJapan,inferred
+2022.PeoplesRepublicOfChina,!,1880.FrenchIndochina,inferred
+2022.PeoplesRepublicOfChina,!,1880.Japan,inferred
+2022.PeoplesRepublicOfChina,!,1880.KingdomOfGreatJoseon,inferred
+2022.PeoplesRepublicOfChina,!,1880.NguyenDynasty,inferred
+2022.PeoplesRepublicOfChina,!,1880.NorthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1880.NorthVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1880.Philippines,inferred
+2022.PeoplesRepublicOfChina,><,1880.PortugeseRepublic,inferred
+2022.PeoplesRepublicOfChina,><,1880.QingDynastyChina,inferred
+2022.PeoplesRepublicOfChina,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.PeoplesRepublicOfChina,!,1880.SouthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1880.SouthVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1880.SpanishEmpire,inferred
+2022.PeoplesRepublicOfChina,!,1880.Taiwan,inferred
+2022.PeoplesRepublicOfChina,!,1880.Thailand,inferred
+2022.PeoplesRepublicOfChina,><,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.PeoplesRepublicOfChina,<,1880.World,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Philippines,!,1880.Cambodia,inferred
+2022.Philippines,!,1880.CentralVietnam,inferred
+2022.Philippines,!,1880.EmpireOfJapan,inferred
+2022.Philippines,!,1880.FrenchIndochina,inferred
+2022.Philippines,!,1880.HongKong,inferred
+2022.Philippines,!,1880.Japan,inferred
+2022.Philippines,!,1880.KingdomOfGreatJoseon,inferred
+2022.Philippines,!,1880.Macau,inferred
+2022.Philippines,!,1880.MainlandChina,inferred
+2022.Philippines,!,1880.NguyenDynasty,inferred
+2022.Philippines,!,1880.NorthKorea,inferred
+2022.Philippines,!,1880.NorthVietnam,inferred
+2022.Philippines,!,1880.PortugeseRepublic,inferred
+2022.Philippines,!,1880.QingDynastyChina,inferred
+2022.Philippines,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Philippines,!,1880.SouthKorea,inferred
+2022.Philippines,!,1880.SouthVietnam,inferred
+2022.Philippines,<,1880.SpanishEmpire,inferred
+2022.Philippines,!,1880.Taiwan,inferred
+2022.Philippines,!,1880.Thailand,inferred
+2022.Philippines,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Philippines,<,1880.World,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Philippines,{=, >, <, !, ><},1880.nc_World,inferred
+2022.RepublicOfChina,!,1880.Cambodia,inferred
+2022.RepublicOfChina,!,1880.CentralVietnam,inferred
+2022.RepublicOfChina,!,1880.EmpireOfJapan,inferred
+2022.RepublicOfChina,!,1880.FrenchIndochina,inferred
+2022.RepublicOfChina,!,1880.HongKong,inferred
+2022.RepublicOfChina,!,1880.Japan,inferred
+2022.RepublicOfChina,!,1880.KingdomOfGreatJoseon,inferred
+2022.RepublicOfChina,!,1880.Macau,inferred
+2022.RepublicOfChina,!,1880.MainlandChina,inferred
+2022.RepublicOfChina,!,1880.NguyenDynasty,inferred
+2022.RepublicOfChina,!,1880.NorthKorea,inferred
+2022.RepublicOfChina,!,1880.NorthVietnam,inferred
+2022.RepublicOfChina,!,1880.Philippines,inferred
+2022.RepublicOfChina,!,1880.PortugeseRepublic,inferred
+2022.RepublicOfChina,><,1880.QingDynastyChina,inferred
+2022.RepublicOfChina,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfChina,!,1880.SouthKorea,inferred
+2022.RepublicOfChina,!,1880.SouthVietnam,inferred
+2022.RepublicOfChina,!,1880.SpanishEmpire,inferred
+2022.RepublicOfChina,!,1880.Thailand,inferred
+2022.RepublicOfChina,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.RepublicOfChina,<,1880.World,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1880.nc_World,inferred
+2022.RepublicOfKorea,!,1880.Cambodia,inferred
+2022.RepublicOfKorea,!,1880.CentralVietnam,inferred
+2022.RepublicOfKorea,!,1880.EmpireOfJapan,inferred
+2022.RepublicOfKorea,!,1880.FrenchIndochina,inferred
+2022.RepublicOfKorea,!,1880.HongKong,inferred
+2022.RepublicOfKorea,!,1880.Japan,inferred
+2022.RepublicOfKorea,><,1880.KingdomOfGreatJoseon,inferred
+2022.RepublicOfKorea,!,1880.Macau,inferred
+2022.RepublicOfKorea,!,1880.MainlandChina,inferred
+2022.RepublicOfKorea,!,1880.NguyenDynasty,inferred
+2022.RepublicOfKorea,!,1880.NorthKorea,inferred
+2022.RepublicOfKorea,!,1880.NorthVietnam,inferred
+2022.RepublicOfKorea,!,1880.Philippines,inferred
+2022.RepublicOfKorea,!,1880.PortugeseRepublic,inferred
+2022.RepublicOfKorea,!,1880.QingDynastyChina,inferred
+2022.RepublicOfKorea,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfKorea,!,1880.SouthVietnam,inferred
+2022.RepublicOfKorea,!,1880.SpanishEmpire,inferred
+2022.RepublicOfKorea,!,1880.Taiwan,inferred
+2022.RepublicOfKorea,!,1880.Thailand,inferred
+2022.RepublicOfKorea,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.RepublicOfKorea,<,1880.World,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1880.nc_World,inferred
+2022.RepublicOfThePhilippines,!,1880.Cambodia,inferred
+2022.RepublicOfThePhilippines,!,1880.CentralVietnam,inferred
+2022.RepublicOfThePhilippines,!,1880.EmpireOfJapan,inferred
+2022.RepublicOfThePhilippines,!,1880.FrenchIndochina,inferred
+2022.RepublicOfThePhilippines,!,1880.HongKong,inferred
+2022.RepublicOfThePhilippines,!,1880.Japan,inferred
+2022.RepublicOfThePhilippines,!,1880.KingdomOfGreatJoseon,inferred
+2022.RepublicOfThePhilippines,!,1880.Macau,inferred
+2022.RepublicOfThePhilippines,!,1880.MainlandChina,inferred
+2022.RepublicOfThePhilippines,!,1880.NguyenDynasty,inferred
+2022.RepublicOfThePhilippines,!,1880.NorthKorea,inferred
+2022.RepublicOfThePhilippines,!,1880.NorthVietnam,inferred
+2022.RepublicOfThePhilippines,!,1880.PortugeseRepublic,inferred
+2022.RepublicOfThePhilippines,!,1880.QingDynastyChina,inferred
+2022.RepublicOfThePhilippines,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfThePhilippines,!,1880.SouthKorea,inferred
+2022.RepublicOfThePhilippines,!,1880.SouthVietnam,inferred
+2022.RepublicOfThePhilippines,><,1880.SpanishEmpire,inferred
+2022.RepublicOfThePhilippines,!,1880.Taiwan,inferred
+2022.RepublicOfThePhilippines,!,1880.Thailand,inferred
+2022.RepublicOfThePhilippines,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.RepublicOfThePhilippines,<,1880.World,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1880.nc_World,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Cambodia,inferred
+2022.SocialistRepublicOfVietnam,!,1880.EmpireOfJapan,inferred
+2022.SocialistRepublicOfVietnam,!,1880.FrenchIndochina,inferred
+2022.SocialistRepublicOfVietnam,!,1880.HongKong,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Japan,inferred
+2022.SocialistRepublicOfVietnam,!,1880.KingdomOfGreatJoseon,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Macau,inferred
+2022.SocialistRepublicOfVietnam,!,1880.MainlandChina,inferred
+2022.SocialistRepublicOfVietnam,><,1880.NguyenDynasty,inferred
+2022.SocialistRepublicOfVietnam,!,1880.NorthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Philippines,inferred
+2022.SocialistRepublicOfVietnam,!,1880.PortugeseRepublic,inferred
+2022.SocialistRepublicOfVietnam,!,1880.QingDynastyChina,inferred
+2022.SocialistRepublicOfVietnam,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.SocialistRepublicOfVietnam,!,1880.SouthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1880.SpanishEmpire,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Taiwan,inferred
+2022.SocialistRepublicOfVietnam,!,1880.Thailand,inferred
+2022.SocialistRepublicOfVietnam,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.SocialistRepublicOfVietnam,{<, ><},1880.World,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1880.nc_World,inferred
+2022.SouthKorea,!,1880.Cambodia,inferred
+2022.SouthKorea,!,1880.CentralVietnam,inferred
+2022.SouthKorea,!,1880.EmpireOfJapan,inferred
+2022.SouthKorea,!,1880.FrenchIndochina,inferred
+2022.SouthKorea,!,1880.HongKong,inferred
+2022.SouthKorea,!,1880.Japan,inferred
+2022.SouthKorea,<,1880.KingdomOfGreatJoseon,inferred
+2022.SouthKorea,!,1880.Macau,inferred
+2022.SouthKorea,!,1880.MainlandChina,inferred
+2022.SouthKorea,!,1880.NguyenDynasty,inferred
+2022.SouthKorea,!,1880.NorthVietnam,inferred
+2022.SouthKorea,!,1880.Philippines,inferred
+2022.SouthKorea,!,1880.PortugeseRepublic,inferred
+2022.SouthKorea,!,1880.QingDynastyChina,inferred
+2022.SouthKorea,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.SouthKorea,!,1880.SouthVietnam,inferred
+2022.SouthKorea,!,1880.SpanishEmpire,inferred
+2022.SouthKorea,!,1880.Taiwan,inferred
+2022.SouthKorea,!,1880.Thailand,inferred
+2022.SouthKorea,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.SouthKorea,<,1880.World,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Taiwan,!,1880.Cambodia,inferred
+2022.Taiwan,!,1880.CentralVietnam,inferred
+2022.Taiwan,!,1880.EmpireOfJapan,inferred
+2022.Taiwan,!,1880.FrenchIndochina,inferred
+2022.Taiwan,!,1880.HongKong,inferred
+2022.Taiwan,!,1880.Japan,inferred
+2022.Taiwan,!,1880.KingdomOfGreatJoseon,inferred
+2022.Taiwan,!,1880.Macau,inferred
+2022.Taiwan,!,1880.NguyenDynasty,inferred
+2022.Taiwan,!,1880.NorthKorea,inferred
+2022.Taiwan,!,1880.NorthVietnam,inferred
+2022.Taiwan,!,1880.Philippines,inferred
+2022.Taiwan,!,1880.PortugeseRepublic,inferred
+2022.Taiwan,<,1880.QingDynastyChina,inferred
+2022.Taiwan,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Taiwan,!,1880.SouthKorea,inferred
+2022.Taiwan,!,1880.SouthVietnam,inferred
+2022.Taiwan,!,1880.SpanishEmpire,inferred
+2022.Taiwan,!,1880.Thailand,inferred
+2022.Taiwan,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Taiwan,<,1880.World,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Taiwan,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Thailand,!,1880.Cambodia,inferred
+2022.Thailand,!,1880.CentralVietnam,inferred
+2022.Thailand,!,1880.EmpireOfJapan,inferred
+2022.Thailand,!,1880.FrenchIndochina,inferred
+2022.Thailand,!,1880.HongKong,inferred
+2022.Thailand,!,1880.Japan,inferred
+2022.Thailand,!,1880.KingdomOfGreatJoseon,inferred
+2022.Thailand,!,1880.Macau,inferred
+2022.Thailand,!,1880.MainlandChina,inferred
+2022.Thailand,!,1880.NguyenDynasty,inferred
+2022.Thailand,!,1880.NorthKorea,inferred
+2022.Thailand,!,1880.NorthVietnam,inferred
+2022.Thailand,!,1880.Philippines,inferred
+2022.Thailand,!,1880.PortugeseRepublic,inferred
+2022.Thailand,!,1880.QingDynastyChina,inferred
+2022.Thailand,<,1880.RattanakosinKingdomOfSiam,inferred
+2022.Thailand,!,1880.SouthKorea,inferred
+2022.Thailand,!,1880.SouthVietnam,inferred
+2022.Thailand,!,1880.SpanishEmpire,inferred
+2022.Thailand,!,1880.Taiwan,inferred
+2022.Thailand,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Thailand,<,1880.World,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Thailand,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Vietnam,!,1880.Cambodia,inferred
+2022.Vietnam,!,1880.EmpireOfJapan,inferred
+2022.Vietnam,!,1880.FrenchIndochina,inferred
+2022.Vietnam,!,1880.HongKong,inferred
+2022.Vietnam,!,1880.Japan,inferred
+2022.Vietnam,!,1880.KingdomOfGreatJoseon,inferred
+2022.Vietnam,!,1880.Macau,inferred
+2022.Vietnam,!,1880.MainlandChina,inferred
+2022.Vietnam,{<, ><},1880.NguyenDynasty,inferred
+2022.Vietnam,!,1880.NorthKorea,inferred
+2022.Vietnam,!,1880.Philippines,inferred
+2022.Vietnam,!,1880.PortugeseRepublic,inferred
+2022.Vietnam,!,1880.QingDynastyChina,inferred
+2022.Vietnam,!,1880.RattanakosinKingdomOfSiam,inferred
+2022.Vietnam,!,1880.SouthKorea,inferred
+2022.Vietnam,!,1880.SpanishEmpire,inferred
+2022.Vietnam,!,1880.Taiwan,inferred
+2022.Vietnam,!,1880.Thailand,inferred
+2022.Vietnam,!,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.Vietnam,{<, ><},1880.World,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.Vietnam,{=, >, <, !, ><},1880.nc_World,inferred
+2022.World,>,1880.EmpireOfJapan,inferred
+2022.World,>,1880.FrenchIndochina,inferred
+2022.World,>,1880.KingdomOfGreatJoseon,inferred
+2022.World,>,1880.NguyenDynasty,inferred
+2022.World,>,1880.PortugeseRepublic,inferred
+2022.World,>,1880.QingDynastyChina,inferred
+2022.World,>,1880.RattanakosinKingdomOfSiam,inferred
+2022.World,>,1880.SpanishEmpire,inferred
+2022.World,>,1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.World,{=, >, <, ><},1880.World,inferred
+2022.World,{=, >, <, !, ><},1880.nc_World,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_KOC,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_KOT,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_PRC,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_ROC,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_ROK,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_ROP,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_FrenchIndochina,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_JP,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_Joseon,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_Nguyen,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_Portugal,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_Qing,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_RKOS,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_Spain,inferred
+2022.nc_VN,{=, >, <, !, ><},1880.nc_UK,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Cambodia,inferred
+2022.nc_World,{=, >, <, !, ><},1880.CentralVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1880.EmpireOfJapan,inferred
+2022.nc_World,{=, >, <, !, ><},1880.FrenchIndochina,inferred
+2022.nc_World,{=, >, <, !, ><},1880.HongKong,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Japan,inferred
+2022.nc_World,{=, >, <, !, ><},1880.KingdomOfGreatJoseon,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Macau,inferred
+2022.nc_World,{=, >, <, !, ><},1880.MainlandChina,inferred
+2022.nc_World,{=, >, <, !, ><},1880.NguyenDynasty,inferred
+2022.nc_World,{=, >, <, !, ><},1880.NorthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1880.NorthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Philippines,inferred
+2022.nc_World,{=, >, <, !, ><},1880.PortugeseRepublic,inferred
+2022.nc_World,{=, >, <, !, ><},1880.QingDynastyChina,inferred
+2022.nc_World,{=, >, <, !, ><},1880.RattanakosinKingdomOfSiam,inferred
+2022.nc_World,{=, >, <, !, ><},1880.SouthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1880.SouthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1880.SpanishEmpire,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Taiwan,inferred
+2022.nc_World,{=, >, <, !, ><},1880.Thailand,inferred
+2022.nc_World,{=, >, <, !, ><},1880.UnitedKingdomOfGreatBritainAndIreland,inferred
+2022.nc_World,{=, >, <, !, ><},1880.World,inferred
+2022.nc_World,{=, >, <, !, ><},1880.nc_World,inferred
+2022.Cambodia,=,1880.Cambodia,input
+2022.HongKong,=,1880.HongKong,input
+2022.Japan,=,1880.Japan,input
+2022.Macau,=,1880.Macau,input
+2022.MainlandChina,=,1880.MainlandChina,input
+2022.NorthKorea,=,1880.NorthKorea,input
+2022.Philippines,=,1880.Philippines,input
+2022.SouthKorea,=,1880.SouthKorea,input
+2022.Taiwan,=,1880.Taiwan,input
+2022.Thailand,=,1880.Thailand,input
+2022.Vietnam,>,1880.CentralVietnam,input
+2022.Vietnam,>,1880.NorthVietnam,input
+2022.Vietnam,>,1880.SouthVietnam,input
+2022.nc_DPRK,<,1880.nc_World,input
+2022.nc_KOC,<,1880.nc_World,input
+2022.nc_KOT,<,1880.nc_World,input
+2022.nc_Nihon,<,1880.nc_World,input
+2022.nc_PRC,<,1880.nc_World,input
+2022.nc_ROC,<,1880.nc_World,input
+2022.nc_ROK,<,1880.nc_World,input
+2022.nc_ROP,<,1880.nc_World,input
+2022.nc_VN,<,1880.nc_World,input
+2022.nc_World,>,1880.nc_FrenchIndochina,input
+2022.nc_World,>,1880.nc_JP,input
+2022.nc_World,>,1880.nc_Joseon,input
+2022.nc_World,>,1880.nc_Nguyen,input
+2022.nc_World,>,1880.nc_Portugal,input
+2022.nc_World,>,1880.nc_Qing,input
+2022.nc_World,>,1880.nc_RKOS,input
+2022.nc_World,>,1880.nc_Spain,input
+2022.nc_World,>,1880.nc_UK,input

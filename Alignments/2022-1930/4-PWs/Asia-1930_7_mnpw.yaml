@@ -1,0 +1,588 @@
+1930.AnnamProtectorate:
+  concept: AnnamProtectorate
+  group: '1930'
+1930.CentralVietnam:
+  concept: CentralVietnam
+  group: '1930'
+1930.Cochinchina:
+  concept: Cochinchina
+  group: '1930'
+1930.EmpireOfJapan:
+  concept: EmpireOfJapan
+  group: '1930'
+1930.FrenchIndochina:
+  concept: FrenchIndochina
+  group: '1930'
+1930.InsularGovernmentOfThePhilippineIslands:
+  concept: InsularGovernmentOfThePhilippineIslands
+  group: '1930'
+1930.NationalistGovernmentOfROChina:
+  concept: NationalistGovernmentOfROChina
+  group: '1930'
+1930.NorthVietnam:
+  concept: NorthVietnam
+  group: '1930'
+1930.PortugeseRepublic:
+  concept: PortugeseRepublic
+  group: '1930'
+1930.RattanakosinKingdomOfSiam:
+  concept: RattanakosinKingdomOfSiam
+  group: '1930'
+1930.SouthVietnam:
+  concept: SouthVietnam
+  group: '1930'
+1930.TokinProtectorate:
+  concept: TokinProtectorate
+  group: '1930'
+1930.UnitedKingdomOfGreatBritainAndNorthernIreland:
+  concept: UnitedKingdomOfGreatBritainAndNorthernIreland
+  group: '1930'
+1930.World:
+  concept: World
+  group: '1930'
+1930.nc_Annam:
+  concept: nc_Annam
+  group: '1930'
+1930.nc_Cochin:
+  concept: nc_Cochin
+  group: '1930'
+1930.nc_FrenchIndochina:
+  concept: nc_FrenchIndochina
+  group: '1930'
+1930.nc_IGOP:
+  concept: nc_IGOP
+  group: '1930'
+1930.nc_JP:
+  concept: nc_JP
+  group: '1930'
+1930.nc_NGROC:
+  concept: nc_NGROC
+  group: '1930'
+1930.nc_Portugal:
+  concept: nc_Portugal
+  group: '1930'
+1930.nc_RKOS:
+  concept: nc_RKOS
+  group: '1930'
+1930.nc_Tokin:
+  concept: nc_Tokin
+  group: '1930'
+1930.nc_UK:
+  concept: nc_UK
+  group: '1930'
+1930.nc_World:
+  concept: nc_World
+  group: '1930'
+2022.DemocraticPeoplesRepublicOfKorea:
+  concept: DemocraticPeoplesRepublicOfKorea
+  group: '2022'
+2022.KingdomOfCambodia:
+  concept: KingdomOfCambodia
+  group: '2022'
+2022.KingdomOfThailand:
+  concept: KingdomOfThailand
+  group: '2022'
+2022.NihonKoku:
+  concept: NihonKoku
+  group: '2022'
+2022.PeoplesRepublicOfChina:
+  concept: PeoplesRepublicOfChina
+  group: '2022'
+2022.RepublicOfChina:
+  concept: RepublicOfChina
+  group: '2022'
+2022.RepublicOfKorea:
+  concept: RepublicOfKorea
+  group: '2022'
+2022.RepublicOfThePhilippines:
+  concept: RepublicOfThePhilippines
+  group: '2022'
+2022.SocialistRepublicOfVietnam:
+  concept: SocialistRepublicOfVietnam
+  group: '2022'
+2022.Vietnam:
+  concept: Vietnam
+  group: '2022'
+2022.World:
+  concept: World
+  group: '2022'
+2022.nc_DPRK:
+  concept: nc_DPRK
+  group: '2022'
+2022.nc_KOC:
+  concept: nc_KOC
+  group: '2022'
+2022.nc_KOT:
+  concept: nc_KOT
+  group: '2022'
+2022.nc_Nihon:
+  concept: nc_Nihon
+  group: '2022'
+2022.nc_PRC:
+  concept: nc_PRC
+  group: '2022'
+2022.nc_ROC:
+  concept: nc_ROC
+  group: '2022'
+2022.nc_ROK:
+  concept: nc_ROK
+  group: '2022'
+2022.nc_ROP:
+  concept: nc_ROP
+  group: '2022'
+2022.nc_VN:
+  concept: nc_VN
+  group: '2022'
+2022.nc_World:
+  concept: nc_World
+  group: '2022'
+congruent.2022.Cambodia\n1930.Cambodia:
+  concept: 2022.Cambodia\n1930.Cambodia
+  group: congruent
+congruent.2022.HongKong\n1930.HongKong:
+  concept: 2022.HongKong\n1930.HongKong
+  group: congruent
+congruent.2022.Japan\n1930.Japan:
+  concept: 2022.Japan\n1930.Japan
+  group: congruent
+congruent.2022.Macau\n1930.Macau:
+  concept: 2022.Macau\n1930.Macau
+  group: congruent
+congruent.2022.MainlandChina\n1930.MainlandChina:
+  concept: 2022.MainlandChina\n1930.MainlandChina
+  group: congruent
+congruent.2022.NorthKorea\n1930.NorthKorea:
+  concept: 2022.NorthKorea\n1930.NorthKorea
+  group: congruent
+congruent.2022.Philippines\n1930.Philippines:
+  concept: 2022.Philippines\n1930.Philippines
+  group: congruent
+congruent.2022.SouthKorea\n1930.SouthKorea:
+  concept: 2022.SouthKorea\n1930.SouthKorea
+  group: congruent
+congruent.2022.Taiwan\n1930.Taiwan:
+  concept: 2022.Taiwan\n1930.Taiwan
+  group: congruent
+congruent.2022.Thailand\n1930.Thailand:
+  concept: 2022.Thailand\n1930.Thailand
+  group: congruent
+1930.AnnamProtectorate_1930.FrenchIndochina:
+  label: is_a (input)
+  s: 1930.AnnamProtectorate
+  t: 1930.FrenchIndochina
+1930.AnnamProtectorate_2022.SocialistRepublicOfVietnam:
+  label: overlaps (inferred)
+  s: 1930.AnnamProtectorate
+  t: 2022.SocialistRepublicOfVietnam
+1930.AnnamProtectorate_2022.Vietnam:
+  label: overlaps (inferred)
+  s: 1930.AnnamProtectorate
+  t: 2022.Vietnam
+1930.CentralVietnam_1930.AnnamProtectorate:
+  label: is_a (input)
+  s: 1930.CentralVietnam
+  t: 1930.AnnamProtectorate
+1930.CentralVietnam_2022.Vietnam:
+  label: is_a (input)
+  s: 1930.CentralVietnam
+  t: 2022.Vietnam
+1930.Cochinchina_1930.FrenchIndochina:
+  label: is_a (input)
+  s: 1930.Cochinchina
+  t: 1930.FrenchIndochina
+1930.Cochinchina_2022.SocialistRepublicOfVietnam:
+  label: overlaps (inferred)
+  s: 1930.Cochinchina
+  t: 2022.SocialistRepublicOfVietnam
+1930.Cochinchina_2022.Vietnam:
+  label: overlaps (inferred)
+  s: 1930.Cochinchina
+  t: 2022.Vietnam
+1930.EmpireOfJapan_1930.World:
+  label: is_a (input)
+  s: 1930.EmpireOfJapan
+  t: 1930.World
+1930.EmpireOfJapan_2022.DemocraticPeoplesRepublicOfKorea:
+  label: overlaps (inferred)
+  s: 1930.EmpireOfJapan
+  t: 2022.DemocraticPeoplesRepublicOfKorea
+1930.EmpireOfJapan_2022.NihonKoku:
+  label: overlaps (inferred)
+  s: 1930.EmpireOfJapan
+  t: 2022.NihonKoku
+1930.EmpireOfJapan_2022.RepublicOfChina:
+  label: overlaps (inferred)
+  s: 1930.EmpireOfJapan
+  t: 2022.RepublicOfChina
+1930.EmpireOfJapan_2022.RepublicOfKorea:
+  label: overlaps (inferred)
+  s: 1930.EmpireOfJapan
+  t: 2022.RepublicOfKorea
+1930.FrenchIndochina_1930.World:
+  label: is_a (input)
+  s: 1930.FrenchIndochina
+  t: 1930.World
+1930.FrenchIndochina_2022.KingdomOfCambodia:
+  label: overlaps (inferred)
+  s: 1930.FrenchIndochina
+  t: 2022.KingdomOfCambodia
+1930.FrenchIndochina_2022.SocialistRepublicOfVietnam:
+  label: overlaps (inferred)
+  s: 1930.FrenchIndochina
+  t: 2022.SocialistRepublicOfVietnam
+1930.InsularGovernmentOfThePhilippineIslands_1930.World:
+  label: is_a (input)
+  s: 1930.InsularGovernmentOfThePhilippineIslands
+  t: 1930.World
+1930.InsularGovernmentOfThePhilippineIslands_2022.RepublicOfThePhilippines:
+  label: overlaps (inferred)
+  s: 1930.InsularGovernmentOfThePhilippineIslands
+  t: 2022.RepublicOfThePhilippines
+1930.NationalistGovernmentOfROChina_1930.World:
+  label: is_a (input)
+  s: 1930.NationalistGovernmentOfROChina
+  t: 1930.World
+1930.NationalistGovernmentOfROChina_2022.PeoplesRepublicOfChina:
+  label: overlaps (inferred)
+  s: 1930.NationalistGovernmentOfROChina
+  t: 2022.PeoplesRepublicOfChina
+1930.NorthVietnam_1930.TokinProtectorate:
+  label: is_a (input)
+  s: 1930.NorthVietnam
+  t: 1930.TokinProtectorate
+1930.NorthVietnam_2022.Vietnam:
+  label: is_a (input)
+  s: 1930.NorthVietnam
+  t: 2022.Vietnam
+1930.PortugeseRepublic_1930.World:
+  label: is_a (input)
+  s: 1930.PortugeseRepublic
+  t: 1930.World
+1930.PortugeseRepublic_2022.PeoplesRepublicOfChina:
+  label: overlaps (inferred)
+  s: 1930.PortugeseRepublic
+  t: 2022.PeoplesRepublicOfChina
+1930.RattanakosinKingdomOfSiam_1930.World:
+  label: is_a (input)
+  s: 1930.RattanakosinKingdomOfSiam
+  t: 1930.World
+1930.RattanakosinKingdomOfSiam_2022.KingdomOfThailand:
+  label: overlaps (inferred)
+  s: 1930.RattanakosinKingdomOfSiam
+  t: 2022.KingdomOfThailand
+1930.SouthVietnam_1930.Cochinchina:
+  label: is_a (input)
+  s: 1930.SouthVietnam
+  t: 1930.Cochinchina
+1930.SouthVietnam_2022.Vietnam:
+  label: is_a (input)
+  s: 1930.SouthVietnam
+  t: 2022.Vietnam
+1930.TokinProtectorate_1930.FrenchIndochina:
+  label: is_a (input)
+  s: 1930.TokinProtectorate
+  t: 1930.FrenchIndochina
+1930.TokinProtectorate_2022.SocialistRepublicOfVietnam:
+  label: overlaps (inferred)
+  s: 1930.TokinProtectorate
+  t: 2022.SocialistRepublicOfVietnam
+1930.TokinProtectorate_2022.Vietnam:
+  label: overlaps (inferred)
+  s: 1930.TokinProtectorate
+  t: 2022.Vietnam
+1930.UnitedKingdomOfGreatBritainAndNorthernIreland_1930.World:
+  label: is_a (input)
+  s: 1930.UnitedKingdomOfGreatBritainAndNorthernIreland
+  t: 1930.World
+1930.UnitedKingdomOfGreatBritainAndNorthernIreland_2022.PeoplesRepublicOfChina:
+  label: overlaps (inferred)
+  s: 1930.UnitedKingdomOfGreatBritainAndNorthernIreland
+  t: 2022.PeoplesRepublicOfChina
+1930.World_2022.World:
+  label: is_a (inferred)
+  s: 1930.World
+  t: 2022.World
+1930.nc_Annam_1930.AnnamProtectorate:
+  label: is_a (input)
+  s: 1930.nc_Annam
+  t: 1930.AnnamProtectorate
+1930.nc_Annam_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_Annam
+  t: 2022.nc_World
+1930.nc_Cochin_1930.Cochinchina:
+  label: is_a (input)
+  s: 1930.nc_Cochin
+  t: 1930.Cochinchina
+1930.nc_Cochin_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_Cochin
+  t: 2022.nc_World
+1930.nc_FrenchIndochina_1930.FrenchIndochina:
+  label: is_a (input)
+  s: 1930.nc_FrenchIndochina
+  t: 1930.FrenchIndochina
+1930.nc_FrenchIndochina_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_FrenchIndochina
+  t: 2022.nc_World
+1930.nc_IGOP_1930.InsularGovernmentOfThePhilippineIslands:
+  label: is_a (input)
+  s: 1930.nc_IGOP
+  t: 1930.InsularGovernmentOfThePhilippineIslands
+1930.nc_IGOP_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_IGOP
+  t: 2022.nc_World
+1930.nc_JP_1930.EmpireOfJapan:
+  label: is_a (input)
+  s: 1930.nc_JP
+  t: 1930.EmpireOfJapan
+1930.nc_JP_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_JP
+  t: 2022.nc_World
+1930.nc_NGROC_1930.NationalistGovernmentOfROChina:
+  label: is_a (input)
+  s: 1930.nc_NGROC
+  t: 1930.NationalistGovernmentOfROChina
+1930.nc_NGROC_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_NGROC
+  t: 2022.nc_World
+1930.nc_Portugal_1930.PortugeseRepublic:
+  label: is_a (input)
+  s: 1930.nc_Portugal
+  t: 1930.PortugeseRepublic
+1930.nc_Portugal_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_Portugal
+  t: 2022.nc_World
+1930.nc_RKOS_1930.RattanakosinKingdomOfSiam:
+  label: is_a (input)
+  s: 1930.nc_RKOS
+  t: 1930.RattanakosinKingdomOfSiam
+1930.nc_RKOS_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_RKOS
+  t: 2022.nc_World
+1930.nc_Tokin_1930.TokinProtectorate:
+  label: is_a (input)
+  s: 1930.nc_Tokin
+  t: 1930.TokinProtectorate
+1930.nc_Tokin_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_Tokin
+  t: 2022.nc_World
+1930.nc_UK_1930.UnitedKingdomOfGreatBritainAndNorthernIreland:
+  label: is_a (input)
+  s: 1930.nc_UK
+  t: 1930.UnitedKingdomOfGreatBritainAndNorthernIreland
+1930.nc_UK_2022.nc_World:
+  label: is_a (input)
+  s: 1930.nc_UK
+  t: 2022.nc_World
+1930.nc_World_1930.World:
+  label: is_a (input)
+  s: 1930.nc_World
+  t: 1930.World
+2022.Cambodia\n1930.Cambodia_1930.FrenchIndochina:
+  label: is_a (input)
+  s: 2022.Cambodia\n1930.Cambodia
+  t: 1930.FrenchIndochina
+2022.Cambodia\n1930.Cambodia_2022.KingdomOfCambodia:
+  label: is_a (input)
+  s: 2022.Cambodia\n1930.Cambodia
+  t: 2022.KingdomOfCambodia
+2022.DemocraticPeoplesRepublicOfKorea_1930.World:
+  label: is_a (inferred)
+  s: 2022.DemocraticPeoplesRepublicOfKorea
+  t: 1930.World
+2022.HongKong\n1930.HongKong_1930.UnitedKingdomOfGreatBritainAndNorthernIreland:
+  label: is_a (input)
+  s: 2022.HongKong\n1930.HongKong
+  t: 1930.UnitedKingdomOfGreatBritainAndNorthernIreland
+2022.HongKong\n1930.HongKong_2022.PeoplesRepublicOfChina:
+  label: is_a (input)
+  s: 2022.HongKong\n1930.HongKong
+  t: 2022.PeoplesRepublicOfChina
+2022.Japan\n1930.Japan_1930.EmpireOfJapan:
+  label: is_a (input)
+  s: 2022.Japan\n1930.Japan
+  t: 1930.EmpireOfJapan
+2022.Japan\n1930.Japan_2022.NihonKoku:
+  label: is_a (input)
+  s: 2022.Japan\n1930.Japan
+  t: 2022.NihonKoku
+2022.KingdomOfCambodia_1930.World:
+  label: is_a (inferred)
+  s: 2022.KingdomOfCambodia
+  t: 1930.World
+2022.KingdomOfThailand_1930.World:
+  label: is_a (inferred)
+  s: 2022.KingdomOfThailand
+  t: 1930.World
+2022.Macau\n1930.Macau_1930.PortugeseRepublic:
+  label: is_a (input)
+  s: 2022.Macau\n1930.Macau
+  t: 1930.PortugeseRepublic
+2022.Macau\n1930.Macau_2022.PeoplesRepublicOfChina:
+  label: is_a (input)
+  s: 2022.Macau\n1930.Macau
+  t: 2022.PeoplesRepublicOfChina
+2022.MainlandChina\n1930.MainlandChina_1930.NationalistGovernmentOfROChina:
+  label: is_a (input)
+  s: 2022.MainlandChina\n1930.MainlandChina
+  t: 1930.NationalistGovernmentOfROChina
+2022.MainlandChina\n1930.MainlandChina_2022.PeoplesRepublicOfChina:
+  label: is_a (input)
+  s: 2022.MainlandChina\n1930.MainlandChina
+  t: 2022.PeoplesRepublicOfChina
+2022.NihonKoku_1930.World:
+  label: is_a (inferred)
+  s: 2022.NihonKoku
+  t: 1930.World
+2022.NorthKorea\n1930.NorthKorea_1930.EmpireOfJapan:
+  label: is_a (input)
+  s: 2022.NorthKorea\n1930.NorthKorea
+  t: 1930.EmpireOfJapan
+2022.NorthKorea\n1930.NorthKorea_2022.DemocraticPeoplesRepublicOfKorea:
+  label: is_a (input)
+  s: 2022.NorthKorea\n1930.NorthKorea
+  t: 2022.DemocraticPeoplesRepublicOfKorea
+2022.PeoplesRepublicOfChina_1930.World:
+  label: is_a (inferred)
+  s: 2022.PeoplesRepublicOfChina
+  t: 1930.World
+2022.Philippines\n1930.Philippines_1930.InsularGovernmentOfThePhilippineIslands:
+  label: is_a (input)
+  s: 2022.Philippines\n1930.Philippines
+  t: 1930.InsularGovernmentOfThePhilippineIslands
+2022.Philippines\n1930.Philippines_2022.RepublicOfThePhilippines:
+  label: is_a (input)
+  s: 2022.Philippines\n1930.Philippines
+  t: 2022.RepublicOfThePhilippines
+2022.RepublicOfChina_1930.World:
+  label: is_a (inferred)
+  s: 2022.RepublicOfChina
+  t: 1930.World
+2022.RepublicOfKorea_1930.World:
+  label: is_a (inferred)
+  s: 2022.RepublicOfKorea
+  t: 1930.World
+2022.RepublicOfThePhilippines_1930.World:
+  label: is_a (inferred)
+  s: 2022.RepublicOfThePhilippines
+  t: 1930.World
+2022.SocialistRepublicOfVietnam_1930.World:
+  label: is_a (inferred)
+  s: 2022.SocialistRepublicOfVietnam
+  t: 1930.World
+2022.SouthKorea\n1930.SouthKorea_1930.EmpireOfJapan:
+  label: is_a (input)
+  s: 2022.SouthKorea\n1930.SouthKorea
+  t: 1930.EmpireOfJapan
+2022.SouthKorea\n1930.SouthKorea_2022.RepublicOfKorea:
+  label: is_a (input)
+  s: 2022.SouthKorea\n1930.SouthKorea
+  t: 2022.RepublicOfKorea
+2022.Taiwan\n1930.Taiwan_1930.EmpireOfJapan:
+  label: is_a (input)
+  s: 2022.Taiwan\n1930.Taiwan
+  t: 1930.EmpireOfJapan
+2022.Taiwan\n1930.Taiwan_2022.RepublicOfChina:
+  label: is_a (input)
+  s: 2022.Taiwan\n1930.Taiwan
+  t: 2022.RepublicOfChina
+2022.Thailand\n1930.Thailand_1930.RattanakosinKingdomOfSiam:
+  label: is_a (input)
+  s: 2022.Thailand\n1930.Thailand
+  t: 1930.RattanakosinKingdomOfSiam
+2022.Thailand\n1930.Thailand_2022.KingdomOfThailand:
+  label: is_a (input)
+  s: 2022.Thailand\n1930.Thailand
+  t: 2022.KingdomOfThailand
+2022.Vietnam_1930.FrenchIndochina:
+  label: is_a (inferred)
+  s: 2022.Vietnam
+  t: 1930.FrenchIndochina
+2022.Vietnam_2022.SocialistRepublicOfVietnam:
+  label: is_a (input)
+  s: 2022.Vietnam
+  t: 2022.SocialistRepublicOfVietnam
+2022.nc_DPRK_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_DPRK
+  t: 1930.nc_World
+2022.nc_DPRK_2022.DemocraticPeoplesRepublicOfKorea:
+  label: is_a (input)
+  s: 2022.nc_DPRK
+  t: 2022.DemocraticPeoplesRepublicOfKorea
+2022.nc_KOC_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_KOC
+  t: 1930.nc_World
+2022.nc_KOC_2022.KingdomOfCambodia:
+  label: is_a (input)
+  s: 2022.nc_KOC
+  t: 2022.KingdomOfCambodia
+2022.nc_KOT_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_KOT
+  t: 1930.nc_World
+2022.nc_KOT_2022.KingdomOfThailand:
+  label: is_a (input)
+  s: 2022.nc_KOT
+  t: 2022.KingdomOfThailand
+2022.nc_Nihon_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_Nihon
+  t: 1930.nc_World
+2022.nc_Nihon_2022.NihonKoku:
+  label: is_a (input)
+  s: 2022.nc_Nihon
+  t: 2022.NihonKoku
+2022.nc_PRC_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_PRC
+  t: 1930.nc_World
+2022.nc_PRC_2022.PeoplesRepublicOfChina:
+  label: is_a (input)
+  s: 2022.nc_PRC
+  t: 2022.PeoplesRepublicOfChina
+2022.nc_ROC_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_ROC
+  t: 1930.nc_World
+2022.nc_ROC_2022.RepublicOfChina:
+  label: is_a (input)
+  s: 2022.nc_ROC
+  t: 2022.RepublicOfChina
+2022.nc_ROK_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_ROK
+  t: 1930.nc_World
+2022.nc_ROK_2022.RepublicOfKorea:
+  label: is_a (input)
+  s: 2022.nc_ROK
+  t: 2022.RepublicOfKorea
+2022.nc_ROP_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_ROP
+  t: 1930.nc_World
+2022.nc_ROP_2022.RepublicOfThePhilippines:
+  label: is_a (input)
+  s: 2022.nc_ROP
+  t: 2022.RepublicOfThePhilippines
+2022.nc_VN_1930.nc_World:
+  label: is_a (input)
+  s: 2022.nc_VN
+  t: 1930.nc_World
+2022.nc_VN_2022.SocialistRepublicOfVietnam:
+  label: is_a (input)
+  s: 2022.nc_VN
+  t: 2022.SocialistRepublicOfVietnam
+2022.nc_World_2022.World:
+  label: is_a (input)
+  s: 2022.nc_World
+  t: 2022.World

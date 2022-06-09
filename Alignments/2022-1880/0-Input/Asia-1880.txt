@@ -1,0 +1,68 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1880
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1880 1880T2
+(World QingDynastyChina UnitedKingdomOfGreatBritainAndIreland PortugeseRepublic EmpireOfJapan KingdomOfGreatJoseon FrenchIndochina SpanishEmpire RattanakosinKingdomOfSiam NguyenDynasty nc_World)
+(QingDynastyChina MainlandChina Taiwan nc_Qing)
+(UnitedKingdomOfGreatBritainAndIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(EmpireOfJapan Japan nc_JP)
+(KingdomOfGreatJoseon NorthKorea SouthKorea nc_Joseon)
+(FrenchIndochina Cambodia nc_FrenchIndochina)
+(SpanishEmpire Philippines nc_Spain)
+(RattanakosinKingdomOfSiam Thailand nc_RKOS)
+(NguyenDynasty NorthVietnam CentralVietnam SouthVietnam nc_Nguyen)
+
+
+articulation 2022-1880 2022T1-1880T2
+[2022.Taiwan equals 1880.Taiwan]
+[2022.MainlandChina equals 1880.MainlandChina]
+[2022.HongKong equals 1880.HongKong]
+[2022.Macau equals 1880.Macau]
+[2022.Japan equals 1880.Japan]
+[2022.NorthKorea equals 1880.NorthKorea]
+[2022.SouthKorea equals 1880.SouthKorea]
+[2022.Cambodia equals 1880.Cambodia]
+[2022.Philippines equals 1880.Philippines]
+[2022.Thailand equals 1880.Thailand]
+[2022.Vietnam includes 1880.NorthVietnam]
+[2022.Vietnam includes 1880.CentralVietnam]
+[2022.Vietnam includes 1880.SouthVietnam]
+[2022.nc_World includes 1880.nc_Qing]
+[2022.nc_World includes 1880.nc_JP]
+[2022.nc_World includes 1880.nc_RKOS]
+[2022.nc_World includes 1880.nc_UK]
+[2022.nc_World includes 1880.nc_Portugal]
+[2022.nc_World includes 1880.nc_Spain]
+[2022.nc_World includes 1880.nc_FrenchIndochina]
+[2022.nc_World includes 1880.nc_Joseon]
+[2022.nc_World includes 1880.nc_Nguyen]
+[2022.nc_ROC is_included_in 1880.nc_World]
+[2022.nc_PRC is_included_in 1880.nc_World]
+[2022.nc_Nihon is_included_in 1880.nc_World]
+[2022.nc_DPRK is_included_in 1880.nc_World]
+[2022.nc_ROK is_included_in 1880.nc_World]
+[2022.nc_KOC is_included_in 1880.nc_World]
+[2022.nc_ROP is_included_in 1880.nc_World]
+[2022.nc_KOT is_included_in 1880.nc_World]
+[2022.nc_VN is_included_in 1880.nc_World]
+
+
+
+
+
+
+
+

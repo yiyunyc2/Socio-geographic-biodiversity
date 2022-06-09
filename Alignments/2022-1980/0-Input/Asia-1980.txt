@@ -1,0 +1,64 @@
+#Taxonomy 1 2022
+#Taxonomy 2 1980
+
+taxonomy 2022 2022T1
+(World RepublicOfChina PeoplesRepublicOfChina NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea KingdomOfCambodia RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina HongKong Macau nc_PRC)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(KingdomOfCambodia Cambodia nc_KOC)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+taxonomy 1980 1980T2
+(World RepublicOfChina PeoplesRepublicOfChina UnitedKingdomOfGreatBritainAndNorthernIreland PortugeseRepublic NihonKoku DemocraticPeoplesRepublicOfKorea RepublicOfKorea PeoplesRepublicOfKampuchea RepublicOfThePhilippines KingdomOfThailand SocialistRepublicOfVietnam nc_World)
+(RepublicOfChina Taiwan nc_ROC)
+(PeoplesRepublicOfChina MainlandChina nc_PRC)
+(UnitedKingdomOfGreatBritainAndNorthernIreland HongKong nc_UK)
+(PortugeseRepublic Macau nc_Portugal)
+(NihonKoku Japan nc_Nihon)
+(DemocraticPeoplesRepublicOfKorea NorthKorea nc_DPRK)
+(RepublicOfKorea SouthKorea nc_ROK)
+(PeoplesRepublicOfKampuchea Cambodia nc_PRK)
+(RepublicOfThePhilippines Philippines nc_ROP)
+(KingdomOfThailand Thailand nc_KOT)
+(SocialistRepublicOfVietnam Vietnam nc_VN)
+
+articulation 2022-1980 2022T1-1980T2
+#[2022.World equals 1980.World]
+[2022.Taiwan equals 1980.Taiwan]
+[2022.MainlandChina equals 1980.MainlandChina]
+[2022.HongKong equals 1980.HongKong]
+[2022.Macau equals 1980.Macau]
+[2022.Japan equals 1980.Japan]
+[2022.NorthKorea equals 1980.NorthKorea]
+[2022.SouthKorea equals 1980.SouthKorea]
+[2022.Cambodia equals 1980.Cambodia]
+[2022.Philippines equals 1980.Philippines]
+[2022.Thailand equals 1980.Thailand]
+[2022.Vietnam equals 1980.Vietnam]
+[2022.nc_World includes 1980.nc_ROC]
+[2022.nc_World includes 1980.nc_PRC]
+[2022.nc_World includes 1980.nc_Nihon]
+[2022.nc_World includes 1980.nc_DPRK]
+[2022.nc_World includes 1980.nc_ROK]
+[2022.nc_World includes 1980.nc_PRK]
+[2022.nc_World includes 1980.nc_ROP]
+[2022.nc_World includes 1980.nc_KOT]
+[2022.nc_World includes 1980.nc_VN]
+[2022.nc_World includes 1980.nc_UK]
+[2022.nc_World includes 1980.nc_Portugal]
+[2022.nc_ROC is_included_in 1980.nc_World]
+[2022.nc_PRC is_included_in 1980.nc_World]
+[2022.nc_Nihon is_included_in 1980.nc_World]
+[2022.nc_DPRK is_included_in 1980.nc_World]
+[2022.nc_ROK is_included_in 1980.nc_World]
+[2022.nc_KOC is_included_in 1980.nc_World]
+[2022.nc_ROP is_included_in 1980.nc_World]
+[2022.nc_KOT is_included_in 1980.nc_World]
+[2022.nc_VN is_included_in 1980.nc_World]
+
+

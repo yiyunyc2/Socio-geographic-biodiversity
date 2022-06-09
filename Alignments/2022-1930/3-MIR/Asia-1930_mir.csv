@@ -1,0 +1,1085 @@
+2022.Cambodia,!,1930.AnnamProtectorate,deduced
+2022.Cambodia,!,1930.Cochinchina,deduced
+2022.Cambodia,<,1930.FrenchIndochina,deduced
+2022.Cambodia,!,1930.TokinProtectorate,deduced
+2022.Cambodia,<,1930.World,deduced
+2022.Cambodia,!,1930.nc_FrenchIndochina,deduced
+2022.DemocraticPeoplesRepublicOfKorea,>,1930.NorthKorea,deduced
+2022.HongKong,!,1930.Macau,deduced
+2022.HongKong,!,1930.MainlandChina,deduced
+2022.HongKong,<,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,deduced
+2022.HongKong,<,1930.World,deduced
+2022.HongKong,!,1930.nc_UK,deduced
+2022.Japan,<,1930.EmpireOfJapan,deduced
+2022.Japan,!,1930.NorthKorea,deduced
+2022.Japan,!,1930.SouthKorea,deduced
+2022.Japan,!,1930.Taiwan,deduced
+2022.Japan,<,1930.World,deduced
+2022.Japan,!,1930.nc_JP,deduced
+2022.KingdomOfCambodia,>,1930.Cambodia,deduced
+2022.KingdomOfThailand,>,1930.Thailand,deduced
+2022.Macau,!,1930.HongKong,deduced
+2022.Macau,!,1930.MainlandChina,deduced
+2022.Macau,<,1930.PortugeseRepublic,deduced
+2022.Macau,<,1930.World,deduced
+2022.Macau,!,1930.nc_Portugal,deduced
+2022.MainlandChina,!,1930.HongKong,deduced
+2022.MainlandChina,!,1930.Macau,deduced
+2022.MainlandChina,<,1930.NationalistGovernmentOfROChina,deduced
+2022.MainlandChina,<,1930.World,deduced
+2022.MainlandChina,!,1930.nc_NGROC,deduced
+2022.NihonKoku,>,1930.Japan,deduced
+2022.NorthKorea,<,1930.EmpireOfJapan,deduced
+2022.NorthKorea,!,1930.Japan,deduced
+2022.NorthKorea,!,1930.SouthKorea,deduced
+2022.NorthKorea,!,1930.Taiwan,deduced
+2022.NorthKorea,<,1930.World,deduced
+2022.NorthKorea,!,1930.nc_JP,deduced
+2022.PeoplesRepublicOfChina,>,1930.HongKong,deduced
+2022.PeoplesRepublicOfChina,>,1930.Macau,deduced
+2022.PeoplesRepublicOfChina,>,1930.MainlandChina,deduced
+2022.Philippines,<,1930.InsularGovernmentOfThePhilippineIslands,deduced
+2022.Philippines,<,1930.World,deduced
+2022.Philippines,!,1930.nc_IGOP,deduced
+2022.RepublicOfChina,>,1930.Taiwan,deduced
+2022.RepublicOfKorea,>,1930.SouthKorea,deduced
+2022.RepublicOfThePhilippines,>,1930.Philippines,deduced
+2022.SocialistRepublicOfVietnam,>,1930.CentralVietnam,deduced
+2022.SocialistRepublicOfVietnam,>,1930.NorthVietnam,deduced
+2022.SocialistRepublicOfVietnam,>,1930.SouthVietnam,deduced
+2022.SouthKorea,<,1930.EmpireOfJapan,deduced
+2022.SouthKorea,!,1930.Japan,deduced
+2022.SouthKorea,!,1930.NorthKorea,deduced
+2022.SouthKorea,!,1930.Taiwan,deduced
+2022.SouthKorea,<,1930.World,deduced
+2022.SouthKorea,!,1930.nc_JP,deduced
+2022.Taiwan,<,1930.EmpireOfJapan,deduced
+2022.Taiwan,!,1930.Japan,deduced
+2022.Taiwan,!,1930.NorthKorea,deduced
+2022.Taiwan,!,1930.SouthKorea,deduced
+2022.Taiwan,<,1930.World,deduced
+2022.Taiwan,!,1930.nc_JP,deduced
+2022.Thailand,<,1930.RattanakosinKingdomOfSiam,deduced
+2022.Thailand,<,1930.World,deduced
+2022.Thailand,!,1930.nc_RKOS,deduced
+2022.World,>,1930.Cambodia,deduced
+2022.World,>,1930.CentralVietnam,deduced
+2022.World,>,1930.HongKong,deduced
+2022.World,>,1930.Japan,deduced
+2022.World,>,1930.Macau,deduced
+2022.World,>,1930.MainlandChina,deduced
+2022.World,>,1930.NorthKorea,deduced
+2022.World,>,1930.NorthVietnam,deduced
+2022.World,>,1930.Philippines,deduced
+2022.World,>,1930.SouthKorea,deduced
+2022.World,>,1930.SouthVietnam,deduced
+2022.World,>,1930.Taiwan,deduced
+2022.World,>,1930.Thailand,deduced
+2022.World,>,1930.nc_Annam,deduced
+2022.World,>,1930.nc_Cochin,deduced
+2022.World,>,1930.nc_FrenchIndochina,deduced
+2022.World,>,1930.nc_IGOP,deduced
+2022.World,>,1930.nc_JP,deduced
+2022.World,>,1930.nc_NGROC,deduced
+2022.World,>,1930.nc_Portugal,deduced
+2022.World,>,1930.nc_RKOS,deduced
+2022.World,>,1930.nc_Tokin,deduced
+2022.World,>,1930.nc_UK,deduced
+2022.nc_DPRK,!,1930.NorthKorea,deduced
+2022.nc_DPRK,<,1930.World,deduced
+2022.nc_KOC,!,1930.Cambodia,deduced
+2022.nc_KOC,<,1930.World,deduced
+2022.nc_KOT,!,1930.Thailand,deduced
+2022.nc_KOT,<,1930.World,deduced
+2022.nc_Nihon,!,1930.Japan,deduced
+2022.nc_Nihon,<,1930.World,deduced
+2022.nc_PRC,!,1930.HongKong,deduced
+2022.nc_PRC,!,1930.Macau,deduced
+2022.nc_PRC,!,1930.MainlandChina,deduced
+2022.nc_PRC,<,1930.World,deduced
+2022.nc_ROC,!,1930.Taiwan,deduced
+2022.nc_ROC,<,1930.World,deduced
+2022.nc_ROK,!,1930.SouthKorea,deduced
+2022.nc_ROK,<,1930.World,deduced
+2022.nc_ROP,!,1930.Philippines,deduced
+2022.nc_ROP,<,1930.World,deduced
+2022.nc_VN,<,1930.World,deduced
+2022.Cambodia,!,1930.CentralVietnam,inferred
+2022.Cambodia,!,1930.EmpireOfJapan,inferred
+2022.Cambodia,!,1930.HongKong,inferred
+2022.Cambodia,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Cambodia,!,1930.Japan,inferred
+2022.Cambodia,!,1930.Macau,inferred
+2022.Cambodia,!,1930.MainlandChina,inferred
+2022.Cambodia,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Cambodia,!,1930.NorthKorea,inferred
+2022.Cambodia,!,1930.NorthVietnam,inferred
+2022.Cambodia,!,1930.Philippines,inferred
+2022.Cambodia,!,1930.PortugeseRepublic,inferred
+2022.Cambodia,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Cambodia,!,1930.SouthKorea,inferred
+2022.Cambodia,!,1930.SouthVietnam,inferred
+2022.Cambodia,!,1930.Taiwan,inferred
+2022.Cambodia,!,1930.Thailand,inferred
+2022.Cambodia,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Cambodia,{=, >, <, !, ><},1930.nc_World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.AnnamProtectorate,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Cambodia,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.CentralVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Cochinchina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,><,1930.EmpireOfJapan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.FrenchIndochina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.HongKong,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Japan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Macau,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.MainlandChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.NationalistGovernmentOfROChina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.NorthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Philippines,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.PortugeseRepublic,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.SouthKorea,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.SouthVietnam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Taiwan,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.Thailand,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.TokinProtectorate,inferred
+2022.DemocraticPeoplesRepublicOfKorea,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.DemocraticPeoplesRepublicOfKorea,<,1930.World,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.DemocraticPeoplesRepublicOfKorea,{=, >, <, !, ><},1930.nc_World,inferred
+2022.HongKong,!,1930.AnnamProtectorate,inferred
+2022.HongKong,!,1930.Cambodia,inferred
+2022.HongKong,!,1930.CentralVietnam,inferred
+2022.HongKong,!,1930.Cochinchina,inferred
+2022.HongKong,!,1930.EmpireOfJapan,inferred
+2022.HongKong,!,1930.FrenchIndochina,inferred
+2022.HongKong,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.HongKong,!,1930.Japan,inferred
+2022.HongKong,!,1930.NationalistGovernmentOfROChina,inferred
+2022.HongKong,!,1930.NorthKorea,inferred
+2022.HongKong,!,1930.NorthVietnam,inferred
+2022.HongKong,!,1930.Philippines,inferred
+2022.HongKong,!,1930.PortugeseRepublic,inferred
+2022.HongKong,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.HongKong,!,1930.SouthKorea,inferred
+2022.HongKong,!,1930.SouthVietnam,inferred
+2022.HongKong,!,1930.Taiwan,inferred
+2022.HongKong,!,1930.Thailand,inferred
+2022.HongKong,!,1930.TokinProtectorate,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.HongKong,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Japan,!,1930.AnnamProtectorate,inferred
+2022.Japan,!,1930.Cambodia,inferred
+2022.Japan,!,1930.CentralVietnam,inferred
+2022.Japan,!,1930.Cochinchina,inferred
+2022.Japan,!,1930.FrenchIndochina,inferred
+2022.Japan,!,1930.HongKong,inferred
+2022.Japan,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Japan,!,1930.Macau,inferred
+2022.Japan,!,1930.MainlandChina,inferred
+2022.Japan,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Japan,!,1930.NorthVietnam,inferred
+2022.Japan,!,1930.Philippines,inferred
+2022.Japan,!,1930.PortugeseRepublic,inferred
+2022.Japan,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Japan,!,1930.SouthVietnam,inferred
+2022.Japan,!,1930.Thailand,inferred
+2022.Japan,!,1930.TokinProtectorate,inferred
+2022.Japan,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Japan,{=, >, <, !, ><},1930.nc_World,inferred
+2022.KingdomOfCambodia,!,1930.AnnamProtectorate,inferred
+2022.KingdomOfCambodia,!,1930.CentralVietnam,inferred
+2022.KingdomOfCambodia,!,1930.Cochinchina,inferred
+2022.KingdomOfCambodia,!,1930.EmpireOfJapan,inferred
+2022.KingdomOfCambodia,><,1930.FrenchIndochina,inferred
+2022.KingdomOfCambodia,!,1930.HongKong,inferred
+2022.KingdomOfCambodia,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.KingdomOfCambodia,!,1930.Japan,inferred
+2022.KingdomOfCambodia,!,1930.Macau,inferred
+2022.KingdomOfCambodia,!,1930.MainlandChina,inferred
+2022.KingdomOfCambodia,!,1930.NationalistGovernmentOfROChina,inferred
+2022.KingdomOfCambodia,!,1930.NorthKorea,inferred
+2022.KingdomOfCambodia,!,1930.NorthVietnam,inferred
+2022.KingdomOfCambodia,!,1930.Philippines,inferred
+2022.KingdomOfCambodia,!,1930.PortugeseRepublic,inferred
+2022.KingdomOfCambodia,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.KingdomOfCambodia,!,1930.SouthKorea,inferred
+2022.KingdomOfCambodia,!,1930.SouthVietnam,inferred
+2022.KingdomOfCambodia,!,1930.Taiwan,inferred
+2022.KingdomOfCambodia,!,1930.Thailand,inferred
+2022.KingdomOfCambodia,!,1930.TokinProtectorate,inferred
+2022.KingdomOfCambodia,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfCambodia,<,1930.World,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.KingdomOfCambodia,{=, >, <, !, ><},1930.nc_World,inferred
+2022.KingdomOfThailand,!,1930.AnnamProtectorate,inferred
+2022.KingdomOfThailand,!,1930.Cambodia,inferred
+2022.KingdomOfThailand,!,1930.CentralVietnam,inferred
+2022.KingdomOfThailand,!,1930.Cochinchina,inferred
+2022.KingdomOfThailand,!,1930.EmpireOfJapan,inferred
+2022.KingdomOfThailand,!,1930.FrenchIndochina,inferred
+2022.KingdomOfThailand,!,1930.HongKong,inferred
+2022.KingdomOfThailand,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.KingdomOfThailand,!,1930.Japan,inferred
+2022.KingdomOfThailand,!,1930.Macau,inferred
+2022.KingdomOfThailand,!,1930.MainlandChina,inferred
+2022.KingdomOfThailand,!,1930.NationalistGovernmentOfROChina,inferred
+2022.KingdomOfThailand,!,1930.NorthKorea,inferred
+2022.KingdomOfThailand,!,1930.NorthVietnam,inferred
+2022.KingdomOfThailand,!,1930.Philippines,inferred
+2022.KingdomOfThailand,!,1930.PortugeseRepublic,inferred
+2022.KingdomOfThailand,><,1930.RattanakosinKingdomOfSiam,inferred
+2022.KingdomOfThailand,!,1930.SouthKorea,inferred
+2022.KingdomOfThailand,!,1930.SouthVietnam,inferred
+2022.KingdomOfThailand,!,1930.Taiwan,inferred
+2022.KingdomOfThailand,!,1930.TokinProtectorate,inferred
+2022.KingdomOfThailand,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.KingdomOfThailand,<,1930.World,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.KingdomOfThailand,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Macau,!,1930.AnnamProtectorate,inferred
+2022.Macau,!,1930.Cambodia,inferred
+2022.Macau,!,1930.CentralVietnam,inferred
+2022.Macau,!,1930.Cochinchina,inferred
+2022.Macau,!,1930.EmpireOfJapan,inferred
+2022.Macau,!,1930.FrenchIndochina,inferred
+2022.Macau,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Macau,!,1930.Japan,inferred
+2022.Macau,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Macau,!,1930.NorthKorea,inferred
+2022.Macau,!,1930.NorthVietnam,inferred
+2022.Macau,!,1930.Philippines,inferred
+2022.Macau,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Macau,!,1930.SouthKorea,inferred
+2022.Macau,!,1930.SouthVietnam,inferred
+2022.Macau,!,1930.Taiwan,inferred
+2022.Macau,!,1930.Thailand,inferred
+2022.Macau,!,1930.TokinProtectorate,inferred
+2022.Macau,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Macau,{=, >, <, !, ><},1930.nc_World,inferred
+2022.MainlandChina,!,1930.AnnamProtectorate,inferred
+2022.MainlandChina,!,1930.Cambodia,inferred
+2022.MainlandChina,!,1930.CentralVietnam,inferred
+2022.MainlandChina,!,1930.Cochinchina,inferred
+2022.MainlandChina,!,1930.EmpireOfJapan,inferred
+2022.MainlandChina,!,1930.FrenchIndochina,inferred
+2022.MainlandChina,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.MainlandChina,!,1930.Japan,inferred
+2022.MainlandChina,!,1930.NorthKorea,inferred
+2022.MainlandChina,!,1930.NorthVietnam,inferred
+2022.MainlandChina,!,1930.Philippines,inferred
+2022.MainlandChina,!,1930.PortugeseRepublic,inferred
+2022.MainlandChina,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.MainlandChina,!,1930.SouthKorea,inferred
+2022.MainlandChina,!,1930.SouthVietnam,inferred
+2022.MainlandChina,!,1930.Taiwan,inferred
+2022.MainlandChina,!,1930.Thailand,inferred
+2022.MainlandChina,!,1930.TokinProtectorate,inferred
+2022.MainlandChina,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.MainlandChina,{=, >, <, !, ><},1930.nc_World,inferred
+2022.NihonKoku,!,1930.AnnamProtectorate,inferred
+2022.NihonKoku,!,1930.Cambodia,inferred
+2022.NihonKoku,!,1930.CentralVietnam,inferred
+2022.NihonKoku,!,1930.Cochinchina,inferred
+2022.NihonKoku,><,1930.EmpireOfJapan,inferred
+2022.NihonKoku,!,1930.FrenchIndochina,inferred
+2022.NihonKoku,!,1930.HongKong,inferred
+2022.NihonKoku,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.NihonKoku,!,1930.Macau,inferred
+2022.NihonKoku,!,1930.MainlandChina,inferred
+2022.NihonKoku,!,1930.NationalistGovernmentOfROChina,inferred
+2022.NihonKoku,!,1930.NorthKorea,inferred
+2022.NihonKoku,!,1930.NorthVietnam,inferred
+2022.NihonKoku,!,1930.Philippines,inferred
+2022.NihonKoku,!,1930.PortugeseRepublic,inferred
+2022.NihonKoku,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.NihonKoku,!,1930.SouthKorea,inferred
+2022.NihonKoku,!,1930.SouthVietnam,inferred
+2022.NihonKoku,!,1930.Taiwan,inferred
+2022.NihonKoku,!,1930.Thailand,inferred
+2022.NihonKoku,!,1930.TokinProtectorate,inferred
+2022.NihonKoku,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NihonKoku,<,1930.World,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.NihonKoku,{=, >, <, !, ><},1930.nc_World,inferred
+2022.NorthKorea,!,1930.AnnamProtectorate,inferred
+2022.NorthKorea,!,1930.Cambodia,inferred
+2022.NorthKorea,!,1930.CentralVietnam,inferred
+2022.NorthKorea,!,1930.Cochinchina,inferred
+2022.NorthKorea,!,1930.FrenchIndochina,inferred
+2022.NorthKorea,!,1930.HongKong,inferred
+2022.NorthKorea,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.NorthKorea,!,1930.Macau,inferred
+2022.NorthKorea,!,1930.MainlandChina,inferred
+2022.NorthKorea,!,1930.NationalistGovernmentOfROChina,inferred
+2022.NorthKorea,!,1930.NorthVietnam,inferred
+2022.NorthKorea,!,1930.Philippines,inferred
+2022.NorthKorea,!,1930.PortugeseRepublic,inferred
+2022.NorthKorea,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.NorthKorea,!,1930.SouthVietnam,inferred
+2022.NorthKorea,!,1930.Thailand,inferred
+2022.NorthKorea,!,1930.TokinProtectorate,inferred
+2022.NorthKorea,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.NorthKorea,{=, >, <, !, ><},1930.nc_World,inferred
+2022.PeoplesRepublicOfChina,!,1930.AnnamProtectorate,inferred
+2022.PeoplesRepublicOfChina,!,1930.Cambodia,inferred
+2022.PeoplesRepublicOfChina,!,1930.CentralVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1930.Cochinchina,inferred
+2022.PeoplesRepublicOfChina,!,1930.EmpireOfJapan,inferred
+2022.PeoplesRepublicOfChina,!,1930.FrenchIndochina,inferred
+2022.PeoplesRepublicOfChina,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.PeoplesRepublicOfChina,!,1930.Japan,inferred
+2022.PeoplesRepublicOfChina,><,1930.NationalistGovernmentOfROChina,inferred
+2022.PeoplesRepublicOfChina,!,1930.NorthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1930.NorthVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1930.Philippines,inferred
+2022.PeoplesRepublicOfChina,><,1930.PortugeseRepublic,inferred
+2022.PeoplesRepublicOfChina,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.PeoplesRepublicOfChina,!,1930.SouthKorea,inferred
+2022.PeoplesRepublicOfChina,!,1930.SouthVietnam,inferred
+2022.PeoplesRepublicOfChina,!,1930.Taiwan,inferred
+2022.PeoplesRepublicOfChina,!,1930.Thailand,inferred
+2022.PeoplesRepublicOfChina,!,1930.TokinProtectorate,inferred
+2022.PeoplesRepublicOfChina,><,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.PeoplesRepublicOfChina,<,1930.World,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.PeoplesRepublicOfChina,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Philippines,!,1930.AnnamProtectorate,inferred
+2022.Philippines,!,1930.Cambodia,inferred
+2022.Philippines,!,1930.CentralVietnam,inferred
+2022.Philippines,!,1930.Cochinchina,inferred
+2022.Philippines,!,1930.EmpireOfJapan,inferred
+2022.Philippines,!,1930.FrenchIndochina,inferred
+2022.Philippines,!,1930.HongKong,inferred
+2022.Philippines,!,1930.Japan,inferred
+2022.Philippines,!,1930.Macau,inferred
+2022.Philippines,!,1930.MainlandChina,inferred
+2022.Philippines,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Philippines,!,1930.NorthKorea,inferred
+2022.Philippines,!,1930.NorthVietnam,inferred
+2022.Philippines,!,1930.PortugeseRepublic,inferred
+2022.Philippines,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Philippines,!,1930.SouthKorea,inferred
+2022.Philippines,!,1930.SouthVietnam,inferred
+2022.Philippines,!,1930.Taiwan,inferred
+2022.Philippines,!,1930.Thailand,inferred
+2022.Philippines,!,1930.TokinProtectorate,inferred
+2022.Philippines,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Philippines,{=, >, <, !, ><},1930.nc_World,inferred
+2022.RepublicOfChina,!,1930.AnnamProtectorate,inferred
+2022.RepublicOfChina,!,1930.Cambodia,inferred
+2022.RepublicOfChina,!,1930.CentralVietnam,inferred
+2022.RepublicOfChina,!,1930.Cochinchina,inferred
+2022.RepublicOfChina,><,1930.EmpireOfJapan,inferred
+2022.RepublicOfChina,!,1930.FrenchIndochina,inferred
+2022.RepublicOfChina,!,1930.HongKong,inferred
+2022.RepublicOfChina,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.RepublicOfChina,!,1930.Japan,inferred
+2022.RepublicOfChina,!,1930.Macau,inferred
+2022.RepublicOfChina,!,1930.MainlandChina,inferred
+2022.RepublicOfChina,!,1930.NationalistGovernmentOfROChina,inferred
+2022.RepublicOfChina,!,1930.NorthKorea,inferred
+2022.RepublicOfChina,!,1930.NorthVietnam,inferred
+2022.RepublicOfChina,!,1930.Philippines,inferred
+2022.RepublicOfChina,!,1930.PortugeseRepublic,inferred
+2022.RepublicOfChina,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfChina,!,1930.SouthKorea,inferred
+2022.RepublicOfChina,!,1930.SouthVietnam,inferred
+2022.RepublicOfChina,!,1930.Thailand,inferred
+2022.RepublicOfChina,!,1930.TokinProtectorate,inferred
+2022.RepublicOfChina,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfChina,<,1930.World,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.RepublicOfChina,{=, >, <, !, ><},1930.nc_World,inferred
+2022.RepublicOfKorea,!,1930.AnnamProtectorate,inferred
+2022.RepublicOfKorea,!,1930.Cambodia,inferred
+2022.RepublicOfKorea,!,1930.CentralVietnam,inferred
+2022.RepublicOfKorea,!,1930.Cochinchina,inferred
+2022.RepublicOfKorea,><,1930.EmpireOfJapan,inferred
+2022.RepublicOfKorea,!,1930.FrenchIndochina,inferred
+2022.RepublicOfKorea,!,1930.HongKong,inferred
+2022.RepublicOfKorea,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.RepublicOfKorea,!,1930.Japan,inferred
+2022.RepublicOfKorea,!,1930.Macau,inferred
+2022.RepublicOfKorea,!,1930.MainlandChina,inferred
+2022.RepublicOfKorea,!,1930.NationalistGovernmentOfROChina,inferred
+2022.RepublicOfKorea,!,1930.NorthKorea,inferred
+2022.RepublicOfKorea,!,1930.NorthVietnam,inferred
+2022.RepublicOfKorea,!,1930.Philippines,inferred
+2022.RepublicOfKorea,!,1930.PortugeseRepublic,inferred
+2022.RepublicOfKorea,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfKorea,!,1930.SouthVietnam,inferred
+2022.RepublicOfKorea,!,1930.Taiwan,inferred
+2022.RepublicOfKorea,!,1930.Thailand,inferred
+2022.RepublicOfKorea,!,1930.TokinProtectorate,inferred
+2022.RepublicOfKorea,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfKorea,<,1930.World,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.RepublicOfKorea,{=, >, <, !, ><},1930.nc_World,inferred
+2022.RepublicOfThePhilippines,!,1930.AnnamProtectorate,inferred
+2022.RepublicOfThePhilippines,!,1930.Cambodia,inferred
+2022.RepublicOfThePhilippines,!,1930.CentralVietnam,inferred
+2022.RepublicOfThePhilippines,!,1930.Cochinchina,inferred
+2022.RepublicOfThePhilippines,!,1930.EmpireOfJapan,inferred
+2022.RepublicOfThePhilippines,!,1930.FrenchIndochina,inferred
+2022.RepublicOfThePhilippines,!,1930.HongKong,inferred
+2022.RepublicOfThePhilippines,><,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.RepublicOfThePhilippines,!,1930.Japan,inferred
+2022.RepublicOfThePhilippines,!,1930.Macau,inferred
+2022.RepublicOfThePhilippines,!,1930.MainlandChina,inferred
+2022.RepublicOfThePhilippines,!,1930.NationalistGovernmentOfROChina,inferred
+2022.RepublicOfThePhilippines,!,1930.NorthKorea,inferred
+2022.RepublicOfThePhilippines,!,1930.NorthVietnam,inferred
+2022.RepublicOfThePhilippines,!,1930.PortugeseRepublic,inferred
+2022.RepublicOfThePhilippines,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.RepublicOfThePhilippines,!,1930.SouthKorea,inferred
+2022.RepublicOfThePhilippines,!,1930.SouthVietnam,inferred
+2022.RepublicOfThePhilippines,!,1930.Taiwan,inferred
+2022.RepublicOfThePhilippines,!,1930.Thailand,inferred
+2022.RepublicOfThePhilippines,!,1930.TokinProtectorate,inferred
+2022.RepublicOfThePhilippines,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.RepublicOfThePhilippines,<,1930.World,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.RepublicOfThePhilippines,{=, >, <, !, ><},1930.nc_World,inferred
+2022.SocialistRepublicOfVietnam,><,1930.AnnamProtectorate,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Cambodia,inferred
+2022.SocialistRepublicOfVietnam,><,1930.Cochinchina,inferred
+2022.SocialistRepublicOfVietnam,!,1930.EmpireOfJapan,inferred
+2022.SocialistRepublicOfVietnam,><,1930.FrenchIndochina,inferred
+2022.SocialistRepublicOfVietnam,!,1930.HongKong,inferred
+2022.SocialistRepublicOfVietnam,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Japan,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Macau,inferred
+2022.SocialistRepublicOfVietnam,!,1930.MainlandChina,inferred
+2022.SocialistRepublicOfVietnam,!,1930.NationalistGovernmentOfROChina,inferred
+2022.SocialistRepublicOfVietnam,!,1930.NorthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Philippines,inferred
+2022.SocialistRepublicOfVietnam,!,1930.PortugeseRepublic,inferred
+2022.SocialistRepublicOfVietnam,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.SocialistRepublicOfVietnam,!,1930.SouthKorea,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Taiwan,inferred
+2022.SocialistRepublicOfVietnam,!,1930.Thailand,inferred
+2022.SocialistRepublicOfVietnam,><,1930.TokinProtectorate,inferred
+2022.SocialistRepublicOfVietnam,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SocialistRepublicOfVietnam,{<, ><},1930.World,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.SocialistRepublicOfVietnam,{=, >, <, !, ><},1930.nc_World,inferred
+2022.SouthKorea,!,1930.AnnamProtectorate,inferred
+2022.SouthKorea,!,1930.Cambodia,inferred
+2022.SouthKorea,!,1930.CentralVietnam,inferred
+2022.SouthKorea,!,1930.Cochinchina,inferred
+2022.SouthKorea,!,1930.FrenchIndochina,inferred
+2022.SouthKorea,!,1930.HongKong,inferred
+2022.SouthKorea,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.SouthKorea,!,1930.Macau,inferred
+2022.SouthKorea,!,1930.MainlandChina,inferred
+2022.SouthKorea,!,1930.NationalistGovernmentOfROChina,inferred
+2022.SouthKorea,!,1930.NorthVietnam,inferred
+2022.SouthKorea,!,1930.Philippines,inferred
+2022.SouthKorea,!,1930.PortugeseRepublic,inferred
+2022.SouthKorea,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.SouthKorea,!,1930.SouthVietnam,inferred
+2022.SouthKorea,!,1930.Thailand,inferred
+2022.SouthKorea,!,1930.TokinProtectorate,inferred
+2022.SouthKorea,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.SouthKorea,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Taiwan,!,1930.AnnamProtectorate,inferred
+2022.Taiwan,!,1930.Cambodia,inferred
+2022.Taiwan,!,1930.CentralVietnam,inferred
+2022.Taiwan,!,1930.Cochinchina,inferred
+2022.Taiwan,!,1930.FrenchIndochina,inferred
+2022.Taiwan,!,1930.HongKong,inferred
+2022.Taiwan,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Taiwan,!,1930.Macau,inferred
+2022.Taiwan,!,1930.MainlandChina,inferred
+2022.Taiwan,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Taiwan,!,1930.NorthVietnam,inferred
+2022.Taiwan,!,1930.Philippines,inferred
+2022.Taiwan,!,1930.PortugeseRepublic,inferred
+2022.Taiwan,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Taiwan,!,1930.SouthVietnam,inferred
+2022.Taiwan,!,1930.Thailand,inferred
+2022.Taiwan,!,1930.TokinProtectorate,inferred
+2022.Taiwan,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Taiwan,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Thailand,!,1930.AnnamProtectorate,inferred
+2022.Thailand,!,1930.Cambodia,inferred
+2022.Thailand,!,1930.CentralVietnam,inferred
+2022.Thailand,!,1930.Cochinchina,inferred
+2022.Thailand,!,1930.EmpireOfJapan,inferred
+2022.Thailand,!,1930.FrenchIndochina,inferred
+2022.Thailand,!,1930.HongKong,inferred
+2022.Thailand,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Thailand,!,1930.Japan,inferred
+2022.Thailand,!,1930.Macau,inferred
+2022.Thailand,!,1930.MainlandChina,inferred
+2022.Thailand,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Thailand,!,1930.NorthKorea,inferred
+2022.Thailand,!,1930.NorthVietnam,inferred
+2022.Thailand,!,1930.Philippines,inferred
+2022.Thailand,!,1930.PortugeseRepublic,inferred
+2022.Thailand,!,1930.SouthKorea,inferred
+2022.Thailand,!,1930.SouthVietnam,inferred
+2022.Thailand,!,1930.Taiwan,inferred
+2022.Thailand,!,1930.TokinProtectorate,inferred
+2022.Thailand,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Thailand,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Vietnam,><,1930.AnnamProtectorate,inferred
+2022.Vietnam,!,1930.Cambodia,inferred
+2022.Vietnam,><,1930.Cochinchina,inferred
+2022.Vietnam,!,1930.EmpireOfJapan,inferred
+2022.Vietnam,{<, ><},1930.FrenchIndochina,inferred
+2022.Vietnam,!,1930.HongKong,inferred
+2022.Vietnam,!,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.Vietnam,!,1930.Japan,inferred
+2022.Vietnam,!,1930.Macau,inferred
+2022.Vietnam,!,1930.MainlandChina,inferred
+2022.Vietnam,!,1930.NationalistGovernmentOfROChina,inferred
+2022.Vietnam,!,1930.NorthKorea,inferred
+2022.Vietnam,!,1930.Philippines,inferred
+2022.Vietnam,!,1930.PortugeseRepublic,inferred
+2022.Vietnam,!,1930.RattanakosinKingdomOfSiam,inferred
+2022.Vietnam,!,1930.SouthKorea,inferred
+2022.Vietnam,!,1930.Taiwan,inferred
+2022.Vietnam,!,1930.Thailand,inferred
+2022.Vietnam,><,1930.TokinProtectorate,inferred
+2022.Vietnam,!,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.Vietnam,{<, ><},1930.World,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.Vietnam,{=, >, <, !, ><},1930.nc_World,inferred
+2022.World,>,1930.AnnamProtectorate,inferred
+2022.World,>,1930.Cochinchina,inferred
+2022.World,>,1930.EmpireOfJapan,inferred
+2022.World,>,1930.FrenchIndochina,inferred
+2022.World,>,1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.World,>,1930.NationalistGovernmentOfROChina,inferred
+2022.World,>,1930.PortugeseRepublic,inferred
+2022.World,>,1930.RattanakosinKingdomOfSiam,inferred
+2022.World,>,1930.TokinProtectorate,inferred
+2022.World,>,1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.World,{=, >, <, ><},1930.World,inferred
+2022.World,{=, >, <, !, ><},1930.nc_World,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_DPRK,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_KOC,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_KOT,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_Nihon,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_PRC,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_ROC,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_ROK,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_ROP,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_Annam,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_Cochin,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_FrenchIndochina,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_IGOP,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_JP,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_NGROC,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_Portugal,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_RKOS,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_Tokin,inferred
+2022.nc_VN,{=, >, <, !, ><},1930.nc_UK,inferred
+2022.nc_World,{=, >, <, !, ><},1930.AnnamProtectorate,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Cambodia,inferred
+2022.nc_World,{=, >, <, !, ><},1930.CentralVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Cochinchina,inferred
+2022.nc_World,{=, >, <, !, ><},1930.EmpireOfJapan,inferred
+2022.nc_World,{=, >, <, !, ><},1930.FrenchIndochina,inferred
+2022.nc_World,{=, >, <, !, ><},1930.HongKong,inferred
+2022.nc_World,{=, >, <, !, ><},1930.InsularGovernmentOfThePhilippineIslands,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Japan,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Macau,inferred
+2022.nc_World,{=, >, <, !, ><},1930.MainlandChina,inferred
+2022.nc_World,{=, >, <, !, ><},1930.NationalistGovernmentOfROChina,inferred
+2022.nc_World,{=, >, <, !, ><},1930.NorthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1930.NorthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Philippines,inferred
+2022.nc_World,{=, >, <, !, ><},1930.PortugeseRepublic,inferred
+2022.nc_World,{=, >, <, !, ><},1930.RattanakosinKingdomOfSiam,inferred
+2022.nc_World,{=, >, <, !, ><},1930.SouthKorea,inferred
+2022.nc_World,{=, >, <, !, ><},1930.SouthVietnam,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Taiwan,inferred
+2022.nc_World,{=, >, <, !, ><},1930.Thailand,inferred
+2022.nc_World,{=, >, <, !, ><},1930.TokinProtectorate,inferred
+2022.nc_World,{=, >, <, !, ><},1930.UnitedKingdomOfGreatBritainAndNorthernIreland,inferred
+2022.nc_World,{=, >, <, !, ><},1930.World,inferred
+2022.nc_World,{=, >, <, !, ><},1930.nc_World,inferred
+2022.Cambodia,=,1930.Cambodia,input
+2022.HongKong,=,1930.HongKong,input
+2022.Japan,=,1930.Japan,input
+2022.Macau,=,1930.Macau,input
+2022.MainlandChina,=,1930.MainlandChina,input
+2022.NorthKorea,=,1930.NorthKorea,input
+2022.Philippines,=,1930.Philippines,input
+2022.SouthKorea,=,1930.SouthKorea,input
+2022.Taiwan,=,1930.Taiwan,input
+2022.Thailand,=,1930.Thailand,input
+2022.Vietnam,>,1930.CentralVietnam,input
+2022.Vietnam,>,1930.NorthVietnam,input
+2022.Vietnam,>,1930.SouthVietnam,input
+2022.nc_DPRK,<,1930.nc_World,input
+2022.nc_KOC,<,1930.nc_World,input
+2022.nc_KOT,<,1930.nc_World,input
+2022.nc_Nihon,<,1930.nc_World,input
+2022.nc_PRC,<,1930.nc_World,input
+2022.nc_ROC,<,1930.nc_World,input
+2022.nc_ROK,<,1930.nc_World,input
+2022.nc_ROP,<,1930.nc_World,input
+2022.nc_VN,<,1930.nc_World,input
+2022.nc_World,>,1930.nc_Annam,input
+2022.nc_World,>,1930.nc_Cochin,input
+2022.nc_World,>,1930.nc_FrenchIndochina,input
+2022.nc_World,>,1930.nc_IGOP,input
+2022.nc_World,>,1930.nc_JP,input
+2022.nc_World,>,1930.nc_NGROC,input
+2022.nc_World,>,1930.nc_Portugal,input
+2022.nc_World,>,1930.nc_RKOS,input
+2022.nc_World,>,1930.nc_Tokin,input
+2022.nc_World,>,1930.nc_UK,input

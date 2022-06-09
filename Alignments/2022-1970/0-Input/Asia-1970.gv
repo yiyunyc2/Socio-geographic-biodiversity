@@ -1,0 +1,206 @@
+digraph{
+rankdir=LR
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=box style=filled fillcolor="#CCFFCC" fontname="helvetica"] 
+"2022.Japan"
+"2022.nc_Nihon"
+"2022.RepublicOfThePhilippines"
+"2022.Macau"
+"2022.nc_VN"
+"2022.Philippines"
+"2022.HongKong"
+"2022.SocialistRepublicOfVietnam"
+"2022.RepublicOfKorea"
+"2022.DemocraticPeoplesRepublicOfKorea"
+"2022.nc_World"
+"2022.PeoplesRepublicOfChina"
+"2022.MainlandChina"
+"2022.RepublicOfChina"
+"2022.Vietnam"
+"2022.nc_DPRK"
+"2022.NihonKoku"
+"2022.Cambodia"
+"2022.World"
+"2022.KingdomOfThailand"
+"2022.Taiwan"
+"2022.nc_PRC"
+"2022.Thailand"
+"2022.NorthKorea"
+"2022.nc_ROK"
+"2022.nc_ROC"
+"2022.SouthKorea"
+"2022.nc_KOC"
+"2022.nc_KOT"
+"2022.nc_ROP"
+"2022.KingdomOfCambodia"
+node[shape=circle style=filled fillcolor="#FFFFFF"] 
+node[shape=note style=filled fillcolor="#FFFFCC" fontname="helvetica"] 
+"1970.nc_DROV"
+"1970.NorthVietnam"
+"1970.Cambodia"
+"1970.RepublicOfKorea"
+"1970.HongKong"
+"1970.Taiwan"
+"1970.Philippines"
+"1970.nc_ROV"
+"1970.nc_ROP"
+"1970.NihonKoku"
+"1970.nc_ROK"
+"1970.nc_ROC"
+"1970.MainlandChina"
+"1970.Thailand"
+"1970.PortugeseRepublic"
+"1970.nc_Portugal"
+"1970.KhmerRepublic"
+"1970.DemocraticPeoplesRepublicOfKorea"
+"1970.nc_Nihon"
+"1970.RepublicOfChina"
+"1970.UnitedKingdomOfGreatBritainAndNorthernIreland"
+"1970.nc_UK"
+"1970.nc_PRC"
+"1970.RepublicOfVietnam"
+"1970.nc_KOT"
+"1970.nc_World"
+"1970.World"
+"1970.SouthKorea"
+"1970.Japan"
+"1970.NorthKorea"
+"1970.SouthVietnam"
+"1970.Macau"
+"1970.DemocraticRepublicOfVietnam"
+"1970.PeoplesRepublicOfChina"
+"1970.nc_KR"
+"1970.RepublicOfThePhilippines"
+"1970.KingdomOfThailand"
+"1970.nc_DPRK"
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=dashed color="#AA00FF" constraint=true penwidth=2 dir=both]
+"2022.Cambodia" -> "1970.Cambodia" [label="="]
+"2022.nc_PRC" -> "1970.nc_World" [label="<"]
+"2022.Japan" -> "1970.Japan" [label="="]
+"2022.Taiwan" -> "1970.Taiwan" [label="="]
+"2022.Thailand" -> "1970.Thailand" [label="="]
+"2022.NorthKorea" -> "1970.NorthKorea" [label="="]
+"2022.Philippines" -> "1970.Philippines" [label="="]
+"2022.nc_World" -> "1970.nc_DPRK" [label=">"]
+"2022.nc_World" -> "1970.nc_ROP" [label=">"]
+"2022.nc_ROK" -> "1970.nc_World" [label="<"]
+"2022.nc_ROC" -> "1970.nc_World" [label="<"]
+"2022.nc_World" -> "1970.nc_UK" [label=">"]
+"2022.nc_World" -> "1970.nc_ROK" [label=">"]
+"2022.nc_KOC" -> "1970.nc_World" [label="<"]
+"2022.SouthKorea" -> "1970.SouthKorea" [label="="]
+"2022.Macau" -> "1970.Macau" [label="="]
+"2022.nc_World" -> "1970.nc_PRC" [label=">"]
+"2022.nc_World" -> "1970.nc_KR" [label=">"]
+"2022.nc_KOT" -> "1970.nc_World" [label="<"]
+"2022.Vietnam" -> "1970.NorthVietnam" [label=">"]
+"2022.nc_World" -> "1970.nc_ROV" [label=">"]
+"2022.nc_DPRK" -> "1970.nc_World" [label="<"]
+"2022.nc_World" -> "1970.nc_DROV" [label=">"]
+"2022.nc_ROP" -> "1970.nc_World" [label="<"]
+"2022.Vietnam" -> "1970.SouthVietnam" [label=">"]
+"2022.nc_World" -> "1970.nc_Portugal" [label=">"]
+"2022.nc_World" -> "1970.nc_ROC" [label=">"]
+"2022.nc_World" -> "1970.nc_Nihon" [label=">"]
+"2022.HongKong" -> "1970.HongKong" [label="="]
+"2022.nc_VN" -> "1970.nc_World" [label="<"]
+"2022.MainlandChina" -> "1970.MainlandChina" [label="="]
+"2022.nc_World" -> "1970.nc_KOT" [label=">"]
+"2022.nc_Nihon" -> "1970.nc_World" [label="<"]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+"2022.RepublicOfChina" -> "2022.nc_ROC" [dir=back]
+"2022.DemocraticPeoplesRepublicOfKorea" -> "2022.nc_DPRK" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.Macau" [dir=back]
+"2022.SocialistRepublicOfVietnam" -> "2022.nc_VN" [dir=back]
+"2022.World" -> "2022.RepublicOfKorea" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.HongKong" [dir=back]
+"2022.NihonKoku" -> "2022.nc_Nihon" [dir=back]
+"2022.World" -> "2022.RepublicOfChina" [dir=back]
+"2022.World" -> "2022.SocialistRepublicOfVietnam" [dir=back]
+"2022.KingdomOfThailand" -> "2022.nc_KOT" [dir=back]
+"2022.RepublicOfThePhilippines" -> "2022.Philippines" [dir=back]
+"2022.World" -> "2022.KingdomOfCambodia" [dir=back]
+"2022.RepublicOfChina" -> "2022.Taiwan" [dir=back]
+"2022.World" -> "2022.DemocraticPeoplesRepublicOfKorea" [dir=back]
+"2022.World" -> "2022.NihonKoku" [dir=back]
+"2022.KingdomOfCambodia" -> "2022.Cambodia" [dir=back]
+"2022.RepublicOfKorea" -> "2022.nc_ROK" [dir=back]
+"2022.RepublicOfThePhilippines" -> "2022.nc_ROP" [dir=back]
+"2022.NihonKoku" -> "2022.Japan" [dir=back]
+"2022.World" -> "2022.nc_World" [dir=back]
+"2022.SocialistRepublicOfVietnam" -> "2022.Vietnam" [dir=back]
+"2022.World" -> "2022.RepublicOfThePhilippines" [dir=back]
+"2022.World" -> "2022.PeoplesRepublicOfChina" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.MainlandChina" [dir=back]
+"2022.DemocraticPeoplesRepublicOfKorea" -> "2022.NorthKorea" [dir=back]
+"2022.RepublicOfKorea" -> "2022.SouthKorea" [dir=back]
+"2022.KingdomOfThailand" -> "2022.Thailand" [dir=back]
+"2022.KingdomOfCambodia" -> "2022.nc_KOC" [dir=back]
+"2022.World" -> "2022.KingdomOfThailand" [dir=back]
+"2022.PeoplesRepublicOfChina" -> "2022.nc_PRC" [dir=back]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+edge[style=solid color="#000000" constraint=true penwidth=1 dir=forward]
+"1970.Cambodia" -> "1970.KhmerRepublic"
+"1970.NorthVietnam" -> "1970.DemocraticRepublicOfVietnam"
+"1970.nc_PRC" -> "1970.PeoplesRepublicOfChina"
+"1970.nc_KOT" -> "1970.KingdomOfThailand"
+"1970.nc_ROC" -> "1970.RepublicOfChina"
+"1970.NorthKorea" -> "1970.DemocraticPeoplesRepublicOfKorea"
+"1970.HongKong" -> "1970.UnitedKingdomOfGreatBritainAndNorthernIreland"
+"1970.DemocraticRepublicOfVietnam" -> "1970.World"
+"1970.PortugeseRepublic" -> "1970.World"
+"1970.Taiwan" -> "1970.RepublicOfChina"
+"1970.Thailand" -> "1970.KingdomOfThailand"
+"1970.Philippines" -> "1970.RepublicOfThePhilippines"
+"1970.Japan" -> "1970.NihonKoku"
+"1970.Macau" -> "1970.PortugeseRepublic"
+"1970.PeoplesRepublicOfChina" -> "1970.World"
+"1970.MainlandChina" -> "1970.PeoplesRepublicOfChina"
+"1970.nc_ROV" -> "1970.RepublicOfVietnam"
+"1970.nc_World" -> "1970.World"
+"1970.nc_ROP" -> "1970.RepublicOfThePhilippines"
+"1970.nc_UK" -> "1970.UnitedKingdomOfGreatBritainAndNorthernIreland"
+"1970.nc_Nihon" -> "1970.NihonKoku"
+"1970.nc_DPRK" -> "1970.DemocraticPeoplesRepublicOfKorea"
+"1970.KhmerRepublic" -> "1970.World"
+"1970.DemocraticPeoplesRepublicOfKorea" -> "1970.World"
+"1970.UnitedKingdomOfGreatBritainAndNorthernIreland" -> "1970.World"
+"1970.RepublicOfChina" -> "1970.World"
+"1970.NihonKoku" -> "1970.World"
+"1970.KingdomOfThailand" -> "1970.World"
+"1970.nc_ROK" -> "1970.RepublicOfKorea"
+"1970.nc_Portugal" -> "1970.PortugeseRepublic"
+"1970.RepublicOfVietnam" -> "1970.World"
+"1970.nc_DROV" -> "1970.DemocraticRepublicOfVietnam"
+"1970.RepublicOfKorea" -> "1970.World"
+"1970.SouthVietnam" -> "1970.RepublicOfVietnam"
+"1970.nc_KR" -> "1970.KhmerRepublic"
+"1970.SouthKorea" -> "1970.RepublicOfKorea"
+"1970.RepublicOfThePhilippines" -> "1970.World"
+node[shape=box] 
+{rank=source Legend [fillcolor= white margin=0 label=< 
+ <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4"> 
+<TR> <TD COLSPAN="2"><font face="Arial Black"> Nodes</font></TD> </TR> 
+<TR> 
+ <TD bgcolor="#CCFFCC" fontname="helvetica">2022</TD> 
+ <TD>31</TD> 
+ </TR> 
+<TR> 
+ <TD bgcolor="#FFFFCC" fontname="helvetica">1970</TD> 
+ <TD>38</TD> 
+ </TR> 
+<TR> <TD COLSPAN="2"><font face = "Arial Black"> Edges </font></TD> </TR> 
+<TR> 
+ <TD><font color ="#AA00FF">articulations</font></TD><TD>33</TD>
+</TR>
+<TR> 
+ <TD><font color ="#000000">is_a (2022)</font></TD><TD>30</TD>
+</TR>
+<TR> 
+ <TD><font color ="#000000">is_a (1970)</font></TD><TD>37</TD>
+</TR>
+</TABLE> 
+ >] } 
+}
