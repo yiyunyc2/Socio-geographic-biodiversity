@@ -9,4 +9,4 @@
 - This dataset was modeled and created based on [Wikipedia's sovereign states in Asia](https://en.wikipedia.org/wiki/List_of_predecessors_of_sovereign_states_in_Asia)
 
 ### Use case alignments: 
-[13 alignments] (https://github.com/yiyunyc2/Socio-geographic-biodiversity/tree/main/Alignments)
+[13 alignments](https://github.com/yiyunyc2/Socio-geographic-biodiversity/tree/main/Alignments)
